@@ -1,13 +1,13 @@
 ---
-title: "Estimated Tax Payments: Complete Guide for 2024"
-description: "Estimated Tax Payments: Complete Guide for 2024 — a practical guide for US taxpayers in 2024."
+title: "Estimated Tax Payments: Complete Guide for 2025"
+description: "Estimated Tax Payments: Complete Guide for 2025 — a practical guide for US taxpayers in 2024."
 pubDate: 2026-06-22
 tags: ["estimated taxes","quarterly"]
 ---
 
 ## Overview
 
-Understanding estimated tax payments: complete guide for 2024 is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how estimated taxes affects your paycheck can help you make better financial decisions.
+Understanding estimated tax payments: complete guide for 2025 is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how estimated taxes affects your paycheck can help you make better financial decisions.
 
 ## Key Concepts
 
@@ -36,17 +36,17 @@ To make the most of your situation regarding estimated taxes:
 - **Keep records** of relevant receipts and documentation
 - **Consult a professional** for complex situations involving significant amounts
 
-## 2024 Numbers to Know
+## 2025 Numbers to Know
 
-The following 2024 figures are relevant to most workers:
+The following 2025 figures are relevant to most workers:
 
 | Item | Amount |
 |---|---|
-| Standard deduction (single) | $14,600 |
-| Standard deduction (married) | $29,200 |
-| 401(k) contribution limit | $23,000 |
-| HSA limit (single) | $4,150 |
-| Social Security wage base | $168,600 |
+| Standard deduction (single) | $15,000 |
+| Standard deduction (married) | $30,000 |
+| 401(k) contribution limit | $23,500 |
+| HSA limit (single) | $4,300 |
+| Social Security wage base | $176,100 |
 
 ## Using Our Paycheck Calculator
 
@@ -56,4 +56,4 @@ Simply enter your income, select your state, choose your filing status, and clic
 
 ---
 
-*All figures based on 2024 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*

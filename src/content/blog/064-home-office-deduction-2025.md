@@ -1,5 +1,5 @@
 ---
-title: "Home Office Tax Deduction: Who Qualifies in 2024"
+title: "Home Office Tax Deduction: Who Qualifies in 2025"
 description: "The home office deduction lets self-employed workers and business owners deduct home workspace costs. W-2 employees can no longer claim it — here's what you need to know."
 pubDate: 2026-06-13
 tags: ["home office","deductions","self-employed"]

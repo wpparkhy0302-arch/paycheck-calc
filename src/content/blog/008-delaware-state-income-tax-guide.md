@@ -1,5 +1,5 @@
 ---
-title: "Delaware State Income Tax: Complete 2024 Guide"
+title: "Delaware State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Delaware (DE) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-02
 tags: ["state tax","delaware"]
@@ -9,7 +9,7 @@ tags: ["state tax","delaware"]
 
 Delaware uses **progressive rates from 0% to 6.6%**. Understanding how Delaware's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Delaware uses a progressive income tax structure. Lower income is taxed at lower rates (starting at 0%), and higher income is taxed at higher rates (up to 6.6%). Only the income in each bracket is taxed at that bracket's rate — not your entire income.
 
@@ -48,4 +48,4 @@ Want to see your exact Delaware take-home pay? Use our free [US Paycheck Calcula
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Delaware Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Delaware Department of Revenue or a tax professional.*

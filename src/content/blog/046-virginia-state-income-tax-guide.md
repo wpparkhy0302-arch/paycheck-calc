@@ -1,5 +1,5 @@
 ---
-title: "Virginia State Income Tax: Complete 2024 Guide"
+title: "Virginia State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Virginia (VA) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-10
 tags: ["state tax","virginia"]
@@ -9,7 +9,7 @@ tags: ["state tax","virginia"]
 
 Virginia uses **progressive rates from 2% to 5.75%**. Understanding how Virginia's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Virginia uses a progressive income tax structure. Lower income is taxed at lower rates (starting at 2%), and higher income is taxed at higher rates (up to 5.75%). Only the income in each bracket is taxed at that bracket's rate — not your entire income.
 
@@ -48,4 +48,4 @@ Want to see your exact Virginia take-home pay? Use our free [US Paycheck Calcula
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Virginia Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Virginia Department of Revenue or a tax professional.*

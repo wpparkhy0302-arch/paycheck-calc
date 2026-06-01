@@ -1,5 +1,5 @@
 ---
-title: "Ohio State Income Tax: Complete 2024 Guide"
+title: "Ohio State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Ohio (OH) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-07
 tags: ["state tax","ohio"]
@@ -9,7 +9,7 @@ tags: ["state tax","ohio"]
 
 Ohio uses **progressive rates from 0% to 3.99%**. Understanding how Ohio's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Ohio uses a progressive income tax structure. Lower income is taxed at lower rates (starting at 0%), and higher income is taxed at higher rates (up to 3.99%). Only the income in each bracket is taxed at that bracket's rate — not your entire income.
 
@@ -48,4 +48,4 @@ Want to see your exact Ohio take-home pay? Use our free [US Paycheck Calculator]
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Ohio Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Ohio Department of Revenue or a tax professional.*

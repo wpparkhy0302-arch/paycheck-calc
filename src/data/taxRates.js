@@ -1,31 +1,31 @@
-// ─── Federal Tax Brackets 2024 ───────────────────────────────────────────────
+// ─── Federal Tax Brackets 2025 ───────────────────────────────────────────────
 // Format: [upperBound, rateForThisBracket]
 // The bracket applies to income from the previous upper bound up to this upper bound.
 
 export const FEDERAL_BRACKETS = {
   single: [
-    [11600,   0.10],
-    [47150,   0.12],
-    [100525,  0.22],
-    [191950,  0.24],
-    [243725,  0.32],
-    [609350,  0.35],
+    [11925,   0.10],
+    [48475,   0.12],
+    [103350,  0.22],
+    [197300,  0.24],
+    [250525,  0.32],
+    [626350,  0.35],
     [Infinity, 0.37],
   ],
   married: [
-    [23200,   0.10],
-    [94300,   0.12],
-    [201050,  0.22],
-    [383900,  0.24],
-    [487450,  0.32],
-    [731200,  0.35],
+    [23850,   0.10],
+    [96950,   0.12],
+    [206700,  0.22],
+    [394600,  0.24],
+    [501050,  0.32],
+    [751600,  0.35],
     [Infinity, 0.37],
   ],
 };
 
 export const FEDERAL_STANDARD_DEDUCTION = {
-  single:  14600,
-  married: 29200,
+  single:  15000,
+  married: 30000,
 };
 
 // Child Tax Credit: $2,000 per qualifying dependent (under 17)
@@ -33,7 +33,7 @@ export const CHILD_TAX_CREDIT = 2000;
 
 // ─── FICA ────────────────────────────────────────────────────────────────────
 export const SS_RATE      = 0.062;
-export const SS_WAGE_BASE = 168600; // 2024 Social Security wage base
+export const SS_WAGE_BASE = 176100; // 2025 Social Security wage base
 export const MEDICARE_RATE               = 0.0145;
 export const ADDITIONAL_MEDICARE_RATE    = 0.009;
 export const ADDITIONAL_MEDICARE_THRESHOLD = { single: 200000, married: 250000 };

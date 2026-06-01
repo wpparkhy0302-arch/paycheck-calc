@@ -1,5 +1,5 @@
 ---
-title: "Colorado State Income Tax: Complete 2024 Guide"
+title: "Colorado State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Colorado (CO) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-02
 tags: ["state tax","colorado"]
@@ -9,7 +9,7 @@ tags: ["state tax","colorado"]
 
 Colorado uses a **flat 4.4% tax rate** on all taxable income. Understanding how Colorado's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Colorado taxes all taxable income at a flat rate of **4.4%**. This applies equally to all income levels — a $30,000 earner and a $300,000 earner pay the same percentage of their taxable income.
 
@@ -48,4 +48,4 @@ Want to see your exact Colorado take-home pay? Use our free [US Paycheck Calcula
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Colorado Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Colorado Department of Revenue or a tax professional.*

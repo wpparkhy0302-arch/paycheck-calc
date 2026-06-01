@@ -1,5 +1,5 @@
 ---
-title: "Minnesota State Income Tax: Complete 2024 Guide"
+title: "Minnesota State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Minnesota (MN) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-05
 tags: ["state tax","minnesota"]
@@ -9,7 +9,7 @@ tags: ["state tax","minnesota"]
 
 Minnesota uses **progressive rates from 5.35% to 9.85%**. Understanding how Minnesota's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Minnesota uses a progressive income tax structure. Lower income is taxed at lower rates (starting at 5.35%), and higher income is taxed at higher rates (up to 9.85%). Only the income in each bracket is taxed at that bracket's rate — not your entire income.
 
@@ -48,4 +48,4 @@ Want to see your exact Minnesota take-home pay? Use our free [US Paycheck Calcul
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Minnesota Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Minnesota Department of Revenue or a tax professional.*

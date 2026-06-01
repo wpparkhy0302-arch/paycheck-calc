@@ -17,7 +17,7 @@ The W-4 (Employee's Withholding Certificate) tells your employer how much federa
 - After a significant income change
 - After a major life event that affects taxes
 
-## Step-by-Step: The 2024 W-4
+## Step-by-Step: The 2025 W-4
 
 **Step 1 – Personal Information**
 Enter your name, address, SSN, and filing status. Most single filers stop here.

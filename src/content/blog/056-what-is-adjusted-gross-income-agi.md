@@ -40,7 +40,7 @@ AGI is the gatekeeper for many tax benefits. Lower AGI = more benefits you quali
 
 - **Medical deductions**: Only expenses above 7.5% of AGI are deductible
 - **Charitable deductions**: Limits based on AGI
-- **Roth IRA eligibility**: Phases out at $146,000–$161,000 (single) in 2024
+- **Roth IRA eligibility**: Phases out at $150,000–$165,000 (single) in 2025
 - **Student loan interest deduction**: Phases out at $75,000–$90,000 (single)
 - **Premium Tax Credit**: Based on AGI vs. Federal Poverty Level
 - **EITC**: Reduced at higher AGI levels

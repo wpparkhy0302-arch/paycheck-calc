@@ -1,5 +1,5 @@
 ---
-title: "Massachusetts State Income Tax: Complete 2024 Guide"
+title: "Massachusetts State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Massachusetts (MA) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-05
 tags: ["state tax","massachusetts"]
@@ -9,7 +9,7 @@ tags: ["state tax","massachusetts"]
 
 Massachusetts uses a **flat 5% tax rate** on all taxable income. Understanding how Massachusetts's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Massachusetts taxes all taxable income at a flat rate of **5%**. This applies equally to all income levels — a $30,000 earner and a $300,000 earner pay the same percentage of their taxable income.
 
@@ -48,4 +48,4 @@ Want to see your exact Massachusetts take-home pay? Use our free [US Paycheck Ca
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Massachusetts Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Massachusetts Department of Revenue or a tax professional.*

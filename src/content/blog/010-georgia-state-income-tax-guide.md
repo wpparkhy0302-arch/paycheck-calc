@@ -1,5 +1,5 @@
 ---
-title: "Georgia State Income Tax: Complete 2024 Guide"
+title: "Georgia State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Georgia (GA) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-02
 tags: ["state tax","georgia"]
@@ -9,7 +9,7 @@ tags: ["state tax","georgia"]
 
 Georgia uses a **flat 5.49% tax rate** on all taxable income. Understanding how Georgia's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Georgia taxes all taxable income at a flat rate of **5.49%**. This applies equally to all income levels — a $30,000 earner and a $300,000 earner pay the same percentage of their taxable income.
 
@@ -48,4 +48,4 @@ Want to see your exact Georgia take-home pay? Use our free [US Paycheck Calculat
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Georgia Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Georgia Department of Revenue or a tax professional.*

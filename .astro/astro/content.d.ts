@@ -491,9 +491,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"051-federal-income-tax-brackets-2024.md": {
-	id: "051-federal-income-tax-brackets-2024.md";
-  slug: "051-federal-income-tax-brackets-2024";
+"051-federal-income-tax-brackets-2025.md": {
+	id: "051-federal-income-tax-brackets-2025.md";
+  slug: "051-federal-income-tax-brackets-2025";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -505,9 +505,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"053-standard-deduction-guide-2024.md": {
-	id: "053-standard-deduction-guide-2024.md";
-  slug: "053-standard-deduction-guide-2024";
+"053-standard-deduction-guide-2025.md": {
+	id: "053-standard-deduction-guide-2025.md";
+  slug: "053-standard-deduction-guide-2025";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -540,9 +540,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"058-federal-tax-filing-deadlines-2024.md": {
-	id: "058-federal-tax-filing-deadlines-2024.md";
-  slug: "058-federal-tax-filing-deadlines-2024";
+"058-federal-tax-filing-deadlines-2025.md": {
+	id: "058-federal-tax-filing-deadlines-2025.md";
+  slug: "058-federal-tax-filing-deadlines-2025";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -575,23 +575,23 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"063-child-tax-credit-2024-guide.md": {
-	id: "063-child-tax-credit-2024-guide.md";
-  slug: "063-child-tax-credit-2024-guide";
+"063-child-tax-credit-2025-guide.md": {
+	id: "063-child-tax-credit-2025-guide.md";
+  slug: "063-child-tax-credit-2025-guide";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"064-home-office-deduction-2024.md": {
-	id: "064-home-office-deduction-2024.md";
-  slug: "064-home-office-deduction-2024";
+"064-home-office-deduction-2025.md": {
+	id: "064-home-office-deduction-2025.md";
+  slug: "064-home-office-deduction-2025";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"065-medical-expense-deductions-2024.md": {
-	id: "065-medical-expense-deductions-2024.md";
-  slug: "065-medical-expense-deductions-2024";
+"065-medical-expense-deductions-2025.md": {
+	id: "065-medical-expense-deductions-2025.md";
+  slug: "065-medical-expense-deductions-2025";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -981,9 +981,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"121-energy-efficiency-tax-credits-2024.md": {
-	id: "121-energy-efficiency-tax-credits-2024.md";
-  slug: "121-energy-efficiency-tax-credits-2024";
+"121-energy-efficiency-tax-credits-2025.md": {
+	id: "121-energy-efficiency-tax-credits-2025.md";
+  slug: "121-energy-efficiency-tax-credits-2025";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -1058,9 +1058,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"132-401k-contribution-limits-2024-2025.md": {
-	id: "132-401k-contribution-limits-2024-2025.md";
-  slug: "132-401k-contribution-limits-2024-2025";
+"132-401k-contribution-limits-2025-2026.md": {
+	id: "132-401k-contribution-limits-2025-2026.md";
+  slug: "132-401k-contribution-limits-2025-2026";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -1100,9 +1100,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"138-cryptocurrency-taxes-2024.md": {
-	id: "138-cryptocurrency-taxes-2024.md";
-  slug: "138-cryptocurrency-taxes-2024";
+"138-cryptocurrency-taxes-2025.md": {
+	id: "138-cryptocurrency-taxes-2025.md";
+  slug: "138-cryptocurrency-taxes-2025";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -1303,9 +1303,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"167-adoption-tax-credit-2024.md": {
-	id: "167-adoption-tax-credit-2024.md";
-  slug: "167-adoption-tax-credit-2024";
+"167-adoption-tax-credit-2025.md": {
+	id: "167-adoption-tax-credit-2025.md";
+  slug: "167-adoption-tax-credit-2025";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

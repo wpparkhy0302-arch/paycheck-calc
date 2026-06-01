@@ -1,5 +1,5 @@
 ---
-title: "Illinois State Income Tax: Complete 2024 Guide"
+title: "Illinois State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Illinois (IL) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-03
 tags: ["state tax","illinois"]
@@ -9,7 +9,7 @@ tags: ["state tax","illinois"]
 
 Illinois uses a **flat 4.95% tax rate** on all taxable income. Understanding how Illinois's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Illinois taxes all taxable income at a flat rate of **4.95%**. This applies equally to all income levels — a $30,000 earner and a $300,000 earner pay the same percentage of their taxable income.
 
@@ -48,4 +48,4 @@ Want to see your exact Illinois take-home pay? Use our free [US Paycheck Calcula
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Illinois Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Illinois Department of Revenue or a tax professional.*

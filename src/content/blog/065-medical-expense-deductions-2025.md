@@ -1,5 +1,5 @@
 ---
-title: "Medical Expense Deductions: What Qualifies in 2024"
+title: "Medical Expense Deductions: What Qualifies in 2025"
 description: "You can deduct medical expenses that exceed 7.5% of your AGI on Schedule A. Learn what qualifies, what doesn't, and how to calculate the deduction."
 pubDate: 2026-06-13
 tags: ["medical expenses","deductions","itemizing"]
@@ -21,7 +21,7 @@ The IRS allows deductions for amounts paid for diagnosis, cure, mitigation, trea
 - Vision and dental expenses
 - Mental health treatment
 - Medically necessary home modifications (wheelchair ramps, etc.)
-- Transportation costs for medical care (2024 rate: 21 cents/mile)
+- Transportation costs for medical care (2025 rate: 21 cents/mile)
 - Hearing aids and eyeglasses
 - COBRA premiums (if not deducting elsewhere)
 

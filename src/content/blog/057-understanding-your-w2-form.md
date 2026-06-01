@@ -18,7 +18,7 @@ Your taxable wages. This is gross pay *minus* pre-tax deductions (401k, HSA, FSA
 Total federal income tax your employer sent to the IRS. If this exceeds your actual tax liability, you get a refund.
 
 **Box 3 — Social Security Wages**
-Wages subject to Social Security tax. Includes income up to the $168,600 2024 wage base. Does NOT subtract 401(k) contributions (they're still subject to FICA).
+Wages subject to Social Security tax. Includes income up to the $176,100 2025 wage base. Does NOT subtract 401(k) contributions (they're still subject to FICA).
 
 **Box 4 — Social Security Tax Withheld**
 Should be exactly 6.2% of Box 3 (up to $10,453.20 max).

@@ -1,5 +1,5 @@
 ---
-title: "Missouri State Income Tax: Complete 2024 Guide"
+title: "Missouri State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Missouri (MO) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-05
 tags: ["state tax","missouri"]
@@ -9,7 +9,7 @@ tags: ["state tax","missouri"]
 
 Missouri uses **progressive rates from 0% to 4.8%**. Understanding how Missouri's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Missouri uses a progressive income tax structure. Lower income is taxed at lower rates (starting at 0%), and higher income is taxed at higher rates (up to 4.8%). Only the income in each bracket is taxed at that bracket's rate — not your entire income.
 
@@ -48,4 +48,4 @@ Want to see your exact Missouri take-home pay? Use our free [US Paycheck Calcula
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Missouri Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Missouri Department of Revenue or a tax professional.*

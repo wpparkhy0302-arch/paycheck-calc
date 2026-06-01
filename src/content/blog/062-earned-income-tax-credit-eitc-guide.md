@@ -11,14 +11,14 @@ The Earned Income Tax Credit is a **refundable** federal tax credit for workers 
 
 In 2024, the maximum credit ranges from **$632 (no children) to $7,830 (3+ children)**.
 
-## 2024 EITC Income Limits
+## 2025 EITC Income Limits
 
 | Filing Status | No Children | 1 Child | 2 Children | 3+ Children |
 |---|---|---|---|---|
 | Single | $18,591 | $49,084 | $55,768 | $59,899 |
 | Married | $25,511 | $56,004 | $62,688 | $66,819 |
 
-## 2024 Maximum Credit Amounts
+## 2025 Maximum Credit Amounts
 
 | Children | Maximum EITC |
 |---|---|

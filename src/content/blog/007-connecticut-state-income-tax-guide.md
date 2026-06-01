@@ -1,5 +1,5 @@
 ---
-title: "Connecticut State Income Tax: Complete 2024 Guide"
+title: "Connecticut State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Connecticut (CT) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-02
 tags: ["state tax","connecticut"]
@@ -9,7 +9,7 @@ tags: ["state tax","connecticut"]
 
 Connecticut uses **progressive rates from 3% to 6.99%**. Understanding how Connecticut's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Connecticut uses a progressive income tax structure. Lower income is taxed at lower rates (starting at 3%), and higher income is taxed at higher rates (up to 6.99%). Only the income in each bracket is taxed at that bracket's rate — not your entire income.
 
@@ -48,4 +48,4 @@ Want to see your exact Connecticut take-home pay? Use our free [US Paycheck Calc
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Connecticut Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Connecticut Department of Revenue or a tax professional.*

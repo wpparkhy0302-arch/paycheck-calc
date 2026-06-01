@@ -1,6 +1,6 @@
 ---
 title: "What Is the Standard Deduction and Should You Use It?"
-description: "Everything you need to know about the 2024 standard deduction, who qualifies, and when itemizing might save you more money."
+description: "Everything you need to know about the 2025 standard deduction, who qualifies, and when itemizing might save you more money."
 pubDate: 2026-06-11
 tags: ["deductions","standard deduction","federal tax"]
 ---
@@ -9,7 +9,7 @@ tags: ["deductions","standard deduction","federal tax"]
 
 The standard deduction is a flat dollar amount the IRS lets you subtract from gross income before calculating federal income tax. It's the simplest way to reduce your taxable income — no receipts, no itemized lists required.
 
-## 2024 Standard Deduction Amounts
+## 2025 Standard Deduction Amounts
 
 | Filing Status | Standard Deduction |
 |---|---|

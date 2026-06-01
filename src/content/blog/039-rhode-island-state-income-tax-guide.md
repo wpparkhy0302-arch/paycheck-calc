@@ -1,5 +1,5 @@
 ---
-title: "Rhode Island State Income Tax: Complete 2024 Guide"
+title: "Rhode Island State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Rhode Island (RI) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-08
 tags: ["state tax","rhode island"]
@@ -9,7 +9,7 @@ tags: ["state tax","rhode island"]
 
 Rhode Island uses **progressive rates from 3.75% to 5.99%**. Understanding how Rhode Island's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Rhode Island uses a progressive income tax structure. Lower income is taxed at lower rates (starting at 3.75%), and higher income is taxed at higher rates (up to 5.99%). Only the income in each bracket is taxed at that bracket's rate — not your entire income.
 
@@ -48,4 +48,4 @@ Want to see your exact Rhode Island take-home pay? Use our free [US Paycheck Cal
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Rhode Island Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Rhode Island Department of Revenue or a tax professional.*

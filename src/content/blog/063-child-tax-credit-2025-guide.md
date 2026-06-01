@@ -1,5 +1,5 @@
 ---
-title: "How to Claim the Child Tax Credit in 2024"
+title: "How to Claim the Child Tax Credit in 2025"
 description: "The Child Tax Credit is worth up to $2,000 per qualifying child. Learn eligibility requirements, how to claim it, and the Additional Child Tax Credit."
 pubDate: 2026-06-13
 tags: ["child tax credit","tax credits","dependents"]
@@ -9,7 +9,7 @@ tags: ["child tax credit","tax credits","dependents"]
 
 The Child Tax Credit (CTC) is a non-refundable federal tax credit of **up to $2,000** per qualifying child under age 17. Up to $1,700 of it is refundable as the Additional Child Tax Credit (ACTC).
 
-## 2024 Child Tax Credit Amounts
+## 2025 Child Tax Credit Amounts
 
 | Credit | Amount |
 |---|---|

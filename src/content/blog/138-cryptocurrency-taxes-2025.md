@@ -1,17 +1,17 @@
 ---
-title: "Adoption Tax Credit: Up to $16,810 in 2024"
-description: "Adoption Tax Credit: Up to $16,810 in 2024 — eligibility, amounts, and how to claim this valuable tax credit."
-pubDate: 2026-07-04
-tags: ["adoption","credits"]
+title: "Cryptocurrency Taxes: What You Owe in 2025"
+description: "Cryptocurrency Taxes: What You Owe in 2025 — how retirement accounts and investments affect your tax bill."
+pubDate: 2026-06-28
+tags: ["crypto","investing"]
 ---
 
 ## Overview
 
-Understanding adoption tax credit: up to $16,810 in 2024 is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how adoption affects your paycheck can help you make better financial decisions.
+Understanding cryptocurrency taxes: what you owe in 2025 is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how crypto affects your paycheck can help you make better financial decisions.
 
 ## Key Concepts
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to adoption, the most important factors are:
+The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to crypto, the most important factors are:
 
 - **Your gross income**: Total earnings before any deductions or taxes
 - **Your filing status**: Single, married filing jointly, married filing separately, or head of household
@@ -20,7 +20,7 @@ The US tax system involves multiple layers of taxation that work together to fun
 
 ## How It Affects Your Paycheck
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding adoption helps you:
+Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding crypto helps you:
 
 1. Verify your withholding is correct
 2. Plan for any balance due at tax time
@@ -29,24 +29,24 @@ Every pay period, your employer withholds the estimated amount of tax based on y
 
 ## Practical Steps
 
-To make the most of your situation regarding adoption:
+To make the most of your situation regarding crypto:
 
 - **Review your W-4** at least annually, or after any major life change
 - **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
 - **Keep records** of relevant receipts and documentation
 - **Consult a professional** for complex situations involving significant amounts
 
-## 2024 Numbers to Know
+## 2025 Numbers to Know
 
-The following 2024 figures are relevant to most workers:
+The following 2025 figures are relevant to most workers:
 
 | Item | Amount |
 |---|---|
-| Standard deduction (single) | $14,600 |
-| Standard deduction (married) | $29,200 |
-| 401(k) contribution limit | $23,000 |
-| HSA limit (single) | $4,150 |
-| Social Security wage base | $168,600 |
+| Standard deduction (single) | $15,000 |
+| Standard deduction (married) | $30,000 |
+| 401(k) contribution limit | $23,500 |
+| HSA limit (single) | $4,300 |
+| Social Security wage base | $176,100 |
 
 ## Using Our Paycheck Calculator
 
@@ -56,4 +56,4 @@ Simply enter your income, select your state, choose your filing status, and clic
 
 ---
 
-*All figures based on 2024 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*

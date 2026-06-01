@@ -6,6 +6,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(__dirname, 'src/content/blog');
 fs.mkdirSync(OUT, { recursive: true });
 
+const YEAR = 2025;
+const YEAR_STR = '2025';
+
 // ── Date helpers ─────────────────────────────────────────────────────────────
 function getDate(index) {
   const start = new Date('2026-06-01');
@@ -100,7 +103,7 @@ ${s.name} uses ${rateDesc}. ${
       : `Understanding how ${s.name}'s tax system works helps you accurately predict your paycheck and plan your finances throughout the year.`
   }
 
-## 2024 Tax Rates
+## ${YEAR_STR} Tax Rates
 
 ${s.noTax ? `${s.name} levies **0% state income tax** on wages. There is no state income tax return to file for wages earned in ${s.name}.` :
   s.type === 'flat' ? `${s.name} taxes all taxable income at a flat rate of **${s.min}%**. This applies equally to all income levels — a $30,000 earner and a $300,000 earner pay the same percentage of their taxable income.` :
@@ -145,7 +148,7 @@ Want to see your exact ${s.name} take-home pay? Use our free [US Paycheck Calcul
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the ${s.name} Department of Revenue or a tax professional.*`;
+*Tax rates based on ${YEAR_STR} data. Laws change frequently — verify with the ${s.name} Department of Revenue or a tax professional.*`;
 }
 
 function federalContent(t) {
@@ -155,61 +158,61 @@ function federalContent(t) {
 // ── Federal post bodies ───────────────────────────────────────────────────────
 const FEDERAL_POSTS = [
   {
-    title: 'Understanding Federal Income Tax Brackets for 2024',
-    slug: 'federal-income-tax-brackets-2024',
-    desc: 'A plain-English guide to the 2024 federal income tax brackets, marginal vs effective rates, and how much you actually owe.',
+    title: 'Understanding Federal Income Tax Brackets for 2025',
+    slug: 'federal-income-tax-brackets-2025',
+    desc: 'A plain-English guide to the 2025 federal income tax brackets, marginal vs effective rates, and how much you actually owe.',
     tags: ['federal tax','tax brackets'],
     body: `## What Are Tax Brackets?
 
-The US uses a **progressive tax system** — as your income rises, higher portions of it are taxed at higher rates. The rates for 2024 are 10%, 12%, 22%, 24%, 32%, 35%, and 37%.
+The US uses a **progressive tax system** — as your income rises, higher portions of it are taxed at higher rates. The rates for 2025 are 10%, 12%, 22%, 24%, 32%, 35%, and 37%.
 
 A common misconception: moving into a higher bracket does **not** mean all your income is taxed at the new rate. Only the dollars **above** each threshold get taxed at the higher rate.
 
-## 2024 Federal Tax Brackets
+## 2025 Federal Tax Brackets
 
 **Single Filers:**
 
 | Taxable Income | Tax Rate |
 |---|---|
-| $0 – $11,600 | 10% |
-| $11,601 – $47,150 | 12% |
-| $47,151 – $100,525 | 22% |
-| $100,526 – $191,950 | 24% |
-| $191,951 – $243,725 | 32% |
-| $243,726 – $609,350 | 35% |
-| Over $609,350 | 37% |
+| $0 – $11,925 | 10% |
+| $11,926 – $48,475 | 12% |
+| $48,476 – $103,350 | 22% |
+| $103,351 – $197,300 | 24% |
+| $197,301 – $250,525 | 32% |
+| $250,526 – $626,350 | 35% |
+| Over $626,350 | 37% |
 
 **Married Filing Jointly:**
 
 | Taxable Income | Tax Rate |
 |---|---|
-| $0 – $23,200 | 10% |
-| $23,201 – $94,300 | 12% |
-| $94,301 – $201,050 | 22% |
-| $201,051 – $383,900 | 24% |
-| $383,901 – $487,450 | 32% |
-| $487,451 – $731,200 | 35% |
-| Over $731,200 | 37% |
+| $0 – $23,850 | 10% |
+| $23,851 – $96,950 | 12% |
+| $96,951 – $206,700 | 22% |
+| $206,701 – $394,600 | 24% |
+| $394,601 – $501,050 | 32% |
+| $501,051 – $751,600 | 35% |
+| Over $751,600 | 37% |
 
 ## Taxable Income vs. Gross Income
 
-Before applying brackets, you subtract the **standard deduction**: $14,600 (single) or $29,200 (married) in 2024. So a single filer earning $60,000 has taxable income of $60,000 − $14,600 = **$45,400**.
+Before applying brackets, you subtract the **standard deduction**: $15,000 (single) or $30,000 (married) in 2025. So a single filer earning $60,000 has taxable income of $60,000 − $15,000 = **$45,000**.
 
 ## Marginal vs. Effective Rate
 
 - **Marginal rate**: The rate on your last dollar (your "bracket") — e.g., 22%
-- **Effective rate**: Total tax ÷ gross income — always lower, e.g., 12.4%
+- **Effective rate**: Total tax ÷ gross income — always lower, e.g., 12.3%
 
 The effective rate is what you actually pay as a percentage of your income.
 
 ## Example Calculation
 
 A single filer earning $75,000 gross:
-- Taxable income: $75,000 − $14,600 = $60,400
-- 10% on first $11,600 = $1,160
-- 12% on $11,601–$47,150 = $4,266
-- 22% on $47,151–$60,400 = $2,915
-- **Total federal tax: $8,341** (effective rate: 11.1%)
+- Taxable income: $75,000 − $15,000 = $60,000
+- 10% on first $11,925 = $1,193
+- 12% on $11,926–$48,475 = $4,386
+- 22% on $48,476–$60,000 = $2,535
+- **Total federal tax: $8,114** (effective rate: 10.8%)
 
 Use our [Paycheck Calculator](/) to instantly see your federal tax for any income level.`
   },
@@ -230,7 +233,7 @@ The W-4 (Employee's Withholding Certificate) tells your employer how much federa
 - After a significant income change
 - After a major life event that affects taxes
 
-## Step-by-Step: The 2024 W-4
+## Step-by-Step: The 2025 W-4
 
 **Step 1 – Personal Information**
 Enter your name, address, SSN, and filing status. Most single filers stop here.
@@ -263,14 +266,14 @@ Multiply the number of qualifying children under 17 by $2,000 and enter the tota
   },
   {
     title: 'What Is the Standard Deduction and Should You Use It?',
-    slug: 'standard-deduction-guide-2024',
-    desc: 'Everything you need to know about the 2024 standard deduction, who qualifies, and when itemizing might save you more money.',
+    slug: 'standard-deduction-guide-2025',
+    desc: 'Everything you need to know about the 2025 standard deduction, who qualifies, and when itemizing might save you more money.',
     tags: ['deductions','standard deduction','federal tax'],
     body: `## What Is the Standard Deduction?
 
 The standard deduction is a flat dollar amount the IRS lets you subtract from gross income before calculating federal income tax. It's the simplest way to reduce your taxable income — no receipts, no itemized lists required.
 
-## 2024 Standard Deduction Amounts
+## 2025 Standard Deduction Amounts
 
 | Filing Status | Standard Deduction |
 |---|---|
@@ -440,7 +443,7 @@ AGI is the gatekeeper for many tax benefits. Lower AGI = more benefits you quali
 
 - **Medical deductions**: Only expenses above 7.5% of AGI are deductible
 - **Charitable deductions**: Limits based on AGI
-- **Roth IRA eligibility**: Phases out at $146,000–$161,000 (single) in 2024
+- **Roth IRA eligibility**: Phases out at $150,000–$165,000 (single) in 2025
 - **Student loan interest deduction**: Phases out at $75,000–$90,000 (single)
 - **Premium Tax Credit**: Based on AGI vs. Federal Poverty Level
 - **EITC**: Reduced at higher AGI levels
@@ -467,7 +470,7 @@ Your taxable wages. This is gross pay *minus* pre-tax deductions (401k, HSA, FSA
 Total federal income tax your employer sent to the IRS. If this exceeds your actual tax liability, you get a refund.
 
 **Box 3 — Social Security Wages**
-Wages subject to Social Security tax. Includes income up to the $168,600 2024 wage base. Does NOT subtract 401(k) contributions (they're still subject to FICA).
+Wages subject to Social Security tax. Includes income up to the $176,100 2025 wage base. Does NOT subtract 401(k) contributions (they're still subject to FICA).
 
 **Box 4 — Social Security Tax Withheld**
 Should be exactly 6.2% of Box 3 (up to $10,453.20 max).
@@ -497,9 +500,9 @@ State abbreviation, state wages, and state income tax withheld.
 - Missing W-2: Contact your employer; IRS has a substitute form (4852) as a last resort`
   },
   {
-    title: 'Federal Tax Filing Deadlines for 2024',
-    slug: 'federal-tax-filing-deadlines-2024',
-    desc: 'Key IRS deadlines for filing your 2024 federal income tax return, extensions, estimated taxes, and W-2 / 1099 forms.',
+    title: 'Federal Tax Filing Deadlines for 2025',
+    slug: 'federal-tax-filing-deadlines-2025',
+    desc: 'Key IRS deadlines for filing your 2025 federal income tax return, extensions, estimated taxes, and W-2 / 1099 forms.',
     tags: ['filing','deadlines','federal tax'],
     body: `## Core Deadlines at a Glance
 
@@ -677,14 +680,14 @@ The Earned Income Tax Credit is a **refundable** federal tax credit for workers 
 
 In 2024, the maximum credit ranges from **$632 (no children) to $7,830 (3+ children)**.
 
-## 2024 EITC Income Limits
+## 2025 EITC Income Limits
 
 | Filing Status | No Children | 1 Child | 2 Children | 3+ Children |
 |---|---|---|---|---|
 | Single | $18,591 | $49,084 | $55,768 | $59,899 |
 | Married | $25,511 | $56,004 | $62,688 | $66,819 |
 
-## 2024 Maximum Credit Amounts
+## 2025 Maximum Credit Amounts
 
 | Children | Maximum EITC |
 |---|---|
@@ -716,15 +719,15 @@ Report your income accurately on Form 1040. The IRS automatically calculates the
 - **Investment income**: Even $1 over the $11,600 limit disqualifies you`
   },
   {
-    title: 'How to Claim the Child Tax Credit in 2024',
-    slug: 'child-tax-credit-2024-guide',
+    title: 'How to Claim the Child Tax Credit in 2025',
+    slug: 'child-tax-credit-2025-guide',
     desc: 'The Child Tax Credit is worth up to $2,000 per qualifying child. Learn eligibility requirements, how to claim it, and the Additional Child Tax Credit.',
     tags: ['child tax credit','tax credits','dependents'],
     body: `## What Is the Child Tax Credit?
 
 The Child Tax Credit (CTC) is a non-refundable federal tax credit of **up to $2,000** per qualifying child under age 17. Up to $1,700 of it is refundable as the Additional Child Tax Credit (ACTC).
 
-## 2024 Child Tax Credit Amounts
+## 2025 Child Tax Credit Amounts
 
 | Credit | Amount |
 |---|---|
@@ -755,8 +758,8 @@ File Schedule 8812 (Credits for Qualifying Children and Other Dependents) with y
 If you claim the CTC on your W-4 (Step 3), your employer will reduce withholding by $2,000 per child per year — effectively giving you larger paychecks throughout the year. See our [Paycheck Calculator](/) to see how dependents change your estimated take-home pay.`
   },
   {
-    title: 'Home Office Tax Deduction: Who Qualifies in 2024',
-    slug: 'home-office-deduction-2024',
+    title: 'Home Office Tax Deduction: Who Qualifies in 2025',
+    slug: 'home-office-deduction-2025',
     desc: 'The home office deduction lets self-employed workers and business owners deduct home workspace costs. W-2 employees can no longer claim it — here\'s what you need to know.',
     tags: ['home office','deductions','self-employed'],
     body: `## Who Can Claim the Home Office Deduction?
@@ -805,8 +808,8 @@ Regular method wins here, but requires more recordkeeping.
 W-2 employees may be able to deduct unreimbursed home office expenses on their state return — some states didn't conform to the federal TCJA change. Check your state's rules.`
   },
   {
-    title: 'Medical Expense Deductions: What Qualifies in 2024',
-    slug: 'medical-expense-deductions-2024',
+    title: 'Medical Expense Deductions: What Qualifies in 2025',
+    slug: 'medical-expense-deductions-2025',
     desc: 'You can deduct medical expenses that exceed 7.5% of your AGI on Schedule A. Learn what qualifies, what doesn\'t, and how to calculate the deduction.',
     tags: ['medical expenses','deductions','itemizing'],
     body: `## The 7.5% AGI Threshold
@@ -825,7 +828,7 @@ The IRS allows deductions for amounts paid for diagnosis, cure, mitigation, trea
 - Vision and dental expenses
 - Mental health treatment
 - Medically necessary home modifications (wheelchair ramps, etc.)
-- Transportation costs for medical care (2024 rate: 21 cents/mile)
+- Transportation costs for medical care (2025 rate: 21 cents/mile)
 - Hearing aids and eyeglasses
 - COBRA premiums (if not deducting elsewhere)
 
@@ -867,7 +870,7 @@ If you also fail to pay, both penalties apply — but they are capped:
 
 ## Interest Charges
 
-In addition to penalties, the IRS charges **interest on unpaid taxes** at the federal short-term rate plus 3 percentage points — compounding daily. In 2024, this rate is approximately 8% annualized.
+In addition to penalties, the IRS charges **interest on unpaid taxes** at the federal short-term rate plus 3 percentage points — compounding daily. In 2025, this rate is approximately 8% annualized.
 
 ## What If You're Due a Refund?
 
@@ -896,9 +899,9 @@ File as soon as possible — even years late. The IRS has a **Voluntary Disclosu
 
 The progressive bracket system taxes income in layers. You don't pay your top rate on everything — you pay 10% on the first slice, 12% on the next, and so on.
 
-## Federal Tax by Income Level (Single, 2024)
+## Federal Tax by Income Level (Single, 2025)
 
-The following uses the 2024 standard deduction of $14,600:
+The following uses the 2025 standard deduction of $14,600:
 
 **$30,000 gross salary**
 - Taxable: $15,400
@@ -1096,7 +1099,7 @@ const FILING_POSTS = [
   { title: 'How the IRS Audit Selection Process Works',                         slug: 'irs-audit-selection-process',                  tags: ['audit','IRS'] },
   { title: 'Tax Records: What to Keep and For How Long',                        slug: 'tax-records-how-long-to-keep',                 tags: ['records','filing'] },
   { title: 'How to Request Your IRS Tax Transcript',                            slug: 'irs-tax-transcript-request',                   tags: ['transcript','IRS'] },
-  { title: 'Estimated Tax Payments: Complete Guide for 2024',                   slug: 'estimated-tax-payments-guide',                 tags: ['estimated taxes','quarterly'] },
+  { title: 'Estimated Tax Payments: Complete Guide for 2025',                   slug: 'estimated-tax-payments-guide',                 tags: ['estimated taxes','quarterly'] },
   { title: 'How to Avoid Underpayment Penalties',                               slug: 'how-to-avoid-underpayment-penalties',          tags: ['penalties','withholding'] },
   { title: 'State vs Federal Tax Filing: Key Differences',                      slug: 'state-vs-federal-tax-filing-differences',      tags: ['state tax','federal tax'] },
 ];
@@ -1110,15 +1113,15 @@ const SAVING_POSTS = [
   { title: 'How to Use Your Tax Refund Wisely',                       slug: 'how-to-use-tax-refund-wisely',                 tags: ['refund','personal finance'] },
   { title: 'Legal Strategies to Reduce Your State Income Tax',        slug: 'reduce-state-income-tax-strategies',           tags: ['state tax','strategy'] },
   { title: 'Charitable Donation Deductions: Maximize Your Impact',    slug: 'charitable-donation-tax-deductions',           tags: ['charity','deductions'] },
-  { title: 'Student Loan Interest Deduction: 2024 Guide',             slug: 'student-loan-interest-deduction',              tags: ['student loans','deductions'] },
+  { title: 'Student Loan Interest Deduction: 2025 Guide',             slug: 'student-loan-interest-deduction',              tags: ['student loans','deductions'] },
   { title: 'Mortgage Interest Deduction: What Homeowners Can Claim',  slug: 'mortgage-interest-deduction-guide',            tags: ['mortgage','homeowner'] },
   { title: 'Property Tax Deductions for Homeowners',                  slug: 'property-tax-deductions-homeowners',           tags: ['property tax','homeowner'] },
-  { title: 'Energy Efficiency Tax Credits: Heat Pumps, Solar, and More', slug: 'energy-efficiency-tax-credits-2024',        tags: ['energy','tax credits'] },
+  { title: 'Energy Efficiency Tax Credits: Heat Pumps, Solar, and More', slug: 'energy-efficiency-tax-credits-2025',        tags: ['energy','tax credits'] },
   { title: 'Electric Vehicle Tax Credit: How to Claim Up to $7,500',  slug: 'electric-vehicle-tax-credit-guide',            tags: ['EV','tax credits'] },
   { title: 'First-Time Homebuyer Tax Benefits and Deductions',        slug: 'first-time-homebuyer-tax-benefits',            tags: ['homebuyer','deductions'] },
   { title: 'How Cost-of-Living Adjustments Affect Your Taxes',        slug: 'cola-adjustments-tax-impact',                  tags: ['COLA','inflation'] },
   { title: 'Relocation for a Job: Which Moving Costs Are Deductible', slug: 'moving-for-job-tax-deductions',                tags: ['moving','deductions'] },
-  { title: 'Work-from-Home Tax Strategies for 2024',                  slug: 'work-from-home-tax-strategies',                tags: ['remote work','strategy'] },
+  { title: 'Work-from-Home Tax Strategies for 2025',                  slug: 'work-from-home-tax-strategies',                tags: ['remote work','strategy'] },
   { title: 'Tax Planning When You Receive a Pay Raise',               slug: 'tax-planning-pay-raise',                       tags: ['salary','strategy'] },
   { title: 'How to Avoid Tax Bracket Creep',                          slug: 'avoid-tax-bracket-creep',                      tags: ['brackets','strategy'] },
   { title: 'Year-End Tax Planning Checklist',                         slug: 'year-end-tax-planning-checklist',              tags: ['planning','year-end'] },
@@ -1127,13 +1130,13 @@ const SAVING_POSTS = [
 const RETIREMENT_POSTS = [
   { title: 'How 401(k) Pre-Tax Contributions Reduce Your Taxes',      slug: '401k-contributions-reduce-taxes',              tags: ['401k','retirement'] },
   { title: 'Traditional IRA vs Roth IRA: Which Is Better for You?',   slug: 'traditional-ira-vs-roth-ira',                  tags: ['IRA','retirement'] },
-  { title: '401(k) Contribution Limits for 2024 and 2025',            slug: '401k-contribution-limits-2024-2025',           tags: ['401k','limits'] },
+  { title: '401(k) Contribution Limits for 2025 and 2026',            slug: '401k-contribution-limits-2025-2026',           tags: ['401k','limits'] },
   { title: 'Roth 401(k) vs Traditional 401(k): Complete Comparison',  slug: 'roth-401k-vs-traditional-401k',                tags: ['401k','Roth'] },
   { title: 'How Employer 401(k) Matching Works',                      slug: 'employer-401k-matching-explained',             tags: ['401k','employer match'] },
-  { title: 'IRA Contribution Limits and Income Phaseouts for 2024',   slug: 'ira-contribution-limits-income-limits',        tags: ['IRA','limits'] },
+  { title: 'IRA Contribution Limits and Income Phaseouts for 2025',   slug: 'ira-contribution-limits-income-limits',        tags: ['IRA','limits'] },
   { title: 'How Capital Gains Tax Works: Short-Term vs Long-Term',     slug: 'capital-gains-tax-explained',                  tags: ['capital gains','investing'] },
   { title: 'Dividend Income and Federal Income Taxes',                 slug: 'dividend-income-and-taxes',                    tags: ['dividends','investing'] },
-  { title: 'Cryptocurrency Taxes: What You Owe in 2024',               slug: 'cryptocurrency-taxes-2024',                    tags: ['crypto','investing'] },
+  { title: 'Cryptocurrency Taxes: What You Owe in 2025',               slug: 'cryptocurrency-taxes-2025',                    tags: ['crypto','investing'] },
   { title: 'Taxable vs Tax-Advantaged Investment Accounts',            slug: 'investment-account-types-tax-comparison',      tags: ['investing','accounts'] },
   { title: '403(b) Plans: Tax Guide for Non-Profit Employees',         slug: '403b-plan-guide-nonprofit-employees',          tags: ['403b','nonprofit'] },
   { title: '457(b) Plans: Tax Guide for Government Employees',         slug: '457b-plan-guide-government-employees',         tags: ['457b','government'] },
@@ -1166,9 +1169,9 @@ const SELFEMPLOYED_POSTS = [
 ];
 
 const CREDITS_POSTS = [
-  { title: 'Child Tax Credit: Complete 2024 Guide',                    slug: 'child-tax-credit-complete-guide',             tags: ['child tax credit','dependents'] },
+  { title: 'Child Tax Credit: Complete 2025 Guide',                    slug: 'child-tax-credit-complete-guide',             tags: ['child tax credit','dependents'] },
   { title: 'Child and Dependent Care Credit: Who Qualifies?',          slug: 'child-dependent-care-credit',                 tags: ['dependent care','credits'] },
-  { title: 'Adoption Tax Credit: Up to $16,810 in 2024',               slug: 'adoption-tax-credit-2024',                    tags: ['adoption','credits'] },
+  { title: 'Adoption Tax Credit: Up to $17,280 in 2025',               slug: 'adoption-tax-credit-2025',                    tags: ['adoption','credits'] },
   { title: 'American Opportunity Credit for College Students',          slug: 'american-opportunity-credit-college',         tags: ['education','credits'] },
   { title: 'Lifetime Learning Credit: Education Tax Savings',           slug: 'lifetime-learning-credit-guide',              tags: ['education','credits'] },
   { title: 'Saver\'s Credit: Retirement Contribution Tax Credit',       slug: 'savers-credit-retirement-contributions',      tags: ['Saver\'s Credit','retirement'] },
@@ -1240,17 +1243,17 @@ To make the most of your situation regarding ${topic}:
 - **Keep records** of relevant receipts and documentation
 - **Consult a professional** for complex situations involving significant amounts
 
-## 2024 Numbers to Know
+## 2025 Numbers to Know
 
-The following 2024 figures are relevant to most workers:
+The following 2025 figures are relevant to most workers:
 
 | Item | Amount |
 |---|---|
-| Standard deduction (single) | $14,600 |
-| Standard deduction (married) | $29,200 |
-| 401(k) contribution limit | $23,000 |
-| HSA limit (single) | $4,150 |
-| Social Security wage base | $168,600 |
+| Standard deduction (single) | $15,000 |
+| Standard deduction (married) | $30,000 |
+| 401(k) contribution limit | $23,500 |
+| HSA limit (single) | $4,300 |
+| Social Security wage base | $176,100 |
 
 ## Using Our Paycheck Calculator
 
@@ -1260,7 +1263,7 @@ Simply enter your income, select your state, choose your filing status, and clic
 
 ---
 
-*All figures based on 2024 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*`;
+*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*`;
 }
 
 // ── Assemble all 200 posts ────────────────────────────────────────────────────
@@ -1269,7 +1272,7 @@ const allPosts = [];
 // Posts 0–49: state guides
 STATES.forEach((s, i) => {
   allPosts.push({
-    title: `${s.name} State Income Tax: Complete 2024 Guide`,
+    title: `${s.name} State Income Tax: Complete ${YEAR_STR} Guide`,
     slug:  `${s.name.toLowerCase().replace(/\s+/g, '-')}-state-income-tax-guide`,
     desc:  `Complete guide to ${s.name} (${s.abbr}) income tax rates, brackets, deductions, and how it affects your paycheck in 2024.`,
     tags:  ['state tax', s.name.toLowerCase()],

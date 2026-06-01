@@ -9,9 +9,9 @@ tags: ["tax brackets","federal tax","income"]
 
 The progressive bracket system taxes income in layers. You don't pay your top rate on everything — you pay 10% on the first slice, 12% on the next, and so on.
 
-## Federal Tax by Income Level (Single, 2024)
+## Federal Tax by Income Level (Single, 2025)
 
-The following uses the 2024 standard deduction of $14,600:
+The following uses the 2025 standard deduction of $14,600:
 
 **$30,000 gross salary**
 - Taxable: $15,400

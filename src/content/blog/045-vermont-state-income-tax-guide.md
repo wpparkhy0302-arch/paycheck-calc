@@ -1,5 +1,5 @@
 ---
-title: "Vermont State Income Tax: Complete 2024 Guide"
+title: "Vermont State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Vermont (VT) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-09
 tags: ["state tax","vermont"]
@@ -9,7 +9,7 @@ tags: ["state tax","vermont"]
 
 Vermont uses **progressive rates from 3.35% to 8.75%**. Understanding how Vermont's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Vermont uses a progressive income tax structure. Lower income is taxed at lower rates (starting at 3.35%), and higher income is taxed at higher rates (up to 8.75%). Only the income in each bracket is taxed at that bracket's rate — not your entire income.
 
@@ -48,4 +48,4 @@ Want to see your exact Vermont take-home pay? Use our free [US Paycheck Calculat
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Vermont Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Vermont Department of Revenue or a tax professional.*

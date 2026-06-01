@@ -1,5 +1,5 @@
 ---
-title: "New Jersey State Income Tax: Complete 2024 Guide"
+title: "New Jersey State Income Tax: Complete 2025 Guide"
 description: "Complete guide to New Jersey (NJ) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-06
 tags: ["state tax","new jersey"]
@@ -9,7 +9,7 @@ tags: ["state tax","new jersey"]
 
 New Jersey uses **progressive rates from 1.4% to 10.75%**. Understanding how New Jersey's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 New Jersey uses a progressive income tax structure. Lower income is taxed at lower rates (starting at 1.4%), and higher income is taxed at higher rates (up to 10.75%). Only the income in each bracket is taxed at that bracket's rate — not your entire income.
 
@@ -48,4 +48,4 @@ Want to see your exact New Jersey take-home pay? Use our free [US Paycheck Calcu
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the New Jersey Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the New Jersey Department of Revenue or a tax professional.*

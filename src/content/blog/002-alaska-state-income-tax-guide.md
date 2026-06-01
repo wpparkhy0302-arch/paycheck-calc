@@ -1,5 +1,5 @@
 ---
-title: "Alaska State Income Tax: Complete 2024 Guide"
+title: "Alaska State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Alaska (AK) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-01
 tags: ["state tax","alaska"]
@@ -9,7 +9,7 @@ tags: ["state tax","alaska"]
 
 Alaska uses **no state income tax** on wages. This means residents of Alaska owe no state income tax on their wages, salaries, or other earned income. You still pay federal income tax and FICA (Social Security and Medicare), but the absence of state income tax gives Alaska workers a significant take-home pay advantage.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Alaska levies **0% state income tax** on wages. There is no state income tax return to file for wages earned in Alaska.
 
@@ -44,4 +44,4 @@ Want to see your exact Alaska take-home pay? Use our free [US Paycheck Calculato
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Alaska Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Alaska Department of Revenue or a tax professional.*

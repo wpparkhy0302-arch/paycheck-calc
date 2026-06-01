@@ -1,5 +1,5 @@
 ---
-title: "Indiana State Income Tax: Complete 2024 Guide"
+title: "Indiana State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Indiana (IN) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-03
 tags: ["state tax","indiana"]
@@ -9,7 +9,7 @@ tags: ["state tax","indiana"]
 
 Indiana uses a **flat 3.05% tax rate** on all taxable income. Understanding how Indiana's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Indiana taxes all taxable income at a flat rate of **3.05%**. This applies equally to all income levels — a $30,000 earner and a $300,000 earner pay the same percentage of their taxable income.
 
@@ -48,4 +48,4 @@ Want to see your exact Indiana take-home pay? Use our free [US Paycheck Calculat
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Indiana Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Indiana Department of Revenue or a tax professional.*

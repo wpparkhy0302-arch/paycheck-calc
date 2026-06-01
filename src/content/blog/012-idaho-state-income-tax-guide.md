@@ -1,5 +1,5 @@
 ---
-title: "Idaho State Income Tax: Complete 2024 Guide"
+title: "Idaho State Income Tax: Complete 2025 Guide"
 description: "Complete guide to Idaho (ID) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-03
 tags: ["state tax","idaho"]
@@ -9,7 +9,7 @@ tags: ["state tax","idaho"]
 
 Idaho uses a **flat 5.8% tax rate** on all taxable income. Understanding how Idaho's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 Idaho taxes all taxable income at a flat rate of **5.8%**. This applies equally to all income levels — a $30,000 earner and a $300,000 earner pay the same percentage of their taxable income.
 
@@ -48,4 +48,4 @@ Want to see your exact Idaho take-home pay? Use our free [US Paycheck Calculator
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the Idaho Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the Idaho Department of Revenue or a tax professional.*

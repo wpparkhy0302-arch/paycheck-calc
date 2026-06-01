@@ -1,5 +1,5 @@
 ---
-title: "North Dakota State Income Tax: Complete 2024 Guide"
+title: "North Dakota State Income Tax: Complete 2025 Guide"
 description: "Complete guide to North Dakota (ND) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-07
 tags: ["state tax","north dakota"]
@@ -9,7 +9,7 @@ tags: ["state tax","north dakota"]
 
 North Dakota uses **progressive rates from 1.1% to 2.5%**. Understanding how North Dakota's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 North Dakota uses a progressive income tax structure. Lower income is taxed at lower rates (starting at 1.1%), and higher income is taxed at higher rates (up to 2.5%). Only the income in each bracket is taxed at that bracket's rate — not your entire income.
 
@@ -48,4 +48,4 @@ Want to see your exact North Dakota take-home pay? Use our free [US Paycheck Cal
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the North Dakota Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the North Dakota Department of Revenue or a tax professional.*

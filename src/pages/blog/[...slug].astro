@@ -46,12 +46,20 @@ const pubDate = new Date(post.data.pubDate).toLocaleDateString('en-US', {
       </div>
     </div>
 
+    <!-- Ad slot: after hero -->
+    <div class="ad-wrap">
+      <div class="ad-slot ad-leaderboard"><!-- AdSense 728×90 --></div>
+    </div>
+
     <div class="container article-body">
       <div class="prose">
         <Content />
       </div>
 
       <aside class="article-sidebar">
+        <!-- Ad slot: sidebar rectangle -->
+        <div class="ad-slot ad-rectangle" style="margin-bottom:16px"><!-- AdSense 300×250 --></div>
+
         <div class="sidebar-card">
           <h3>Calculate Your Paycheck</h3>
           <p>Use our free calculator to see your exact take-home pay after all taxes.</p>
@@ -72,6 +80,12 @@ const pubDate = new Date(post.data.pubDate).toLocaleDateString('en-US', {
 </Layout>
 
 <style>
+  /* Ad slots */
+  .ad-wrap { display: flex; justify-content: center; padding: 12px 20px; background: #f9fafb; }
+  .ad-slot { background: #f3f4f6; border: 1.5px dashed #d1d5db; border-radius: 8px; }
+  .ad-leaderboard { width: 100%; max-width: 728px; height: 90px; }
+  .ad-rectangle   { width: 300px; height: 250px; }
+
   .article-hero {
     background: linear-gradient(135deg, #1a56db 0%, #1447c0 100%);
     color: #fff;

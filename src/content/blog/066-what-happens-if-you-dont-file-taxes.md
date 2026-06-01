@@ -16,7 +16,7 @@ If you also fail to pay, both penalties apply — but they are capped:
 
 ## Interest Charges
 
-In addition to penalties, the IRS charges **interest on unpaid taxes** at the federal short-term rate plus 3 percentage points — compounding daily. In 2024, this rate is approximately 8% annualized.
+In addition to penalties, the IRS charges **interest on unpaid taxes** at the federal short-term rate plus 3 percentage points — compounding daily. In 2025, this rate is approximately 8% annualized.
 
 ## What If You're Due a Refund?
 

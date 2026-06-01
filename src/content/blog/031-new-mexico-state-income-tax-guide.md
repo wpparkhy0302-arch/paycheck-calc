@@ -1,5 +1,5 @@
 ---
-title: "New Mexico State Income Tax: Complete 2024 Guide"
+title: "New Mexico State Income Tax: Complete 2025 Guide"
 description: "Complete guide to New Mexico (NM) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
 pubDate: 2026-06-07
 tags: ["state tax","new mexico"]
@@ -9,7 +9,7 @@ tags: ["state tax","new mexico"]
 
 New Mexico uses **progressive rates from 1.7% to 5.9%**. Understanding how New Mexico's tax system works helps you accurately predict your paycheck and plan your finances throughout the year.
 
-## 2024 Tax Rates
+## 2025 Tax Rates
 
 New Mexico uses a progressive income tax structure. Lower income is taxed at lower rates (starting at 1.7%), and higher income is taxed at higher rates (up to 5.9%). Only the income in each bracket is taxed at that bracket's rate — not your entire income.
 
@@ -48,4 +48,4 @@ Want to see your exact New Mexico take-home pay? Use our free [US Paycheck Calcu
 
 ---
 
-*Tax rates based on 2024 data. Laws change frequently — verify with the New Mexico Department of Revenue or a tax professional.*
+*Tax rates based on 2025 data. Laws change frequently — verify with the New Mexico Department of Revenue or a tax professional.*

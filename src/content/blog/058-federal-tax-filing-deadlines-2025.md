@@ -1,6 +1,6 @@
 ---
-title: "Federal Tax Filing Deadlines for 2024"
-description: "Key IRS deadlines for filing your 2024 federal income tax return, extensions, estimated taxes, and W-2 / 1099 forms."
+title: "Federal Tax Filing Deadlines for 2025"
+description: "Key IRS deadlines for filing your 2025 federal income tax return, extensions, estimated taxes, and W-2 / 1099 forms."
 pubDate: 2026-06-12
 tags: ["filing","deadlines","federal tax"]
 ---
