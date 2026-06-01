@@ -299,6 +299,7 @@ const stateList = Object.entries(STATE_TAX)
 
   /* ── Cards ────────────────────────────────────────── */
   .card {
+    box-sizing: border-box;
     background: #fff;
     border: 1px solid #e5e7eb;
     border-radius: 14px;
@@ -322,7 +323,7 @@ const stateList = Object.entries(STATE_TAX)
   }
   .field-label .hint { font-weight: 400; color: #9ca3af; margin-left: 4px; font-size: 0.8rem; }
 
-  .input-wrap { position: relative; }
+  .input-wrap { position: relative; box-sizing: border-box; width: 100%; }
   .prefix {
     position: absolute;
     left: 12px;
@@ -335,6 +336,7 @@ const stateList = Object.entries(STATE_TAX)
   .input-wrap .input { padding-left: 28px; }
 
   .input {
+    box-sizing: border-box;
     width: 100%;
     padding: 10px 12px;
     border: 1.5px solid #d1d5db;
