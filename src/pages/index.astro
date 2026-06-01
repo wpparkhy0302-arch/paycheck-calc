@@ -1,0 +1,667 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { STATE_TAX } from '../data/taxRates.js';
+
+const stateList = Object.entries(STATE_TAX)
+  .map(([abbr, s]) => ({ abbr, name: s.name }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<Layout
+  title="US Paycheck Calculator — Free Take-Home Pay Estimator"
+  description="Calculate your exact US take-home pay after federal tax, state tax, Social Security, and Medicare. Supports all 50 states, hourly or salary input."
+>
+
+  <!-- ── Hero ─────────────────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="container">
+      <h1>US Paycheck Calculator</h1>
+      <p class="hero-sub">
+        Calculate your exact take-home pay after federal&nbsp;tax, state&nbsp;tax,
+        Social&nbsp;Security, and Medicare — all 50&nbsp;states supported.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Calculator ────────────────────────────────────────────────────────── -->
+  <section class="calc-section">
+    <div class="container">
+      <div class="calc-grid">
+
+        <!-- Form -->
+        <div class="card form-card">
+          <h2 class="card-title">Enter Your Details</h2>
+
+          <!-- Pay type toggle -->
+          <div class="field">
+            <label class="field-label">Pay Type</label>
+            <div class="toggle-row">
+              <button id="btn-annual" class="toggle-btn active" type="button">Annual Salary</button>
+              <button id="btn-hourly" class="toggle-btn"        type="button">Hourly Wage</button>
+            </div>
+          </div>
+
+          <!-- Amount -->
+          <div class="field">
+            <label class="field-label" for="payAmount" id="payLabel">Annual Salary</label>
+            <div class="input-wrap">
+              <span class="prefix">$</span>
+              <input
+                type="number"
+                id="payAmount"
+                class="input"
+                placeholder="75,000"
+                min="0"
+                step="1000"
+              />
+            </div>
+          </div>
+
+          <!-- Hours/week — shown only for hourly -->
+          <div class="field" id="hoursField" style="display:none">
+            <label class="field-label" for="hoursPerWeek">Hours per Week</label>
+            <div class="input-wrap">
+              <input
+                type="number"
+                id="hoursPerWeek"
+                class="input"
+                placeholder="40"
+                min="1"
+                max="168"
+                value="40"
+              />
+            </div>
+          </div>
+
+          <!-- State -->
+          <div class="field">
+            <label class="field-label" for="stateSelect">State</label>
+            <select id="stateSelect" class="input">
+              <option value="">— Select your state —</option>
+              {stateList.map(s => (
+                <option value={s.abbr}>{s.name}</option>
+              ))}
+            </select>
+          </div>
+
+          <!-- Filing status -->
+          <div class="field">
+            <label class="field-label" for="filingStatus">Filing Status</label>
+            <select id="filingStatus" class="input">
+              <option value="single">Single</option>
+              <option value="married">Married Filing Jointly</option>
+            </select>
+          </div>
+
+          <!-- Dependents -->
+          <div class="field">
+            <label class="field-label" for="dependents">
+              Dependents
+              <span class="hint">(qualifying children under 17)</span>
+            </label>
+            <input
+              type="number"
+              id="dependents"
+              class="input"
+              min="0"
+              max="20"
+              value="0"
+            />
+          </div>
+
+          <button id="calcBtn" class="calc-btn" type="button">
+            Calculate Take-Home Pay
+          </button>
+
+          <p class="disclaimer">
+            Estimates are based on 2024 federal and state tax rates.
+            Does not include local taxes, SDI, or pre-tax deductions.
+          </p>
+        </div>
+
+        <!-- Results -->
+        <div class="card results-card" id="resultsCard">
+          <div id="resultsPlaceholder" class="results-placeholder">
+            <div class="placeholder-icon">📊</div>
+            <p>Fill in your details and click <strong>Calculate</strong> to see your take-home pay breakdown.</p>
+          </div>
+
+          <div id="resultsContent" style="display:none">
+            <div class="results-header">
+              <h2 class="card-title">Your Take-Home Pay</h2>
+              <p class="results-gross">Gross Income: <strong id="r-gross">—</strong></p>
+            </div>
+
+            <!-- Period selector -->
+            <div class="period-tabs">
+              <button class="period-btn active" data-period="annual">Annual</button>
+              <button class="period-btn" data-period="monthly">Monthly</button>
+              <button class="period-btn" data-period="biweekly">Biweekly</button>
+              <button class="period-btn" data-period="weekly">Weekly</button>
+              <button class="period-btn" data-period="daily">Daily</button>
+            </div>
+
+            <!-- Breakdown table -->
+            <div class="breakdown">
+              <div class="breakdown-row gross-row">
+                <span class="breakdown-label">Gross Income</span>
+                <span class="breakdown-value" id="r-gross-b">—</span>
+              </div>
+              <div class="breakdown-sep">Deductions</div>
+              <div class="breakdown-row deduction-row">
+                <span class="breakdown-label">Federal Income Tax</span>
+                <span class="breakdown-value negative" id="r-federal">—</span>
+              </div>
+              <div class="breakdown-row deduction-row">
+                <span class="breakdown-label">State Income Tax
+                  <span class="state-name" id="r-state-name"></span>
+                </span>
+                <span class="breakdown-value negative" id="r-state">—</span>
+              </div>
+              <div class="breakdown-row deduction-row">
+                <span class="breakdown-label">Social Security <em>(6.2%)</em></span>
+                <span class="breakdown-value negative" id="r-ss">—</span>
+              </div>
+              <div class="breakdown-row deduction-row">
+                <span class="breakdown-label">Medicare <em>(1.45%)</em></span>
+                <span class="breakdown-value negative" id="r-medicare">—</span>
+              </div>
+              <div class="breakdown-row total-row">
+                <span class="breakdown-label">Total Deductions</span>
+                <span class="breakdown-value negative" id="r-deductions">—</span>
+              </div>
+              <div class="breakdown-row net-row">
+                <span class="breakdown-label">Take-Home Pay</span>
+                <span class="breakdown-value net" id="r-net">—</span>
+              </div>
+            </div>
+
+            <!-- Effective rates -->
+            <div class="rates-grid">
+              <div class="rate-box">
+                <div class="rate-value" id="r-eff-federal">—</div>
+                <div class="rate-label">Effective Federal Rate</div>
+              </div>
+              <div class="rate-box">
+                <div class="rate-value" id="r-eff-state">—</div>
+                <div class="rate-label">Effective State Rate</div>
+              </div>
+              <div class="rate-box">
+                <div class="rate-value" id="r-eff-total">—</div>
+                <div class="rate-label">Total Effective Rate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.calc-grid -->
+    </div>
+  </section>
+
+  <!-- ── How It Works ────────────────────────────────────────────────────── -->
+  <section class="info-section">
+    <div class="container">
+      <h2 class="section-title">How the Calculator Works</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-icon">🏛️</div>
+          <h3>Federal Income Tax</h3>
+          <p>Calculated using 2024 progressive tax brackets after subtracting the standard deduction ($14,600 single / $29,200 married). Child Tax Credit ($2,000 per dependent) is applied to reduce your liability.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🗺️</div>
+          <h3>State Income Tax</h3>
+          <p>Every state has different rules — from zero income tax (Texas, Florida, Nevada…) to progressive systems up to 13.3% (California). We include accurate 2024 rates for all 50 states.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🔒</div>
+          <h3>FICA Taxes</h3>
+          <p>Social Security is 6.2% on the first $168,600 of wages. Medicare is 1.45% on all wages, plus an additional 0.9% on income over $200,000 (single) / $250,000 (married).</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">💰</div>
+          <h3>Net Take-Home Pay</h3>
+          <p>Your final take-home is gross pay minus all taxes. Results shown in five pay periods: annual, monthly, biweekly, weekly, and daily based on a standard 260-day work year.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FAQ ────────────────────────────────────────────────────────────── -->
+  <section class="faq-section">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>How accurate is this paycheck calculator?</summary>
+          <p>This calculator uses the official 2024 federal and state income tax brackets and standard deductions. It provides a close estimate for W-2 employees with standard deductions. It does not account for local taxes, state SDI contributions, or pre-tax benefit deductions like 401(k) or health insurance.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Which states have no income tax?</summary>
+          <p>Nine states currently levy no state income tax on wages: Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington, and Wyoming. Residents of these states pay only federal income tax and FICA.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the standard deduction for 2024?</summary>
+          <p>The federal standard deduction for 2024 is $14,600 for single filers and $29,200 for married filing jointly. Each state sets its own standard deduction, which varies widely.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is FICA tax?</summary>
+          <p>FICA (Federal Insurance Contributions Act) consists of two taxes: Social Security (6.2% on wages up to $168,600) and Medicare (1.45% on all wages). Your employer matches these contributions — so the government actually receives 12.4% + 2.9%.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How do dependents affect my taxes?</summary>
+          <p>Qualifying children under age 17 are eligible for the Child Tax Credit of up to $2,000 each. This credit directly reduces your federal tax liability (not just taxable income), which can significantly increase your take-home pay.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the difference between marginal and effective tax rate?</summary>
+          <p>Your marginal rate is the rate applied to your last dollar of income (your "tax bracket"). Your effective rate is total tax paid divided by gross income — it is always lower than your marginal rate because lower income is taxed at lower rates.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</Layout>
+
+<!-- ─────────────────────────────────────────────────────────────────────────── -->
+<style>
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1a56db 0%, #1447c0 100%);
+    color: #fff;
+    padding: 52px 20px 48px;
+    text-align: center;
+  }
+  .hero h1 { font-size: clamp(1.75rem, 4vw, 2.75rem); font-weight: 800; margin-bottom: 12px; }
+  .hero-sub { font-size: 1.05rem; opacity: .88; max-width: 560px; margin: 0 auto; }
+
+  /* Calculator section */
+  .calc-section { padding: 40px 20px; }
+  .calc-grid {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+  @media (max-width: 900px) { .calc-grid { grid-template-columns: 1fr; } }
+
+  /* Cards */
+  .card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 28px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  }
+  .card-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 20px; color: #111827; }
+
+  /* Form fields */
+  .field { margin-bottom: 18px; }
+  .field-label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 6px;
+  }
+  .field-label .hint { font-weight: 400; color: #9ca3af; margin-left: 4px; }
+  .input-wrap { position: relative; }
+  .prefix {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6b7280;
+    font-size: 0.95rem;
+    pointer-events: none;
+  }
+  .input-wrap .input { padding-left: 28px; }
+  .input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.5px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #111827;
+    background: #fff;
+    transition: border-color .15s, box-shadow .15s;
+    appearance: auto;
+  }
+  .input:focus {
+    outline: none;
+    border-color: #1a56db;
+    box-shadow: 0 0 0 3px rgba(26,86,219,.12);
+  }
+
+  /* Toggle buttons */
+  .toggle-row { display: flex; gap: 8px; }
+  .toggle-btn {
+    flex: 1;
+    padding: 9px 14px;
+    border: 1.5px solid #d1d5db;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b7280;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .toggle-btn.active {
+    border-color: #1a56db;
+    background: #e8f0fe;
+    color: #1a56db;
+    font-weight: 600;
+  }
+  .toggle-btn:hover:not(.active) { border-color: #9ca3af; background: #f9fafb; }
+
+  /* Calculate button */
+  .calc-btn {
+    width: 100%;
+    padding: 13px;
+    background: #1a56db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .15s, transform .1s;
+    margin-top: 4px;
+  }
+  .calc-btn:hover { background: #1447c0; }
+  .calc-btn:active { transform: scale(.98); }
+  .disclaimer {
+    margin-top: 12px;
+    font-size: 0.78rem;
+    color: #9ca3af;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  /* Results placeholder */
+  .results-placeholder {
+    text-align: center;
+    padding: 50px 20px;
+    color: #9ca3af;
+  }
+  .placeholder-icon { font-size: 2.5rem; margin-bottom: 12px; }
+  .results-placeholder p { font-size: 0.95rem; }
+  .results-placeholder strong { color: #1a56db; }
+
+  /* Results */
+  .results-header { margin-bottom: 16px; }
+  .results-gross { font-size: 0.9rem; color: #6b7280; margin-top: 2px; }
+  .results-gross strong { color: #111827; }
+
+  /* Period tabs */
+  .period-tabs {
+    display: flex;
+    gap: 4px;
+    background: #f3f4f6;
+    border-radius: 8px;
+    padding: 3px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .period-btn {
+    flex: 1;
+    min-width: 60px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #6b7280;
+    cursor: pointer;
+    transition: all .15s;
+    white-space: nowrap;
+  }
+  .period-btn.active {
+    background: #fff;
+    color: #1a56db;
+    font-weight: 600;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  }
+
+  /* Breakdown */
+  .breakdown { border: 1px solid #e5e7eb; border-radius: 10px; overflow: hidden; }
+  .breakdown-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 16px;
+    border-bottom: 1px solid #f3f4f6;
+  }
+  .breakdown-row:last-child { border-bottom: none; }
+  .breakdown-label { font-size: 0.88rem; color: #374151; }
+  .breakdown-label em { color: #9ca3af; font-style: normal; font-size: 0.82rem; }
+  .state-name { color: #9ca3af; font-size: 0.8rem; margin-left: 4px; }
+  .breakdown-value { font-size: 0.95rem; font-weight: 600; color: #111827; }
+  .breakdown-value.negative { color: #dc2626; }
+  .breakdown-sep {
+    padding: 6px 16px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: #9ca3af;
+    background: #f9fafb;
+  }
+  .gross-row { background: #f9fafb; }
+  .total-row { background: #fff4f4; }
+  .net-row { background: #f0fdf4; }
+  .net-row .breakdown-label { font-weight: 700; font-size: 0.95rem; color: #111827; }
+  .breakdown-value.net { color: #16a34a; font-size: 1.05rem; }
+
+  /* Effective rates */
+  .rates-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .rate-box {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+  }
+  .rate-value { font-size: 1.25rem; font-weight: 700; color: #1a56db; }
+  .rate-label { font-size: 0.72rem; color: #6b7280; margin-top: 2px; }
+
+  /* Info section */
+  .info-section { background: #f9fafb; padding: 60px 20px; }
+  .section-title { font-size: 1.5rem; font-weight: 700; text-align: center; margin-bottom: 36px; }
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .info-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .info-icon { font-size: 1.75rem; margin-bottom: 10px; }
+  .info-card h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; }
+  .info-card p { font-size: 0.875rem; color: #6b7280; line-height: 1.65; }
+
+  /* FAQ */
+  .faq-section { padding: 60px 20px; }
+  .faq-list { max-width: 760px; margin: 0 auto; }
+  .faq-item {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .faq-item summary {
+    padding: 16px 20px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    transition: background .15s;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-size: 1.2rem; color: #1a56db; font-weight: 400; }
+  .faq-item[open] summary::after { content: '−'; }
+  .faq-item[open] summary { background: #f9fafb; }
+  .faq-item p { padding: 14px 20px 18px; font-size: 0.88rem; color: #374151; line-height: 1.7; border-top: 1px solid #e5e7eb; }
+</style>
+
+<!-- ─────────────────────────────────────────────────────────────────────────── -->
+<script>
+  import {
+    STATE_TAX,
+    FEDERAL_BRACKETS,
+    FEDERAL_STANDARD_DEDUCTION,
+    SS_RATE,
+    SS_WAGE_BASE,
+    MEDICARE_RATE,
+    ADDITIONAL_MEDICARE_RATE,
+    ADDITIONAL_MEDICARE_THRESHOLD,
+    CHILD_TAX_CREDIT,
+    calcBracketTax,
+    calcFederalTax,
+    calcStateTax,
+    calcFICA,
+    calculatePaycheck,
+  } from '../data/taxRates.js';
+
+  // ── State ────────────────────────────────────────────────────────────────
+  let payType = 'annual'; // 'annual' | 'hourly'
+  let activePeriod = 'annual';
+
+  const DIVISORS = { annual: 1, monthly: 12, biweekly: 26, weekly: 52, daily: 260 };
+
+  // ── DOM refs ─────────────────────────────────────────────────────────────
+  const btnAnnual   = document.getElementById('btn-annual');
+  const btnHourly   = document.getElementById('btn-hourly');
+  const hoursField  = document.getElementById('hoursField');
+  const payLabel    = document.getElementById('payLabel');
+  const payAmount   = document.getElementById('payAmount');
+  const hoursInput  = document.getElementById('hoursPerWeek');
+  const stateSelect = document.getElementById('stateSelect');
+  const filingStatus= document.getElementById('filingStatus');
+  const dependents  = document.getElementById('dependents');
+  const calcBtn     = document.getElementById('calcBtn');
+  const placeholder = document.getElementById('resultsPlaceholder');
+  const content     = document.getElementById('resultsContent');
+
+  // ── Pay type toggle ───────────────────────────────────────────────────────
+  btnAnnual.addEventListener('click', () => {
+    payType = 'annual';
+    btnAnnual.classList.add('active');
+    btnHourly.classList.remove('active');
+    hoursField.style.display = 'none';
+    payLabel.textContent = 'Annual Salary';
+    payAmount.placeholder = '75,000';
+    payAmount.step = '1000';
+  });
+
+  btnHourly.addEventListener('click', () => {
+    payType = 'hourly';
+    btnHourly.classList.add('active');
+    btnAnnual.classList.remove('active');
+    hoursField.style.display = '';
+    payLabel.textContent = 'Hourly Wage';
+    payAmount.placeholder = '25.00';
+    payAmount.step = '0.25';
+  });
+
+  // ── Period tab switching ──────────────────────────────────────────────────
+  document.querySelectorAll('.period-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.period-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activePeriod = btn.dataset.period;
+      if (lastResult) renderResult(lastResult);
+    });
+  });
+
+  // ── Calculation ───────────────────────────────────────────────────────────
+  let lastResult = null;
+
+  calcBtn.addEventListener('click', () => {
+    const rawAmount = parseFloat(payAmount.value);
+    if (!rawAmount || rawAmount <= 0) {
+      payAmount.focus();
+      payAmount.style.borderColor = '#dc2626';
+      setTimeout(() => { payAmount.style.borderColor = ''; }, 1500);
+      return;
+    }
+
+    const stateCode    = stateSelect.value;
+    const filing       = filingStatus.value;
+    const deps         = Math.max(0, parseInt(dependents.value) || 0);
+    const hoursPerWeek = Math.max(1, parseFloat(hoursInput.value) || 40);
+
+    const gross = payType === 'hourly'
+      ? rawAmount * hoursPerWeek * 52
+      : rawAmount;
+
+    lastResult = {
+      ...calculatePaycheck({ gross, stateCode, filingStatus: filing, dependents: deps }),
+      stateCode,
+      filing,
+    };
+
+    renderResult(lastResult);
+  });
+
+  // ── Enter key support ─────────────────────────────────────────────────────
+  [payAmount, hoursInput, stateSelect, filingStatus, dependents].forEach(el => {
+    el?.addEventListener('keydown', e => { if (e.key === 'Enter') calcBtn.click(); });
+  });
+
+  // ── Render ────────────────────────────────────────────────────────────────
+  function fmt(n) {
+    return '$' + Math.round(n).toLocaleString('en-US');
+  }
+
+  function fmtPct(n) {
+    return (n * 100).toFixed(1) + '%';
+  }
+
+  function periodAmt(annual) {
+    return fmt(annual / DIVISORS[activePeriod]);
+  }
+
+  function renderResult(r) {
+    placeholder.style.display = 'none';
+    content.style.display = '';
+
+    document.getElementById('r-gross').textContent      = fmt(r.gross);
+    document.getElementById('r-gross-b').textContent    = periodAmt(r.gross);
+    document.getElementById('r-federal').textContent    = '−' + periodAmt(r.federalTax);
+    document.getElementById('r-state').textContent      = r.stateTax === 0
+      ? '$0 (no state tax)'
+      : '−' + periodAmt(r.stateTax);
+    document.getElementById('r-ss').textContent         = '−' + periodAmt(r.ss);
+    document.getElementById('r-medicare').textContent   = '−' + periodAmt(r.medicare);
+    document.getElementById('r-deductions').textContent = '−' + periodAmt(r.totalDeductions);
+    document.getElementById('r-net').textContent        = periodAmt(r.netPay);
+
+    // State name label
+    const stateName = r.stateCode
+      ? (STATE_TAX[r.stateCode]?.name ?? r.stateCode)
+      : '';
+    document.getElementById('r-state-name').textContent = stateName ? `(${stateName})` : '';
+
+    // Effective rates
+    const gross = r.gross;
+    document.getElementById('r-eff-federal').textContent = gross > 0 ? fmtPct(r.federalTax / gross) : '0%';
+    document.getElementById('r-eff-state').textContent   = gross > 0 ? fmtPct(r.stateTax   / gross) : '0%';
+    document.getElementById('r-eff-total').textContent   = gross > 0 ? fmtPct(r.totalDeductions / gross) : '0%';
+  }
+</script>

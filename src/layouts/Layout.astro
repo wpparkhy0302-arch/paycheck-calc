@@ -1,0 +1,107 @@
+---
+import Nav from '../components/Nav.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = 'Free US paycheck calculator. Calculate your exact take-home pay after federal tax, state tax, Social Security, and Medicare deductions.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={`${title} | PaycheckCalc`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <title>{title} | PaycheckCalc</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      :root {
+        --blue: #1a56db;
+        --blue-dark: #1447c0;
+        --blue-light: #e8f0fe;
+        --text: #111827;
+        --text-muted: #6b7280;
+        --border: #e5e7eb;
+        --bg: #ffffff;
+        --bg-gray: #f9fafb;
+        --radius: 10px;
+        --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.05);
+        --shadow-md: 0 4px 6px -1px rgba(0,0,0,.08), 0 2px 4px -1px rgba(0,0,0,.05);
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      main { flex: 1; }
+      a { color: var(--blue); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1, h2, h3, h4 { line-height: 1.3; }
+      img { max-width: 100%; }
+      .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+      footer {
+        background: var(--bg-gray);
+        border-top: 1px solid var(--border);
+        padding: 40px 20px;
+        margin-top: 60px;
+      }
+      .footer-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+      }
+      .footer-brand h2 { font-size: 1.2rem; color: var(--blue); margin-bottom: 8px; }
+      .footer-brand p { color: var(--text-muted); font-size: 0.9rem; }
+      .footer-links h3 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--text-muted); margin-bottom: 12px; }
+      .footer-links ul { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 20px; }
+      .footer-links li a { color: var(--text-muted); font-size: 0.9rem; }
+      .footer-links li a:hover { color: var(--blue); text-decoration: none; }
+      .footer-bottom { max-width: 1100px; margin: 20px auto 0; padding-top: 20px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
+      @media (max-width: 640px) {
+        .footer-inner { grid-template-columns: 1fr; gap: 24px; }
+      }
+    </style>
+  </head>
+  <body>
+    <Nav />
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <h2>💰 PaycheckCalc</h2>
+          <p>Free US paycheck & salary calculator. Accurate federal and state tax calculations for all 50 states.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="/">Calculator</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">© {new Date().getFullYear()} PaycheckCalc. For informational purposes only. Not tax advice.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const today = new Date();
+today.setHours(23, 59, 59, 999);
+
+const allPosts = await getCollection('blog', ({ data }) => {
+  return new Date(data.pubDate) <= today;
+});
+
+const posts = allPosts.sort(
+  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+);
+---
+
+<Layout
+  title="Blog — US Paycheck & Tax Tips | PaycheckCalc"
+  description="Expert guides on US payroll, federal and state taxes, savings strategies, and personal finance for American workers."
+>
+  <div class="page-hero">
+    <div class="container">
+      <h1>Paycheck & Tax Blog</h1>
+      <p>Guides, tips, and explainers on US payroll, taxes, and personal finance.</p>
+    </div>
+  </div>
+
+  <div class="container blog-body">
+    {posts.length === 0 ? (
+      <p class="no-posts">No posts published yet. Check back soon!</p>
+    ) : (
+      <div class="posts-grid">
+        {posts.map(post => (
+          <a href={`/blog/${post.slug}`} class="post-card">
+            <div class="post-meta">
+              <time datetime={post.data.pubDate.toISOString()}>
+                {new Date(post.data.pubDate).toLocaleDateString('en-US', {
+                  year: 'numeric', month: 'long', day: 'numeric'
+                })}
+              </time>
+              {post.data.tags && post.data.tags.slice(0, 2).map((tag: string) => (
+                <span class="tag">{tag}</span>
+              ))}
+            </div>
+            <h2 class="post-title">{post.data.title}</h2>
+            <p class="post-desc">{post.data.description}</p>
+            <span class="read-more">Read more →</span>
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</Layout>
+
+<style>
+  .page-hero {
+    background: linear-gradient(135deg, #1a56db 0%, #1447c0 100%);
+    color: #fff;
+    padding: 48px 20px 44px;
+    text-align: center;
+  }
+  .page-hero h1 { font-size: 2rem; font-weight: 800; margin-bottom: 10px; }
+  .page-hero p  { opacity: .88; font-size: 1rem; }
+
+  .blog-body { padding-top: 40px; padding-bottom: 64px; }
+
+  .no-posts { text-align: center; color: #9ca3af; padding: 60px 0; font-size: 1rem; }
+
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+
+  .post-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow .15s, border-color .15s, transform .15s;
+  }
+  .post-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,.08);
+    border-color: #1a56db;
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+  .post-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .post-meta time { font-size: 0.8rem; color: #9ca3af; }
+  .tag {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    background: #e8f0fe;
+    color: #1a56db;
+    border-radius: 999px;
+    text-transform: lowercase;
+  }
+
+  .post-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  .post-desc {
+    font-size: 0.875rem;
+    color: #6b7280;
+    line-height: 1.6;
+    flex: 1;
+    margin-bottom: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .read-more {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1a56db;
+  }
+</style>

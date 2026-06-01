@@ -1,0 +1,163 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Contact Us — PaycheckCalc"
+  description="Get in touch with the PaycheckCalc team. Report errors, suggest features, or ask a question."
+>
+  <div class="page-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Found an error? Have a suggestion? We'd love to hear from you.</p>
+    </div>
+  </div>
+
+  <div class="container page-body">
+    <div class="contact-grid">
+      <div class="contact-form-wrap">
+        <h2>Send a Message</h2>
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="tax-error">Tax rate error / inaccuracy</option>
+              <option value="feature">Feature request</option>
+              <option value="bug">Bug report</option>
+              <option value="other">Other question</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us what's on your mind…" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+          <div id="formSuccess" class="form-success" style="display:none">
+            ✅ Thank you! We'll get back to you within 2 business days.
+          </div>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h2>Other Ways to Reach Us</h2>
+        <div class="info-block">
+          <div class="info-icon">📧</div>
+          <div>
+            <strong>Email</strong>
+            <p>hello@paycheck-calc.com</p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-icon">⏱️</div>
+          <div>
+            <strong>Response Time</strong>
+            <p>We typically reply within 1–2 business days.</p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-icon">🐛</div>
+          <div>
+            <strong>Reporting Tax Errors</strong>
+            <p>If you notice a state or federal tax rate that looks wrong, please include the state, filing status, and income amount so we can investigate quickly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .page-hero {
+    background: linear-gradient(135deg, #1a56db 0%, #1447c0 100%);
+    color: #fff;
+    padding: 48px 20px 44px;
+    text-align: center;
+  }
+  .page-hero h1 { font-size: 2rem; font-weight: 800; margin-bottom: 10px; }
+  .page-hero p  { opacity: .88; font-size: 1rem; }
+
+  .page-body { padding-top: 48px; padding-bottom: 64px; }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 40px;
+    align-items: start;
+  }
+  @media (max-width: 800px) { .contact-grid { grid-template-columns: 1fr; } }
+
+  h2 { font-size: 1.15rem; font-weight: 700; margin-bottom: 20px; color: #111827; }
+
+  .field { margin-bottom: 16px; }
+  .field label { display: block; font-size: 0.875rem; font-weight: 600; color: #374151; margin-bottom: 6px; }
+  .field input, .field select, .field textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.5px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #111827;
+    font-family: inherit;
+    transition: border-color .15s;
+  }
+  .field input:focus, .field select:focus, .field textarea:focus {
+    outline: none;
+    border-color: #1a56db;
+    box-shadow: 0 0 0 3px rgba(26,86,219,.1);
+  }
+  .field textarea { resize: vertical; }
+
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1a56db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .15s;
+  }
+  .submit-btn:hover { background: #1447c0; }
+
+  .form-success {
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #166534;
+  }
+
+  .info-block {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    padding: 16px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    margin-bottom: 12px;
+  }
+  .info-icon { font-size: 1.4rem; flex-shrink: 0; margin-top: 1px; }
+  .info-block strong { display: block; font-size: 0.9rem; font-weight: 600; margin-bottom: 4px; }
+  .info-block p { font-size: 0.875rem; color: #6b7280; margin: 0; line-height: 1.6; }
+</style>
+
+<script>
+  document.getElementById('contactForm')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    document.getElementById('formSuccess').style.display = 'block';
+    (e.target as HTMLFormElement).reset();
+  });
+</script>

@@ -1,0 +1,94 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="About PaycheckCalc"
+  description="Learn about PaycheckCalc — a free, accurate US paycheck and salary calculator for all 50 states."
+>
+  <div class="page-hero">
+    <div class="container">
+      <h1>About PaycheckCalc</h1>
+      <p>A free, transparent paycheck calculator built for American workers.</p>
+    </div>
+  </div>
+
+  <div class="container page-body">
+    <div class="prose">
+      <h2>Our Mission</h2>
+      <p>
+        PaycheckCalc was built with one goal: give every American worker a fast, accurate way to understand
+        their take-home pay. Too many people are surprised on payday because they don't know how federal taxes,
+        state taxes, Social Security, and Medicare interact to reduce their gross paycheck.
+      </p>
+      <p>
+        We believe financial clarity is a right, not a privilege. Whether you're negotiating a new salary,
+        deciding whether to take a job in another state, or just trying to budget for the month — you deserve
+        accurate numbers, for free.
+      </p>
+
+      <h2>What We Calculate</h2>
+      <ul>
+        <li><strong>Federal Income Tax</strong> — using the official 2024 IRS tax brackets and standard deductions</li>
+        <li><strong>State Income Tax</strong> — accurate rates and brackets for all 50 states</li>
+        <li><strong>Social Security</strong> — 6.2% on wages up to the $168,600 wage base</li>
+        <li><strong>Medicare</strong> — 1.45% on all wages (plus 0.9% additional Medicare surtax on high earners)</li>
+        <li><strong>Child Tax Credit</strong> — $2,000 per qualifying dependent, reducing federal tax liability</li>
+      </ul>
+
+      <h2>Who Built This?</h2>
+      <p>
+        PaycheckCalc is an independent project built by developers who were tired of clunky, ad-heavy
+        paycheck calculators that required creating an account just to get a number. We keep it simple,
+        accurate, and free.
+      </p>
+
+      <h2>Data Sources</h2>
+      <p>
+        Our tax rates are sourced from the IRS and state Department of Revenue publications for tax year 2024.
+        We update our data each year to reflect new brackets, standard deductions, and FICA wage bases.
+      </p>
+
+      <h2>Important Disclaimer</h2>
+      <p>
+        PaycheckCalc is designed for <strong>informational and educational purposes only</strong>. The results
+        are estimates and do not account for local/city taxes, state SDI/SUI contributions, pre-tax deductions
+        (401k, HSA, FSA, health insurance premiums), or post-tax deductions. For precise tax advice, please
+        consult a licensed tax professional.
+      </p>
+
+      <div class="contact-cta">
+        <p>Have a question or found an error? <a href="/contact">Contact us</a> and we'll get back to you.</p>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .page-hero {
+    background: linear-gradient(135deg, #1a56db 0%, #1447c0 100%);
+    color: #fff;
+    padding: 48px 20px 44px;
+    text-align: center;
+  }
+  .page-hero h1 { font-size: 2rem; font-weight: 800; margin-bottom: 10px; }
+  .page-hero p  { opacity: .88; font-size: 1rem; }
+
+  .page-body { max-width: 760px; padding-top: 48px; padding-bottom: 64px; }
+
+  .prose h2 { font-size: 1.2rem; font-weight: 700; margin: 32px 0 12px; color: #111827; }
+  .prose p  { color: #374151; line-height: 1.75; margin-bottom: 16px; }
+  .prose ul { margin: 0 0 16px 24px; }
+  .prose li { color: #374151; line-height: 1.75; margin-bottom: 6px; }
+  .prose strong { color: #111827; }
+  .prose a { color: #1a56db; }
+
+  .contact-cta {
+    margin-top: 36px;
+    padding: 20px 24px;
+    background: #e8f0fe;
+    border-radius: 10px;
+    border-left: 4px solid #1a56db;
+  }
+  .contact-cta p { margin: 0; }
+</style>

@@ -1,0 +1,14 @@
+{
+  "name": "paycheck-calc",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "generate": "node generate-posts.mjs"
+  },
+  "dependencies": {
+    "astro": "^4.16.0"
+  }
+}

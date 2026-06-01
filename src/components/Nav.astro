@@ -1,0 +1,105 @@
+---
+const pathname = Astro.url.pathname;
+---
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">💰 PaycheckCalc</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/" class={pathname === '/' ? 'active' : ''}>Calculator</a></li>
+      <li><a href="/blog" class={pathname.startsWith('/blog') ? 'active' : ''}>Blog</a></li>
+      <li><a href="/about" class={pathname === '/about' ? 'active' : ''}>About</a></li>
+      <li><a href="/contact" class={pathname === '/contact' ? 'active' : ''}>Contact</a></li>
+      <li><a href="/privacy-policy" class={pathname === '/privacy-policy' ? 'active' : ''}>Privacy</a></li>
+      <li><a href="/terms" class={pathname === '/terms' ? 'active' : ''}>Terms</a></li>
+    </ul>
+  </div>
+</nav>
+
+<style>
+  nav {
+    background: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 1px 3px rgba(0,0,0,.06);
+  }
+  .nav-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  .nav-logo {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #1a56db;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 4px;
+    margin-left: auto;
+  }
+  .nav-links a {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #374151;
+    text-decoration: none;
+    transition: background .15s, color .15s;
+  }
+  .nav-links a:hover { background: #f3f4f6; color: #1a56db; }
+  .nav-links a.active { background: #e8f0fe; color: #1a56db; font-weight: 600; }
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    margin-left: auto;
+  }
+  .nav-toggle span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #374151;
+    border-radius: 2px;
+    transition: .2s;
+  }
+  @media (max-width: 768px) {
+    .nav-toggle { display: flex; }
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      flex-direction: column;
+      padding: 12px 20px 16px;
+      gap: 2px;
+      box-shadow: 0 4px 6px rgba(0,0,0,.08);
+    }
+    .nav-links.open { display: flex; }
+    .nav-links a { padding: 10px 12px; }
+  }
+</style>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle?.addEventListener('click', () => links?.classList.toggle('open'));
+</script>

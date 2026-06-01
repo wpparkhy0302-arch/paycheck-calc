@@ -1,0 +1,159 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const today = new Date();
+  today.setHours(23, 59, 59, 999);
+
+  const posts = await getCollection('blog', ({ data }) => {
+    return new Date(data.pubDate) <= today;
+  });
+
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props:  { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const pubDate = new Date(post.data.pubDate).toLocaleDateString('en-US', {
+  year: 'numeric', month: 'long', day: 'numeric'
+});
+---
+
+<Layout title={post.data.title} description={post.data.description}>
+  <article class="article-wrap">
+    <div class="article-hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="/">Home</a>
+          <span>›</span>
+          <a href="/blog">Blog</a>
+          <span>›</span>
+          <span>{post.data.title}</span>
+        </div>
+        <h1>{post.data.title}</h1>
+        <div class="article-meta">
+          <time datetime={post.data.pubDate.toISOString()}>{pubDate}</time>
+          {post.data.tags && post.data.tags.map((tag: string) => (
+            <span class="tag">{tag}</span>
+          ))}
+        </div>
+        <p class="article-desc">{post.data.description}</p>
+      </div>
+    </div>
+
+    <div class="container article-body">
+      <div class="prose">
+        <Content />
+      </div>
+
+      <aside class="article-sidebar">
+        <div class="sidebar-card">
+          <h3>Calculate Your Paycheck</h3>
+          <p>Use our free calculator to see your exact take-home pay after all taxes.</p>
+          <a href="/" class="sidebar-btn">Open Calculator →</a>
+        </div>
+        <div class="sidebar-card">
+          <h3>Quick Facts (2024)</h3>
+          <ul>
+            <li><strong>Standard Deduction</strong><br/>Single: $14,600<br/>Married: $29,200</li>
+            <li><strong>Social Security</strong><br/>6.2% up to $168,600</li>
+            <li><strong>Medicare</strong><br/>1.45% on all wages</li>
+            <li><strong>No Income Tax States</strong><br/>AK, FL, NV, NH, SD, TN, TX, WA, WY</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </article>
+</Layout>
+
+<style>
+  .article-hero {
+    background: linear-gradient(135deg, #1a56db 0%, #1447c0 100%);
+    color: #fff;
+    padding: 40px 20px 44px;
+  }
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    opacity: .7;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  .breadcrumb a { color: #fff; text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb span { opacity: .6; }
+
+  .article-hero h1 { font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 800; line-height: 1.3; margin-bottom: 12px; }
+  .article-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+  .article-meta time { font-size: 0.83rem; opacity: .7; }
+  .tag {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    background: rgba(255,255,255,.2);
+    border-radius: 999px;
+  }
+  .article-desc { font-size: 1rem; opacity: .88; max-width: 640px; line-height: 1.65; }
+
+  .article-body {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 40px;
+    align-items: start;
+    padding-top: 40px;
+    padding-bottom: 64px;
+  }
+  @media (max-width: 900px) { .article-body { grid-template-columns: 1fr; } }
+
+  /* Prose typography */
+  .prose { max-width: 720px; }
+  .prose :global(h2) { font-size: 1.25rem; font-weight: 700; margin: 32px 0 12px; color: #111827; border-bottom: 2px solid #e5e7eb; padding-bottom: 8px; }
+  .prose :global(h3) { font-size: 1.05rem; font-weight: 700; margin: 24px 0 8px; color: #1f2937; }
+  .prose :global(p)  { color: #374151; line-height: 1.8; margin-bottom: 16px; font-size: 0.95rem; }
+  .prose :global(ul), .prose :global(ol) { margin: 0 0 16px 24px; }
+  .prose :global(li) { color: #374151; line-height: 1.8; margin-bottom: 6px; font-size: 0.95rem; }
+  .prose :global(strong) { color: #111827; }
+  .prose :global(a) { color: #1a56db; }
+  .prose :global(blockquote) { border-left: 4px solid #1a56db; padding: 10px 16px; margin: 20px 0; background: #f0f4ff; border-radius: 0 8px 8px 0; }
+  .prose :global(blockquote p) { margin: 0; color: #1f2937; }
+  .prose :global(table) { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.875rem; }
+  .prose :global(th) { background: #1a56db; color: #fff; padding: 10px 12px; text-align: left; }
+  .prose :global(td) { padding: 10px 12px; border-bottom: 1px solid #e5e7eb; }
+  .prose :global(tr:nth-child(even) td) { background: #f9fafb; }
+  .prose :global(code) { background: #f3f4f6; padding: 2px 6px; border-radius: 4px; font-size: 0.875em; }
+
+  /* Sidebar */
+  .article-sidebar { position: sticky; top: 76px; }
+  .sidebar-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  .sidebar-card h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; }
+  .sidebar-card p  { font-size: 0.85rem; color: #6b7280; margin-bottom: 12px; line-height: 1.6; }
+  .sidebar-btn {
+    display: block;
+    text-align: center;
+    padding: 10px 14px;
+    background: #1a56db;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background .15s;
+  }
+  .sidebar-btn:hover { background: #1447c0; text-decoration: none; }
+  .sidebar-card ul { list-style: none; padding: 0; margin: 0; }
+  .sidebar-card li { font-size: 0.82rem; color: #374151; padding: 8px 0; border-bottom: 1px solid #f3f4f6; line-height: 1.5; }
+  .sidebar-card li:last-child { border-bottom: none; }
+</style>
