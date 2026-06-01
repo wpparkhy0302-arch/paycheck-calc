@@ -83,12 +83,11 @@ const stateList = Object.entries(STATE_TAX)
         </div>
 
         <!-- Dependents -->
-        <div class="field field-sm">
+        <div class="field">
           <label class="field-label" for="dependents">
-            Dependents
-            <span class="hint">(children under 17 — Child Tax Credit)</span>
+            Dependents <span class="hint">(children under 17 — Child Tax Credit)</span>
           </label>
-          <input type="number" id="dependents" class="input" min="0" max="20" value="0" />
+          <input type="number" id="dependents" class="input input-narrow" min="0" max="20" value="0" />
         </div>
 
         <button id="calcBtn" class="calc-btn" type="button">
@@ -310,7 +309,7 @@ const stateList = Object.entries(STATE_TAX)
 
   /* ── Form ─────────────────────────────────────────── */
   .field { margin-bottom: 16px; }
-  .field-sm { max-width: 220px; }
+  .input-narrow { max-width: 120px; }
   .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
   @media (max-width: 500px) { .field-row { grid-template-columns: 1fr; } }
 
@@ -321,7 +320,7 @@ const stateList = Object.entries(STATE_TAX)
     color: #374151;
     margin-bottom: 6px;
   }
-  .field-label .hint { font-weight: 400; color: #9ca3af; margin-left: 4px; font-size: 0.8rem; }
+  .field-label .hint { font-weight: 400; color: #9ca3af; margin-left: 4px; font-size: 0.8rem; white-space: nowrap; }
 
   .input-wrap { position: relative; box-sizing: border-box; width: 100%; }
   .prefix {
