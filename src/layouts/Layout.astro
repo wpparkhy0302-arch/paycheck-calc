@@ -10,6 +10,8 @@ const {
   title,
   description = 'Free US paycheck calculator. Calculate your exact take-home pay after federal tax, state tax, Social Security, and Medicare deductions.',
 } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
@@ -21,6 +23,7 @@ const {
     <meta property="og:title" content={`${title} | PaycheckCalc`} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
+    <link rel="canonical" href={canonicalURL} />
     <title>{title} | PaycheckCalc</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2204132369832933" crossorigin="anonymous"></script>
