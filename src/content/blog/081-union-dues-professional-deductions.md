@@ -5,55 +5,47 @@ pubDate: 2026-06-17
 tags: ["union","deductions"]
 ---
 
-## Overview
+## A Deduction That Changed Under Tax Reform
 
-Understanding union dues and professional dues deductions is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how union affects your paycheck can help you make better financial decisions.
+Union dues and professional membership fees are almost always deducted directly from your paycheck for convenience — but how they're taxed has shifted significantly in recent years, and many workers still assume outdated rules apply.
 
-## Key Concepts
+## Pre-Tax or Post-Tax? It Depends on the Setup
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to union, the most important factors are:
+Most union dues are deducted **post-tax** from your paycheck — meaning they reduce your net pay but not your taxable wages, unless your specific employer and union have arranged a pre-tax payroll deduction structure (less common, and typically limited to specific negotiated benefit funds rather than the dues themselves).
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## The 2018 Tax Law Change You Should Know About
 
-## How It Affects Your Paycheck
+Before 2018, union dues were deductible as a **miscellaneous itemized deduction** (subject to the 2% AGI floor) on federal returns. The Tax Cuts and Jobs Act **suspended all miscellaneous itemized deductions** through at least 2025, meaning most W-2 employees currently get **no federal deduction** for union dues, no matter how much they pay.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding union helps you:
+## State-Level Differences
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+Some states decoupled from the federal change and still allow a state-level deduction for union dues:
 
-## Practical Steps
-
-To make the most of your situation regarding union:
-
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
-
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| State Treatment | Examples |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Still allows deduction | California, New York (for state purposes) |
+| Follows federal (no deduction) | Most states |
 
-## Using Our Paycheck Calculator
+Check your specific state's return instructions — this is one of the more commonly missed state-only deductions.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Typical Dues Amounts
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+Union dues typically run **1–2% of gross wages**, or a flat monthly fee ($20–$75/month) depending on the union and industry (building trades, teachers, public safety, etc.).
 
----
+## Worked Example
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+A worker earning $60,000/year paying 1.5% in union dues:
+
+- Annual dues: $60,000 × 1.5% = $900.00
+- Federal deduction available: **$0** (suspended miscellaneous deduction)
+- State deduction (if applicable, e.g., CA at ~9% marginal): potential savings of ≈ $81.00
+
+## Self-Employed Professional Dues Are Different
+
+If you're self-employed, professional association dues, licensing fees, and continuing education costs are generally deductible as ordinary business expenses on Schedule C — a meaningfully better tax treatment than the post-TCJA rules for W-2 employees.
+
+## Use Our Calculator
+
+See how a post-tax deduction like union dues affects your take-home pay using our free [US Paycheck Calculator](/).
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a tax professional.*

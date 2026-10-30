@@ -5,55 +5,54 @@ pubDate: 2026-06-14
 tags: ["pay stub","payroll"]
 ---
 
-## Overview
+## Why Your Pay Stub Matters
 
-Understanding how to read your pay stub is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how pay stub affects your paycheck can help you make better financial decisions.
+Most workers glance at the deposit amount and ignore the rest of the pay stub — but that document is the only itemized record of exactly what was withheld from your gross pay and why. Catching an error on a pay stub (a missed raise, a wrong filing status, a benefit deduction that should have stopped) can save you hundreds of dollars a year.
 
-## Key Concepts
+## The Core Sections
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to pay stub, the most important factors are:
+**Gross Pay** is everything you earned before anything is subtracted — regular wages, overtime, bonuses, and commissions for that pay period, plus year-to-date (YTD) totals.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+**Pre-Tax Deductions** come out before taxes are calculated: traditional 401(k) contributions, health insurance premiums, HSA and FSA contributions, and commuter benefits. These lower your taxable wages.
 
-## How It Affects Your Paycheck
+**Taxes Withheld** typically appear as separate line items:
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding pay stub helps you:
-
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
-
-## Practical Steps
-
-To make the most of your situation regarding pay stub:
-
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
-
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Line Item | What It Funds |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Federal Income Tax | IRS, based on your W-4 |
+| Social Security (OASDI) | 6.2% up to the $176,100 wage base (2025) |
+| Medicare | 1.45% on all wages, no cap |
+| State Income Tax | Your state's revenue department (if applicable) |
+| Local/City Tax | Some cities and counties |
 
-## Using Our Paycheck Calculator
+**Post-Tax Deductions** come out after taxes — Roth 401(k) contributions, wage garnishments, union dues paid post-tax, and certain insurance add-ons.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+**Net Pay** is what actually lands in your bank account: Gross Pay − Pre-Tax Deductions − Taxes − Post-Tax Deductions.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## A Worked Example
 
----
+A biweekly paycheck for someone earning $65,000/year ($2,500 gross per period):
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+- Gross pay: $2,500.00
+- 401(k) (6%): −$150.00
+- Health insurance premium: −$100.00
+- Taxable wages: $2,250.00
+- Federal income tax (approx.): −$220.00
+- Social Security (6.2% of $2,500 — FICA uses gross, not post-401k wages): −$155.00
+- Medicare (1.45% of $2,500): −$36.25
+- **Net pay: ≈ $1,838.75**
+
+Note that Social Security and Medicare are calculated on gross wages before the 401(k) deduction, while federal income tax is calculated after it — this is a common point of confusion.
+
+## Red Flags to Check Every Pay Period
+
+- Your YTD gross pay matches your actual salary trajectory
+- Your filing status and allowances match your current W-4
+- Benefit deductions stop the pay period after you cancel a plan
+- Your state/local tax matches where you actually worked, especially after a move
+
+## Use Our Calculator
+
+Not sure if your withholding looks right? Run your salary through our free [US Paycheck Calculator](/) to compare your expected gross-to-net breakdown against what's actually on your stub.
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a tax professional.*

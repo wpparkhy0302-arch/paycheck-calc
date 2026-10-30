@@ -5,55 +5,52 @@ pubDate: 2026-07-02
 tags: ["S-Corp","self-employed"]
 ---
 
-## Overview
+## The Mechanism Behind the Savings
 
-Understanding s-corp election: how to save on self-employment taxes is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how S-Corp affects your paycheck can help you make better financial decisions.
+An S-Corp election doesn't change how much income tax you owe — it changes how much of your business profit is exposed to the 15.3% self-employment tax. The strategy hinges on one rule: **only salary is subject to payroll tax; distributions of remaining profit are not.**
 
-## Key Concepts
+## How a Sole Proprietor or Default LLC Is Taxed
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to S-Corp, the most important factors are:
+Without an S-Corp election, 100% of your net self-employment income is subject to SE tax. A freelancer netting $120,000 pays SE tax (effectively ~14.1% after the 92.35% adjustment and wage base considerations) on the **entire** $120,000.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## How an S-Corp Changes the Math
 
-## How It Affects Your Paycheck
+Once you elect S-Corp status (by filing Form 2553) and your business pays you a **"reasonable salary"** as a W-2 employee, that salary is subject to payroll tax (the employer and employee shares together equal the same 15.3%), but any **remaining profit distributed to you as the owner is not subject to SE tax or payroll tax at all.**
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding S-Corp helps you:
+## Worked Example
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+A consultant nets $120,000 in business profit.
 
-## Practical Steps
+| Approach | Subject to SE/Payroll Tax | Approx. Tax at 15.3% |
+|---|---|---|
+| Sole proprietor / default LLC | $120,000 (×92.35%) | ~$17,000 |
+| S-Corp: $65,000 salary + $55,000 distribution | $65,000 only | ~$9,900 |
 
-To make the most of your situation regarding S-Corp:
+**Approximate savings: ~$7,100/year** — though this ignores the added costs below.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## "Reasonable Salary" Is the Whole Ballgame — and the IRS Watches It
 
-## 2025 Numbers to Know
+The IRS requires the salary portion to reflect what you'd pay someone else to do your job. Setting an artificially low salary (e.g., $20,000 for work that would otherwise cost $90,000) to dodge payroll tax is a well-known audit trigger, and the IRS can reclassify distributions as wages retroactively, with penalties and back taxes.
 
-The following 2025 figures are relevant to most workers:
+## The Costs That Eat Into the Savings
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+- **Payroll processing** — you now must run actual payroll, file quarterly 941s, and issue yourself a W-2
+- **Separate corporate tax return** — Form 1120-S, often requiring a paid preparer
+- **State-level fees** — some states charge franchise taxes or extra fees for S-Corps
+- **Unemployment insurance and workers' comp** — may now apply where they didn't before
 
-## Using Our Paycheck Calculator
+## When the Election Starts Making Sense
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+As a rough rule of thumb, the administrative overhead (often $1,500–$3,000/year in bookkeeping and filing costs) tends to be worth it once net self-employment profit consistently exceeds roughly **$60,000–$80,000** — below that, the SE tax savings may not outweigh the added compliance cost.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## It's Not All-or-Nothing
+
+You can revoke an S-Corp election later if your income drops or the overhead isn't worth it, though there are timing rules and a waiting period before you can re-elect.
+
+## Use Our Calculator
+
+Model your take-home pay as a W-2 salary recipient with our free [US Paycheck Calculator](/) to compare against your current self-employment numbers.
 
 ---
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

@@ -5,55 +5,53 @@ pubDate: 2026-07-03
 tags: ["travel","deductions"]
 ---
 
-## Overview
+## Away From Home for Work? Here's What's Deductible
 
-Understanding business travel expenses: what self-employed workers can deduct is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how travel affects your paycheck can help you make better financial decisions.
+When self-employment takes you away from your "tax home" — generally, the city or area where your main place of business is located — a specific set of travel costs becomes deductible, separate from everyday local vehicle mileage.
 
-## Key Concepts
+## The "Away From Home" Test
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to travel, the most important factors are:
+To deduct travel expenses, the trip must require you to be away from your tax home **substantially longer than an ordinary workday**, typically implying an overnight stay. A same-day trip across town to a client meeting is a *local* transportation expense (handled under vehicle/mileage rules), not a *travel* expense.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## What's Deductible While Traveling for Business
 
-## How It Affects Your Paycheck
+- **Airfare, train, or bus fare** to and from your destination
+- **Lodging** for the nights required by the business purpose
+- **50% of meal costs** while traveling (not 100% — this is one of the most commonly misapplied rules)
+- **Baggage fees, ground transportation** (taxis, rideshare, rental car)
+- **Business-related phone and internet charges** incurred while traveling
+- **Dry cleaning/laundry** if the trip extends multiple days
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding travel helps you:
+## What's NOT Deductible
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+- Expenses for a spouse or family member traveling with you, unless they have a genuine business purpose for being there
+- The portion of a trip that's purely personal, if you extend a business trip for vacation
+- Lavish or extravagant costs beyond what's reasonable for the business purpose
 
-## Practical Steps
+## Mixed Business/Personal Trips
 
-To make the most of your situation regarding travel:
+If a trip combines both, you can only deduct costs attributable to the business portion. **Transportation to the destination** (the flight itself) is still fully deductible as long as the *primary* purpose of the trip is business — but lodging and meals are only deductible for the business days.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+**Example:** A consultant flies to a 3-day conference, then stays 2 extra days for personal vacation. The round-trip flight ($450) is fully deductible since the primary purpose was business. Only 3 of the 5 nights of lodging are deductible.
 
-## 2025 Numbers to Know
+## Worked Example
 
-The following 2025 figures are relevant to most workers:
+| Expense | Amount | Deductible Portion |
+|---|---|---|
+| Flight | $450 | 100% → $450 |
+| Hotel (3 business nights × $180) | $540 | 100% → $540 |
+| Meals (3 days × $60/day) | $180 | 50% → $90 |
+| Rideshare to/from airport and venue | $80 | 100% → $80 |
+| **Total deductible** | | **$1,160** |
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+## Keep a Trip Record
 
-## Using Our Paycheck Calculator
+The IRS expects documentation of the business purpose, dates, and destination for each trip — a conference registration, meeting agenda, or client correspondence is usually sufficient backup alongside your receipts.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Use Our Calculator
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+See how business travel deductions reduce your overall taxable income with our free [US Paycheck Calculator](/).
 
 ---
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

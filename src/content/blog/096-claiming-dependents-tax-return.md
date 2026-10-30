@@ -1,59 +1,54 @@
 ---
 title: "Claiming Dependents on Your Tax Return"
-description: "Claiming Dependents on Your Tax Return — a practical guide for US taxpayers in 2024."
+description: "Claiming Dependents on Your Tax Return — a practical guide for US taxpayers in 2025."
 pubDate: 2026-06-20
 tags: ["dependents","filing"]
 ---
 
-## Overview
+## More Than Just "Kids Who Live With You"
 
-Understanding claiming dependents on your tax return is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how dependents affects your paycheck can help you make better financial decisions.
+The IRS dependent rules split into two distinct categories — **qualifying child** and **qualifying relative** — each with its own tests. Claiming a dependent correctly affects your filing status, the Child Tax Credit, the Credit for Other Dependents, the Child and Dependent Care Credit, and the EITC all at once.
 
-## Key Concepts
+## Qualifying Child: The Five Tests
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to dependents, the most important factors are:
+1. **Relationship** — son, daughter, stepchild, foster child, sibling, or a descendant of any of these
+2. **Age** — under 19 at year-end (under 24 if a full-time student), or any age if permanently disabled
+3. **Residency** — lived with you more than half the year (temporary absences for school count as living with you)
+4. **Support** — the child didn't provide more than half of their own support
+5. **Joint return** — the child doesn't file a joint return with a spouse (unless only to claim a refund)
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## Qualifying Relative: The Four Tests
 
-## How It Affects Your Paycheck
+1. **Not a qualifying child** of anyone else
+2. **Relationship or household member** — a specific list of relatives, or any individual who lived with you all year
+3. **Gross income test** — the dependent's gross income must be under $5,200 for 2025
+4. **Support test** — you provided more than half of their total support for the year
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding dependents helps you:
+This category covers elderly parents, adult children who don't meet the qualifying-child age limit, and other relatives you financially support.
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+## What Claiming a Dependent Unlocks
 
-## Practical Steps
+| Benefit | Qualifying Child (under 17) | Other Dependent |
+|---|---|---|
+| Child Tax Credit | Up to $2,000 | Not eligible |
+| Credit for Other Dependents | Not applicable | $500 |
+| Head of Household eligibility | Yes | Sometimes (relative must meet additional tests) |
+| Dependent Care Credit | Yes, if care enables you to work | Rarely |
 
-To make the most of your situation regarding dependents:
+## The Tiebreaker Rule
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+When a child could be claimed by more than one person (common after a separation, or multigenerational households), the IRS applies tiebreaker rules in order: the parent, over a non-parent; if both parents could claim, the parent the child lived with longer; if exactly equal, the parent with the higher AGI.
 
-## 2025 Numbers to Know
+## A Common Mistake: Claiming a Working Teenager
 
-The following 2025 figures are relevant to most workers:
+Parents sometimes assume a teenager with a part-time job can no longer be claimed. In fact, the support test looks at whether the **teen** provided more than half of **their own** support — not whether they earned any income at all. A 17-year-old earning $4,000 at a part-time job while living at home, with parents covering housing, food, and insurance, almost always still qualifies as a dependent.
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+## Supporting an Adult Child or Parent
 
-## Using Our Paycheck Calculator
+An adult child over 24 who isn't a full-time student, or an elderly parent, can still be claimed under the qualifying relative rules — worth the $500 Credit for Other Dependents — as long as their gross income stayed under $5,200 and you covered more than half their support costs for the year.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Use Our Calculator
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+See how adding dependents changes your estimated withholding with our free [US Paycheck Calculator](/).
 
----
-
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

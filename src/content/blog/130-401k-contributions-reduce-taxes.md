@@ -5,55 +5,40 @@ pubDate: 2026-06-26
 tags: ["401k","retirement"]
 ---
 
-## Overview
+## The Mechanics of Pre-Tax Contributions
 
-Understanding how 401(k) pre-tax contributions reduce your taxes is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how 401k affects your paycheck can help you make better financial decisions.
+When you contribute to a traditional 401(k), your employer deducts the contribution from your paycheck **before** federal (and in most states, state) income tax is calculated. This doesn't reduce your gross pay on paper — it reduces the income the IRS actually taxes.
 
-## Key Concepts
+Say you earn $70,000 a year and contribute 10% ($7,000) to your traditional 401(k). Your taxable income for the year drops to $63,000. If you're in the 22% federal bracket, that $7,000 contribution saves you roughly $1,540 in federal tax alone — money you'd otherwise send to the IRS that instead goes into your retirement account.
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to 401k, the most important factors are:
+## Why It's Different From a Roth Contribution
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+A Roth 401(k) contribution uses after-tax dollars, so it doesn't lower this year's taxable income — but qualified withdrawals in retirement are tax-free. A traditional (pre-tax) contribution does the opposite: it lowers your taxes now, but withdrawals in retirement are taxed as ordinary income.
 
-## How It Affects Your Paycheck
+## FICA Taxes Still Apply
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding 401k helps you:
+One detail people miss: pre-tax 401(k) contributions reduce your **federal and state income tax**, but not your Social Security or Medicare (FICA) wages. Your 6.2% Social Security and 1.45% Medicare taxes are still calculated on your full $70,000, not the reduced $63,000.
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+## Worked Example
 
-## Practical Steps
+| | No 401(k) | With $7,000 Pre-Tax 401(k) |
+|---|---|---|
+| Gross pay | $70,000 | $70,000 |
+| FICA taxable wages | $70,000 | $70,000 |
+| Income tax taxable wages | $70,000 | $63,000 |
+| Approx. federal tax saved | — | ~$1,540 (22% bracket) |
+| Retirement balance added | $0 | $7,000 |
 
-To make the most of your situation regarding 401k:
+## The Compounding Effect
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+Beyond the immediate tax break, pre-tax contributions let more of your money work for you from day one, since you're not losing a slice to taxes before it's invested. Over decades, that difference compounds — a 25-year-old contributing $7,000/year at a 7% average return could see that money grow to well over $700,000 by retirement.
 
-## 2025 Numbers to Know
+## How Much Should You Contribute?
 
-The following 2025 figures are relevant to most workers:
+A common rule of thumb: contribute at least enough to get your full employer match (it's free money), then increase your rate gradually, aiming for 10-15% of your salary across all retirement accounts if possible. The 2025 employee deferral limit is $23,500, with an additional $7,500 catch-up allowed if you're 50 or older.
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+## Use Our Calculator
 
-## Using Our Paycheck Calculator
+Curious how a pre-tax 401(k) contribution changes your actual take-home pay? Use our free [US Paycheck Calculator](/) to see the real-dollar impact on your next paycheck.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
-
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
-
----
-
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a financial advisor.*

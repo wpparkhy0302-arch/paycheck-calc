@@ -1534,13 +1534,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"200-alternative-minimum-tax-amt-explained.md": {
-	id: "200-alternative-minimum-tax-amt-explained.md";
-  slug: "200-alternative-minimum-tax-amt-explained";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 };
 
 	};

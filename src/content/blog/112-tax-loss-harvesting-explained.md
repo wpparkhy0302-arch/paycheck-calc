@@ -5,55 +5,45 @@ pubDate: 2026-06-23
 tags: ["investing","strategy"]
 ---
 
-## Overview
+## The Idea in One Sentence
 
-Understanding tax loss harvesting explained simply is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how investing affects your paycheck can help you make better financial decisions.
+Tax loss harvesting means deliberately selling an investment that's lost value so you can use that loss to offset gains — or even a slice of your ordinary income — on your tax return, while staying invested in the market through a similar (but not identical) replacement asset.
 
-## Key Concepts
+## How the Offset Actually Works
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to investing, the most important factors are:
+Capital losses first offset capital gains of the same type: short-term losses against short-term gains, long-term against long-term. If losses exceed gains, the excess — up to **$3,000 per year** ($1,500 if married filing separately) — can offset ordinary income like wages. Any loss beyond that carries forward to future tax years indefinitely.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+**Example:** You have $8,000 in realized long-term capital gains this year and also harvest $11,000 in losses from a declining position. The losses fully offset the $8,000 in gains, and the remaining $3,000 offsets your ordinary income — reducing your taxable wages by $3,000 this year, with $0 carried forward in this scenario.
 
-## How It Affects Your Paycheck
+## The Wash-Sale Rule Is the Catch
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding investing helps you:
+The IRS disallows the loss if you buy the same security — or one that's "substantially identical" — within 30 days before or after the sale. This applies across all your accounts, including your spouse's and even your IRA. Violating it doesn't just delay the deduction; it can permanently disallow it in some cases.
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+## How to Harvest Without Leaving the Market
 
-## Practical Steps
+Most investors harvest a loss and immediately buy a similar-but-not-identical fund (e.g., selling an S&P 500 index fund and buying a total market fund) to stay invested and avoid missing a rebound, while sidestepping the wash-sale rule.
 
-To make the most of your situation regarding investing:
+## Short-Term vs Long-Term Matters
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+| Holding period | Tax rate on gains | Priority for harvesting |
+|---|---|---|
+| Short-term (≤1 year) | Ordinary income rates (up to 37%) | Highest value to offset first |
+| Long-term (>1 year) | 0%, 15%, or 20% | Lower value, offset second |
 
-## 2025 Numbers to Know
+Harvesting short-term losses is generally more valuable because short-term gains are taxed at your full ordinary rate, while long-term gains already enjoy preferential rates.
 
-The following 2025 figures are relevant to most workers:
+## When It Doesn't Make Sense
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+- In a tax-advantaged account (401(k), IRA) — there are no capital gains taxes to offset in the first place
+- If you're in the 0% long-term capital gains bracket already (taxable income under about $48,350 single / $96,700 MFJ in 2025)
+- If transaction costs or bid-ask spreads outweigh the tax benefit on small positions
 
-## Using Our Paycheck Calculator
+## A Year-Round, Not Just December, Strategy
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+While "tax loss harvesting season" gets attention in December, losses can be harvested any time a position is down — waiting until year-end risks a market recovery erasing the opportunity.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## Use Our Calculator
 
----
+Capital gains and losses flow into your overall tax picture alongside your wages. Use our free [US Paycheck Calculator](/) to see how your regular paycheck withholding interacts with your total expected tax liability.
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

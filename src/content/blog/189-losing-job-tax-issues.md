@@ -5,55 +5,48 @@ pubDate: 2026-07-08
 tags: ["unemployment","job loss"]
 ---
 
-## Overview
+## Job Loss Triggers a Surprising Amount of Tax Paperwork
 
-Understanding losing your job: tax issues and unemployment benefits is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how unemployment affects your paycheck can help you make better financial decisions.
+Losing a job is stressful enough without tax complications — but several things need attention quickly to avoid costly mistakes.
 
-## Key Concepts
+## Your Final Paycheck
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to unemployment, the most important factors are:
+Your final paycheck is taxed the same as any regular paycheck — federal, state, Social Security, and Medicare withholding all still apply. Severance pay, if offered, is also taxable wage income (see our severance pay guide for how it's withheld, often at a flat supplemental rate).
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## Unemployment Benefits Are Taxable
 
-## How It Affects Your Paycheck
+This catches many people off guard: **unemployment compensation is fully taxable as federal income**, reported to you on **Form 1099-G**. Unlike regular wages, most states do **not** automatically withhold federal tax from unemployment checks unless you specifically request it using **Form W-4V**.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding unemployment helps you:
+## COBRA and Health Insurance
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+If you lose employer health coverage, you can elect **COBRA** to continue the same plan, but you'll pay the full premium yourself (typically 102% of the total cost, including the part your employer used to cover) — and COBRA premiums are not pre-tax unless paid through a specific arrangement. Alternatively, job loss qualifies you for a **Special Enrollment Period** on the ACA marketplace, where subsidies may make coverage cheaper than COBRA.
 
-## Practical Steps
+## Your 401(k): Don't Cash It Out
 
-To make the most of your situation regarding unemployment:
+If you had a 401(k) with your former employer, you generally have three better options than cashing out:
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
-
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Option | Tax Consequence |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| **Leave it** (if balance allows) | No tax impact; continues growing |
+| **Roll over to new employer's 401(k) or an IRA** | No tax impact if done as a direct rollover |
+| **Cash out** | Taxed as ordinary income **plus** a 10% early withdrawal penalty if under 59½ |
 
-## Using Our Paycheck Calculator
+Cashing out a $50,000 401(k) at age 35 could cost you roughly $12,000–$17,500 combined in taxes and penalties — rolling it over avoids this entirely.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Severance and Negotiating Timing
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+If you have some control over severance timing (e.g., it straddles two tax years), consider which year you expect to be in a lower bracket — receiving a lump sum in a year with lower overall income can reduce the tax bite.
 
----
+## Job Search Expenses
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+Note: unlike prior law, job search expenses (resume services, travel to interviews) are **not** federally deductible for most employees under current law — this deduction was suspended as part of the 2017 tax law changes and remains unavailable through at least 2025.
+
+## Example
+
+Someone receives $18,000 in unemployment benefits over 6 months after a layoff, with no federal withholding elected. Come tax time, that full $18,000 is added to their taxable income — if they also earned $40,000 before the layoff, their total taxable income reflects $58,000, which could result in an unexpected balance due if they didn't file Form W-4V or set aside money to cover it.
+
+## Use Our Calculator
+
+Estimate your tax picture for a year with partial wages and unemployment income using our free [US Paycheck Calculator](/) to avoid an April surprise.
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

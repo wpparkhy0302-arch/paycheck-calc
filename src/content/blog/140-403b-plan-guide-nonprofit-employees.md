@@ -5,55 +5,42 @@ pubDate: 2026-06-28
 tags: ["403b","nonprofit"]
 ---
 
-## Overview
+## The 401(k)'s Nonprofit Cousin
 
-Understanding 403(b) plans: tax guide for non-profit employees is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how 403b affects your paycheck can help you make better financial decisions.
+A **403(b) plan** is the retirement plan equivalent of a 401(k), but offered by public schools, universities, hospitals, churches, and other 501(c)(3) tax-exempt organizations. The tax treatment is nearly identical — pre-tax or Roth contributions, tax-deferred (or tax-free) growth — but a few structural quirks are unique to 403(b)s.
 
-## Key Concepts
+## Contribution Limits Match the 401(k)
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to 403b, the most important factors are:
+For 2025, the employee elective deferral limit is **$23,500**, with a **$7,500** standard catch-up for those 50+, and the SECURE 2.0 "super catch-up" of **$11,250** for ages 60-63 — identical to 401(k) limits.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## The Special 15-Year Catch-Up Rule
 
-## How It Affects Your Paycheck
+403(b) plans offer a unique additional catch-up unavailable to 401(k) participants: employees with **15+ years of service** at a qualifying organization (schools, hospitals, churches, and certain other nonprofits) may contribute an extra **$3,000 per year**, up to a $15,000 lifetime cap. This can stack with the age-50 catch-up in certain years, subject to IRS ordering rules.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding 403b helps you:
+## Investment Options Can Be More Limited
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+Many legacy 403(b) plans historically offered only annuity contracts through insurance companies, often with higher fees than typical 401(k) mutual fund lineups. Newer plans increasingly offer low-cost index funds, but it's worth checking your plan's expense ratios — a 1% higher annual fee can cost tens of thousands of dollars over a career.
 
-## Practical Steps
+## Employer Contributions
 
-To make the most of your situation regarding 403b:
+Many nonprofit and educational employers offer matching or non-elective contributions, similar to a 401(k) match. Public school districts in particular sometimes offer a fixed contribution regardless of whether the employee contributes.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## 403(b) vs. 401(k): Key Similarities
 
-## 2025 Numbers to Know
+| Feature | 403(b) | 401(k) |
+|---|---|---|
+| 2025 employee limit | $23,500 | $23,500 |
+| Pre-tax/Roth option | Yes | Yes |
+| Early withdrawal penalty | 10% before 59½ | 10% before 59½ |
+| RMD age | 73 | 73 |
+| 15-year catch-up | Yes (unique) | No |
 
-The following 2025 figures are relevant to most workers:
+## Worked Example
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+A 52-year-old nonprofit employee with 16 years of service could potentially combine the $7,500 standard catch-up with up to $3,000 of the 15-year catch-up, pushing their personal contribution limit above the standard $31,000 — check with your plan administrator, since stacking rules require the larger of the two catch-up amounts in some years, not always both simultaneously.
 
-## Using Our Paycheck Calculator
+## Use Our Calculator
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+See how a 403(b) contribution changes your real take-home pay using our free [US Paycheck Calculator](/).
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
-
----
-
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. 403(b) catch-up rules are plan-specific — verify with your plan administrator or the IRS.*

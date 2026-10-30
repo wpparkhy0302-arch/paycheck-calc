@@ -1210,6 +1210,15 @@ const LIFEEVENTS_POSTS = [
 ];
 
 // ── Generic paragraph-based content generator ────────────────────────────────
+const DRAFTS_DIR = path.join(__dirname, 'content-drafts');
+function draftContent(slug) {
+  const file = path.join(DRAFTS_DIR, `${slug}.md`);
+  if (!fs.existsSync(file)) {
+    throw new Error(`Missing content draft for slug "${slug}" at ${file}`);
+  }
+  return fs.readFileSync(file, 'utf8').trim();
+}
+
 function genericContent(title, tags) {
   const topic = tags[0] || 'taxes';
   return `## Overview
@@ -1274,7 +1283,7 @@ STATES.forEach((s, i) => {
   allPosts.push({
     title: `${s.name} State Income Tax: Complete ${YEAR_STR} Guide`,
     slug:  `${s.name.toLowerCase().replace(/\s+/g, '-')}-state-income-tax-guide`,
-    desc:  `Complete guide to ${s.name} (${s.abbr}) income tax rates, brackets, deductions, and how it affects your paycheck in 2024.`,
+    desc:  `Complete guide to ${s.name} (${s.abbr}) income tax rates, brackets, deductions, and how it affects your paycheck in ${YEAR_STR}.`,
     tags:  ['state tax', s.name.toLowerCase()],
     content: stateContent(s),
   });
@@ -1287,37 +1296,37 @@ FEDERAL_POSTS.forEach(p => {
 
 // Posts 70–89: payroll
 PAYROLL_POSTS.forEach(p => {
-  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — everything you need to know about how it works and affects your paycheck.`, tags: p.tags, content: genericContent(p.title, p.tags) });
+  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — everything you need to know about how it works and affects your paycheck.`, tags: p.tags, content: draftContent(p.slug) });
 });
 
 // Posts 90–109: filing
 FILING_POSTS.forEach(p => {
-  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — a practical guide for US taxpayers in 2024.`, tags: p.tags, content: genericContent(p.title, p.tags) });
+  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — a practical guide for US taxpayers in 2025.`, tags: p.tags, content: draftContent(p.slug) });
 });
 
 // Posts 110–129: saving
 SAVING_POSTS.forEach(p => {
-  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — actionable strategies to keep more of your paycheck.`, tags: p.tags, content: genericContent(p.title, p.tags) });
+  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — actionable strategies to keep more of your paycheck.`, tags: p.tags, content: draftContent(p.slug) });
 });
 
 // Posts 130–149: retirement
 RETIREMENT_POSTS.forEach(p => {
-  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — how retirement accounts and investments affect your tax bill.`, tags: p.tags, content: genericContent(p.title, p.tags) });
+  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — how retirement accounts and investments affect your tax bill.`, tags: p.tags, content: draftContent(p.slug) });
 });
 
 // Posts 150–164: self-employed
 SELFEMPLOYED_POSTS.forEach(p => {
-  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — a guide for freelancers, consultants, and self-employed workers.`, tags: p.tags, content: genericContent(p.title, p.tags) });
+  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — a guide for freelancers, consultants, and self-employed workers.`, tags: p.tags, content: draftContent(p.slug) });
 });
 
 // Posts 165–179: credits
 CREDITS_POSTS.forEach(p => {
-  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — eligibility, amounts, and how to claim this valuable tax credit.`, tags: p.tags, content: genericContent(p.title, p.tags) });
+  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — eligibility, amounts, and how to claim this valuable tax credit.`, tags: p.tags, content: draftContent(p.slug) });
 });
 
 // Posts 180–199: life events
 LIFEEVENTS_POSTS.forEach(p => {
-  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — how this life event changes your tax situation and take-home pay.`, tags: p.tags, content: genericContent(p.title, p.tags) });
+  allPosts.push({ title: p.title, slug: p.slug, desc: `${p.title} — how this life event changes your tax situation and take-home pay.`, tags: p.tags, content: draftContent(p.slug) });
 });
 
 // ── Write files ───────────────────────────────────────────────────────────────

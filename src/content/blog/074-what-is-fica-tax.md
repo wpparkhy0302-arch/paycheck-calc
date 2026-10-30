@@ -5,55 +5,44 @@ pubDate: 2026-06-15
 tags: ["FICA","payroll"]
 ---
 
-## Overview
+## FICA Is Two Taxes Wearing One Name
 
-Understanding what is fica and how much will you pay? is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how FICA affects your paycheck can help you make better financial decisions.
+**FICA** stands for the **Federal Insurance Contributions Act**, the 1935 law that created payroll-funded Social Security and, later, Medicare. "FICA tax" on your pay stub is actually the combined total of two separate taxes: Social Security tax and Medicare tax.
 
-## Key Concepts
+## The Two Components
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to FICA, the most important factors are:
+| Component | Employee Rate | Cap (2025) |
+|---|---|---|
+| Social Security (OASDI) | 6.2% | $176,100 of wages |
+| Medicare (Hospital Insurance) | 1.45% | No cap |
+| **Combined FICA** | **7.65%** | — |
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+Employers match both halves dollar-for-dollar, so the government ultimately collects 15.3% of most workers' wages between the employee and employer shares combined — though you only see your 7.65% on your pay stub.
 
-## How It Affects Your Paycheck
+## Who Pays FICA
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding FICA helps you:
+- **W-2 employees** split the 15.3% with their employer (7.65% each).
+- **Self-employed individuals** pay the full 15.3% themselves, called **self-employment tax**, reported on Schedule SE. Half of this (7.65% equivalent) is deductible as an adjustment to income on your federal return.
+- Some groups are exempt or partially exempt, including certain religious objectors, some student workers employed by their own school, and nonresident aliens on specific visa types.
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+## Worked Example: $90,000 Salary
 
-## Practical Steps
+- Social Security: $90,000 × 6.2% = $5,580.00
+- Medicare: $90,000 × 1.45% = $1,305.00
+- **Total FICA withheld: $6,885.00** (7.65% of gross)
+- Employer also contributes a matching $6,885.00 (not reflected in your net pay)
 
-To make the most of your situation regarding FICA:
+## FICA vs. Federal Income Tax
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+These are separate systems calculated independently:
 
-## 2025 Numbers to Know
+- **Federal income tax** uses progressive brackets, is affected by your W-4, filing status, and deductions, and funds general government operations.
+- **FICA tax** is a flat percentage (with the Social Security cap as the only limit), is not affected by your filing status or deductions, and funds specific trust funds for Social Security and Medicare.
 
-The following 2025 figures are relevant to most workers:
+This is why FICA still gets withheld even if you claim enough allowances or deductions to owe $0 in federal income tax.
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+## Use Our Calculator
 
-## Using Our Paycheck Calculator
+See your exact FICA breakdown — Social Security and Medicare separately — alongside your federal and state tax using our free [US Paycheck Calculator](/).
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
-
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
-
----
-
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a tax professional.*

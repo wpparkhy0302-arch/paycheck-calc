@@ -1,6 +1,6 @@
 ---
 title: "New York State Income Tax: Complete 2025 Guide"
-description: "Complete guide to New York (NY) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
+description: "Complete guide to New York (NY) income tax rates, brackets, deductions, and how it affects your paycheck in 2025."
 pubDate: 2026-06-07
 tags: ["state tax","new york"]
 ---

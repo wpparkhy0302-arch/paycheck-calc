@@ -5,55 +5,35 @@ pubDate: 2026-06-26
 tags: ["salary","strategy"]
 ---
 
-## Overview
+## A Raise Never Shrinks Your Take-Home Pay
 
-Understanding tax planning when you receive a pay raise is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how salary affects your paycheck can help you make better financial decisions.
+The most persistent tax myth in America is that earning more can leave you with less money after taxes because it pushes you "into a higher bracket." This is mathematically impossible under the US progressive tax system — only the income **above** each bracket threshold is taxed at the higher rate, so a raise always increases your net pay, even if the increase isn't quite as large as the raise itself.
 
-## Key Concepts
+## How Marginal Brackets Actually Work
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to salary, the most important factors are:
+**Example:** A single filer earning $100,000 gets a $10,000 raise to $110,000. The 2025 brackets place $100,000 mostly in the 22% bracket, with the new $10,000 straddling the 22%/24% line (around $103,350 taxable income after the standard deduction). Only the portion of that $10,000 above the threshold is taxed at 24% — the rest stays at 22%. The blended effect might mean they keep roughly $7,600-$7,700 of the $10,000 raise after federal tax, not a dramatic cliff.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## What a Raise Actually Changes
 
-## How It Affects Your Paycheck
+- **Marginal tax rate** on the new top slice of income (possibly higher)
+- **Payroll tax status** — if the raise pushes you past the Social Security wage base ($176,100 in 2025), the portion above that is no longer subject to the 6.2% Social Security tax (though Medicare's 1.45%, plus the 0.9% Additional Medicare Tax above $200,000/$250,000 MFJ, keeps applying)
+- **Credit and deduction phase-outs** — some credits (like the Child Tax Credit's phase-out starting at $200,000 single / $400,000 MFJ) reduce as income rises, independent of brackets
+- **Eligibility for income-capped benefits** — Roth IRA contribution limits phase out above certain MAGI thresholds, and a raise can push you out of eligibility
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding salary helps you:
+## Update Your W-4 When Your Income Changes
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+A raise without a W-4 update can under-withhold if the raise is large enough to meaningfully change your effective rate, or over-withhold if your employer's default withholding tables overcorrect. Re-running the numbers after any raise over roughly 10% keeps your withholding closely matched to your actual liability.
 
-## Practical Steps
+## Use the Raise to Increase Pre-Tax Contributions
 
-To make the most of your situation regarding salary:
+A common strategy: direct part of a raise straight into a 401(k) or HSA increase rather than letting 100% of it hit your paycheck. If you were contributing $15,000/year and get a $6,000 raise, bumping your 401(k) contribution by $3,000 keeps your take-home increase meaningful while sheltering more from tax — and you may not even notice the difference in day-to-day cash flow.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## A Larger Raise Can Trigger AMT Considerations
 
-## 2025 Numbers to Know
+At higher income levels, large raises combined with specific deduction patterns (state tax, certain stock compensation) can trigger exposure to the Alternative Minimum Tax — rare for most W-2 earners under $250,000 but worth a professional review above that range, especially with stock options involved.
 
-The following 2025 figures are relevant to most workers:
+## Use Our Calculator
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+See exactly how a raise changes your paycheck, bracket by bracket, with our free [US Paycheck Calculator](/).
 
-## Using Our Paycheck Calculator
-
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
-
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
-
----
-
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

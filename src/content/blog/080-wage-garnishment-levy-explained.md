@@ -5,55 +5,45 @@ pubDate: 2026-06-16
 tags: ["garnishment","payroll"]
 ---
 
-## Overview
+## When the Government — or a Court — Takes a Cut Before You Do
 
-Understanding how wage garnishments and levies work is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how garnishment affects your paycheck can help you make better financial decisions.
+A **wage garnishment** is a court or government order requiring your employer to withhold part of your paycheck and send it directly to a creditor, before the money ever reaches you. A **tax levy** is the IRS-specific version, with its own distinct rules.
 
-## Key Concepts
+## Federal Limits on Creditor Garnishments
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to garnishment, the most important factors are:
+Under the federal **Consumer Credit Protection Act (CCPA)**, most creditor garnishments (credit cards, medical debt, personal loans) are capped at the *lesser* of:
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+- **25%** of your disposable earnings (pay after legally required deductions like taxes), or
+- The amount by which your disposable earnings exceed **30 times the federal minimum wage** ($7.25/hour = $217.50/week)
 
-## How It Affects Your Paycheck
+Many states set lower caps, and the stricter limit (federal or state) applies.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding garnishment helps you:
+## Child Support Garnishments Have Higher Limits
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+Child support garnishments are allowed to take a much larger share — up to **50%** of disposable earnings if you're supporting another family, or up to **65%** if you're not and are more than 12 weeks behind.
 
-## Practical Steps
+## IRS Tax Levies Work Differently
 
-To make the most of your situation regarding garnishment:
+An IRS wage levy doesn't use the CCPA percentage caps. Instead, the IRS uses an exemption table (based on filing status and number of dependents, published annually in Publication 1494) to determine how much of your paycheck is *protected*, and takes the rest — which in practice can be a much larger share than a standard creditor garnishment.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## Worked Example
 
-## 2025 Numbers to Know
+A single worker with $1,200 in weekly disposable earnings facing a standard creditor garnishment:
 
-The following 2025 figures are relevant to most workers:
+- 25% of $1,200 = $300.00
+- $1,200 − $217.50 = $982.50
+- The garnishment is capped at the **lesser** of these two: **$300.00/week**
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+## Priority Order When Multiple Garnishments Exist
 
-## Using Our Paycheck Calculator
+If you have more than one garnishment order, they're generally paid in this order: child support and alimony first, then federal tax levies, then federal student loans, then other creditor garnishments — subject to the overall caps above.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## What Shows Up on Your Pay Stub
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+Garnishments are deducted **post-tax**, after federal, state, and FICA withholding — they don't reduce your taxable income, they simply redirect part of your already-taxed net pay to the creditor or agency.
 
----
+## Use Our Calculator
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+Our free [US Paycheck Calculator](/) shows your disposable earnings breakdown so you can estimate how a garnishment order might affect your take-home pay.
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a tax professional.*

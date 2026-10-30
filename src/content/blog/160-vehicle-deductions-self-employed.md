@@ -5,55 +5,59 @@ pubDate: 2026-07-02
 tags: ["vehicle","deductions"]
 ---
 
-## Overview
+## Your Car Can Be a Tax Deduction — If You Use It for Business
 
-Understanding vehicle deductions for self-employed workers is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how vehicle affects your paycheck can help you make better financial decisions.
+Self-employed workers who use a vehicle for business purposes — client visits, supply runs, deliveries, driving between job sites — can deduct the business-use portion of their vehicle costs. The catch is that **commuting from home to a regular workplace never counts**, even for the self-employed.
 
-## Key Concepts
+## Two Ways to Claim Vehicle Expenses
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to vehicle, the most important factors are:
+1. **Standard mileage rate**: a flat per-mile rate (70 cents/mile for 2025) covering gas, maintenance, depreciation, and insurance combined
+2. **Actual expense method**: deduct the business-use percentage of actual costs — gas, repairs, insurance, depreciation, lease payments
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## What Counts as Business Mileage
 
-## How It Affects Your Paycheck
+- Driving to meet a client or attend a business meeting
+- Trips to a supply store, post office, or bank for business purposes
+- Driving between two different work locations in the same day
+- Errands directly tied to running the business
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding vehicle helps you:
+## What Doesn't Count
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+- Commuting from home to your primary place of work (even if you're self-employed and that "workplace" is a client's office you visit daily)
+- Personal errands combined with a business trip (only the business-related mileage counts)
 
-## Practical Steps
+## Worked Example — Standard Mileage Method
 
-To make the most of your situation regarding vehicle:
+A contractor logs 8,400 business miles in 2025.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+8,400 miles × $0.70/mile = **$5,880 deduction**
 
-## 2025 Numbers to Know
+## Worked Example — Actual Expense Method
 
-The following 2025 figures are relevant to most workers:
+The same contractor instead tracks actual costs and drives 60% of total annual mileage for business:
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Expense | Annual Total | Business Share (60%) |
+|---|---|---|
+| Gas | $3,200 | $1,920 |
+| Insurance | $1,400 | $840 |
+| Maintenance | $900 | $540 |
+| Depreciation | $4,000 | $2,400 |
+| **Total** | | **$5,700** |
 
-## Using Our Paycheck Calculator
+In this case the two methods land close together ($5,880 vs. $5,700) — but that's not always true, which is why comparing both matters.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## You Must Choose a Method — and Choosing Early Matters
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+If you want to use the standard mileage rate, you generally must choose it in the **first year** the vehicle is used for business. Switching to standard mileage after starting with actual expenses (using accelerated depreciation) is restricted.
+
+## Required Recordkeeping
+
+The IRS expects a contemporaneous mileage log — date, destination, business purpose, and miles driven for each trip. Apps like MileIQ or Stride automate this, which matters because a reconstructed log after the fact is far weaker evidence in an audit.
+
+## Use Our Calculator
+
+See how vehicle and other business deductions affect your overall tax liability with our free [US Paycheck Calculator](/).
 
 ---
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

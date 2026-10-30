@@ -1,6 +1,6 @@
 ---
 title: "Texas State Income Tax: Complete 2025 Guide"
-description: "Complete guide to Texas (TX) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
+description: "Complete guide to Texas (TX) income tax rates, brackets, deductions, and how it affects your paycheck in 2025."
 pubDate: 2026-06-09
 tags: ["state tax","texas"]
 ---

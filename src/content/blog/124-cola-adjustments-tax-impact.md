@@ -5,55 +5,35 @@ pubDate: 2026-06-25
 tags: ["COLA","inflation"]
 ---
 
-## Overview
+## COLA Raises Your Check — and Sometimes Your Bracket
 
-Understanding how cost-of-living adjustments affect your taxes is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how COLA affects your paycheck can help you make better financial decisions.
+A Cost-of-Living Adjustment (COLA) increases wages or benefits to keep pace with inflation, but it's still ordinary taxable income. The confusion most people run into is assuming a COLA bump automatically pushes them into a painful new tax bracket — which, thanks to how marginal brackets work, is rarely as dramatic as it feels.
 
-## Key Concepts
+## Social Security COLA Specifically
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to COLA, the most important factors are:
+Each year, the Social Security Administration announces a COLA percentage applied to benefits — 2.5% for 2025, for example. This raises your monthly benefit, but it can also affect **how much of your Social Security is taxable**, since that depends on your "combined income" (AGI + nontaxable interest + half your Social Security benefit) relative to fixed thresholds that are **not** inflation-adjusted.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+| Filing status | 0% of SS taxable | Up to 50% taxable | Up to 85% taxable |
+|---|---|---|---|
+| Single | Combined income under $25,000 | $25,000–$34,000 | Over $34,000 |
+| Married filing jointly | Combined income under $32,000 | $32,000–$44,000 | Over $44,000 |
 
-## How It Affects Your Paycheck
+Because these thresholds haven't changed in decades while benefits rise with COLA every year, a growing share of a retiree's Social Security becomes taxable over time purely from COLA increases — sometimes called "bracket creep by COLA."
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding COLA helps you:
+## Wage COLA and Tax Brackets
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+If your employer gives an annual COLA raise (common in government and union jobs), remember that moving into a higher **marginal** bracket only taxes the income above that threshold at the new rate — not your entire paycheck. A raise from $47,000 to $50,000 that crosses the 12%/22% line (around $48,475 single in 2025) only taxes the roughly $1,525 above the line at 22%, not the full $50,000.
 
-## Practical Steps
+## Federal Brackets Also Get a COLA
 
-To make the most of your situation regarding COLA:
+The IRS adjusts tax brackets, the standard deduction, and many credit phase-out thresholds for inflation each year using a formula based on the Chained CPI. This is a separate COLA from Social Security's, and it works in the taxpayer's favor — it's designed to prevent "bracket creep" from pure inflation on the federal income tax side.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## A Worked Example
 
-## 2025 Numbers to Know
+A retiree with $20,000 in Social Security benefits and $15,000 in other income has combined income of $25,000 (half of SS + other income) — right at the first threshold for a single filer. A 2.5% COLA raising their SS benefit to $20,500 nudges combined income to $25,250, pushing a small portion of benefits into the 50%-taxable tier for the first time, even though their actual spending power barely changed.
 
-The following 2025 figures are relevant to most workers:
+## Use Our Calculator
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+See how a raise or COLA adjustment changes your actual paycheck withholding with our free [US Paycheck Calculator](/).
 
-## Using Our Paycheck Calculator
-
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
-
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
-
----
-
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or the Social Security Administration.*

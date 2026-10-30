@@ -5,55 +5,58 @@ pubDate: 2026-07-01
 tags: ["estimated taxes","self-employed"]
 ---
 
-## Overview
+## Why the IRS Wants Your Money Four Times a Year
 
-Understanding quarterly estimated taxes: a complete guide is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how estimated taxes affects your paycheck can help you make better financial decisions.
+Employees have taxes withheld automatically from every paycheck. Self-employed workers don't have a payroll department doing that for them, so the IRS requires **quarterly estimated tax payments** instead — and charges penalties if you skip them, even if you pay everything owed by April 15.
 
-## Key Concepts
+## Who Must Pay Estimated Taxes
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to estimated taxes, the most important factors are:
+You generally need to make estimated payments if you expect to owe **$1,000 or more** in tax for the year after subtracting withholding and credits. This applies to freelancers, gig workers, independent contractors, and small business owners whose income isn't subject to withholding.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## The 2025 Due Dates
 
-## How It Affects Your Paycheck
-
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding estimated taxes helps you:
-
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
-
-## Practical Steps
-
-To make the most of your situation regarding estimated taxes:
-
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
-
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Payment Period | Due Date |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Jan 1 – Mar 31 | April 15, 2025 |
+| Apr 1 – May 31 | June 16, 2025 |
+| Jun 1 – Aug 31 | September 15, 2025 |
+| Sep 1 – Dec 31 | January 15, 2026 |
 
-## Using Our Paycheck Calculator
+Despite the "quarterly" name, the periods aren't equal in length — the second period is only two months.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## How Much to Pay: The Safe Harbor Rule
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+To avoid an underpayment penalty, pay the **smaller** of:
+
+- **90% of this year's actual tax liability**, or
+- **100% of last year's total tax liability** (110% if last year's adjusted gross income was over $150,000)
+
+**Example:** A consultant owed $18,000 in total tax last year. Paying 110% of that ($19,800) spread across four payments of $4,950 satisfies the safe harbor automatically — even if this year's actual liability ends up higher.
+
+## Calculating Your Payment From Scratch
+
+1. Estimate your full-year net self-employment income
+2. Subtract the 92.35% SE-tax adjustment and calculate SE tax (15.3% up to $176,100, 2.9% above)
+3. Add estimated federal income tax on your projected taxable income
+4. Add state estimated tax if your state requires it
+5. Divide the total by 4
+
+**Worked example:** Projected net profit of $100,000. SE tax ≈ $14,130. Federal income tax (after standard deduction) ≈ $11,000. Total ≈ $25,130 → **$6,283 per quarterly payment**.
+
+## How to Pay
+
+- **IRS Direct Pay** (irs.gov) — free, from a bank account
+- **EFTPS** (Electronic Federal Tax Payment System) — good for recurring payments
+- **Form 1040-ES** vouchers by mail
+
+## What Happens If You Underpay
+
+The IRS charges an underpayment penalty calculated similarly to interest, based on the federal short-term rate plus 3%, applied to each quarter you fell short — even if your total year-end payment is correct. Catching up in Q4 doesn't erase penalties from Q1–Q3.
+
+## Use Our Calculator
+
+Use our free [US Paycheck Calculator](/) to estimate your total annual tax burden, then divide by four to set your quarterly payment amount.
 
 ---
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

@@ -5,55 +5,42 @@ pubDate: 2026-06-17
 tags: ["overtime","payroll"]
 ---
 
-## Overview
+## Overtime Isn't Taxed at a Higher Rate — It Just Feels Like It
 
-Understanding overtime pay and how it is taxed is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how overtime affects your paycheck can help you make better financial decisions.
+A common myth is that overtime pay is taxed at a special, higher rate. It isn't. Overtime wages are taxed exactly the same as regular wages — the confusion comes from how payroll withholding systems *estimate* your taxes for a given paycheck.
 
-## Key Concepts
+## The FLSA Overtime Rule
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to overtime, the most important factors are:
+Under the **Fair Labor Standards Act**, most hourly, non-exempt employees must be paid **1.5× their regular rate** for hours worked beyond 40 in a workweek. Some states (notably California) also require daily overtime after 8 hours in a day.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## Why Your Withholding Looks Higher
 
-## How It Affects Your Paycheck
+Payroll systems typically use the **annualized/percentage method**: they take your pay for *this period*, multiply it out as if you earned that much every period of the year, and withhold tax based on that annualized estimate. A big overtime check makes the system think you earn a much higher annual salary than you do — pushing more of *that check* into apparent higher brackets for withholding purposes only.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding overtime helps you:
+## Worked Example
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+A worker who normally earns $800/week (40 hours at $20/hr) works 10 hours of overtime at $30/hr one week:
 
-## Practical Steps
+- Regular pay: $800.00
+- Overtime pay: 10 × $30 = $300.00
+- **Total gross for the week: $1,100.00**
 
-To make the most of your situation regarding overtime:
+The payroll system annualizes $1,100 × 52 = $57,200 (vs. the normal $41,600), which can withhold federal tax at a rate that looks disproportionately high for that single check. But this is purely a **withholding timing issue** — your actual tax liability for the year is calculated on your true total annual income, and any over-withholding comes back as part of your refund.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## FICA on Overtime
 
-## 2025 Numbers to Know
+Social Security (6.2%, up to the wage base) and Medicare (1.45%) apply to overtime exactly as they do to regular wages — no special treatment, no exemption.
 
-The following 2025 figures are relevant to most workers:
+## Does Overtime Push You Into a Higher Bracket?
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+Only the *additional* income is taxed at your marginal rate for that income level — it doesn't retroactively raise the rate on your regular wages. US brackets are marginal, not "all income taxed at the top rate reached."
 
-## Using Our Paycheck Calculator
+## A Note on the "No Tax on Overtime" Proposal
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+Various federal proposals to exempt overtime pay from income tax have been discussed in recent years; as of the 2025 tax year, standard federal withholding rules still apply to overtime unless specific legislation changes that for your filing year — always verify current law before assuming an exemption applies.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## Use Our Calculator
 
----
+See how a specific overtime paycheck is taxed using our free [US Paycheck Calculator](/).
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a tax professional.*

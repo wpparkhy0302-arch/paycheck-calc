@@ -5,55 +5,44 @@ pubDate: 2026-06-30
 tags: ["vesting","401k"]
 ---
 
-## Overview
+## Your Money vs. Their Money
 
-Understanding how vesting schedules work in retirement plans is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how vesting affects your paycheck can help you make better financial decisions.
+Vesting schedules only apply to **employer** contributions — matching funds and profit-sharing. Every dollar **you** personally contribute to a 401(k) is always 100% vested the moment it hits your account, regardless of how long you've worked there.
 
-## Key Concepts
+## Cliff Vesting
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to vesting, the most important factors are:
+Under a **cliff vesting** schedule, you own **0%** of employer contributions until you hit a specific milestone — commonly 3 years of service — at which point you instantly become **100% vested**. Leave at 2 years and 11 months, and you forfeit every dollar of unvested employer match; stay one more month, and you keep all of it.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## Graded Vesting
 
-## How It Affects Your Paycheck
+Under **graded vesting**, your ownership percentage increases gradually each year. A common schedule: 20% per year starting after year one, reaching 100% at year five.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding vesting helps you:
+| Years of Service | Cliff (3-year) Vested % | Graded (5-year) Vested % |
+|---|---|---|
+| 1 | 0% | 20% |
+| 2 | 0% | 40% |
+| 3 | 100% | 60% |
+| 4 | 100% | 80% |
+| 5 | 100% | 100% |
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+## Worked Example
 
-## Practical Steps
+You've received $12,000 in employer match over 2 years at a company using 5-year graded vesting. If you leave now, you keep only 40% — **$4,800** — forfeiting $7,200 back to the plan. Had you stayed one more year (year 3, 60% vested), you'd keep $7,200 instead.
 
-To make the most of your situation regarding vesting:
+## Maximum Vesting Schedules Under Federal Law
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+ERISA caps how slowly employers can vest matching contributions: cliff vesting cannot exceed **3 years**, and graded vesting cannot stretch beyond **6 years**. Some employers vest faster (even immediately) as a recruiting or retention tool, but none may legally be slower than these maximums for matching contributions.
 
-## 2025 Numbers to Know
+## SIMPLE IRA and SEP IRA Contributions Are Always Immediately Vested
 
-The following 2025 figures are relevant to most workers:
+Unlike 401(k) matches, employer contributions to SIMPLE IRAs and SEP IRAs vest **100% immediately** — there is no multi-year waiting period, since the IRS rules governing these simpler plan types don't permit vesting schedules.
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+## Why This Matters When Changing Jobs
 
-## Using Our Paycheck Calculator
+Before resigning, check your plan's vesting schedule and your exact hire date — leaving even a few weeks before a vesting milestone can mean forfeiting thousands of dollars in employer contributions that would otherwise become fully yours.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Use Our Calculator
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+See the real take-home impact of your 401(k) contributions (which are always fully yours) with our free [US Paycheck Calculator](/).
 
----
-
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect current IRS/ERISA maximum vesting rules. Exact schedules vary by employer — check your plan's summary plan description.*

@@ -5,55 +5,46 @@ pubDate: 2026-06-28
 tags: ["crypto","investing"]
 ---
 
-## Overview
+## The IRS Treats Crypto as Property, Not Currency
 
-Understanding cryptocurrency taxes: what you owe in 2025 is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how crypto affects your paycheck can help you make better financial decisions.
+This single rule drives almost everything about crypto taxation: every time you sell, trade, or spend cryptocurrency, the IRS treats it as a **disposal of property**, just like selling stock — triggering a capital gain or loss calculation, not a simple currency exchange.
 
-## Key Concepts
+## Taxable Events
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to crypto, the most important factors are:
+- Selling crypto for US dollars
+- Trading one cryptocurrency for another (e.g., BTC for ETH)
+- Using crypto to buy goods or services
+- Receiving crypto as payment for work (taxed as ordinary income at fair market value when received)
+- Earning crypto through staking or mining rewards (also ordinary income at receipt)
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## Non-Taxable Events
 
-## How It Affects Your Paycheck
+- Buying crypto with US dollars and holding it
+- Transferring crypto between your own wallets
+- Donating crypto to a qualified charity (may even generate a deduction without triggering gain)
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding crypto helps you:
+## Short-Term vs. Long-Term Gains
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+Just like stocks, crypto held **one year or less** before disposal is taxed at ordinary income rates (up to 37%). Crypto held **more than one year** qualifies for long-term capital gains rates (0%, 15%, or 20%).
 
-## Practical Steps
+## Worked Example
 
-To make the most of your situation regarding crypto:
+You bought 1 BTC for $30,000 and sold it 18 months later for $65,000 — a $35,000 long-term gain. As a single filer in the 15% long-term capital gains bracket, you'd owe **$5,250** in federal tax. Had you sold after 6 months at the same price, that same $35,000 gain would be taxed at your ordinary rate (22% at a moderate income level) — **$7,700**, a $2,450 difference.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## Mining and Staking Income
 
-## 2025 Numbers to Know
+If you mine or stake crypto, the fair market value of the coins **on the day you receive them** counts as ordinary income immediately — separate from any later capital gain or loss when you eventually sell those coins.
 
-The following 2025 figures are relevant to most workers:
+## Cost Basis Tracking Is Your Responsibility
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+Unlike stock brokers, many crypto exchanges don't reliably issue accurate cost-basis statements, especially across multiple platforms or wallets. Keeping your own transaction records (date acquired, cost, date sold, proceeds) for every trade is essential — the IRS requires you to report gains and losses on **Form 8949** and **Schedule D**.
 
-## Using Our Paycheck Calculator
+## The "Digital Asset" Question on Form 1040
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+Every Form 1040 since 2022 includes a yes/no question asking whether you received, sold, exchanged, or disposed of any digital asset during the year. Answering it inaccurately can create its own compliance risk, separate from any tax owed.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## Use Our Calculator
 
----
+Crypto gains are calculated separately from payroll, but you can check your overall federal and state tax baseline with our free [US Paycheck Calculator](/).
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Crypto tax guidance continues to evolve — verify with the IRS or a tax professional.*

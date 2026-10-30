@@ -5,55 +5,49 @@ pubDate: 2026-06-18
 tags: ["severance","payroll"]
 ---
 
-## Overview
+## Severance Is Still Wages, Even Though the Job Already Ended
 
-Understanding severance pay: how it's taxed is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how severance affects your paycheck can help you make better financial decisions.
+Losing a job is stressful enough without a tax surprise. Severance pay is fully taxable as wage income, subject to the same federal income tax, Social Security, and Medicare withholding as your regular paycheck — it does not get any special tax-free treatment just because employment has ended.
 
-## Key Concepts
+## How It's Classified for Withholding
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to severance, the most important factors are:
+The IRS treats severance as **supplemental wages**, the same category as bonuses and commissions. If paid as a separate check (common, since it's often processed after your final regular paycheck), your employer typically withholds a flat **22%** federal rate.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## Worked Example
 
-## How It Affects Your Paycheck
+A laid-off employee receiving a $20,000 lump-sum severance payment:
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding severance helps you:
+- Federal withholding (22% flat): $4,400.00
+- Social Security (6.2%, if under the annual wage base): $1,240.00
+- Medicare (1.45%): $290.00
+- State tax (varies by state — e.g., 5%): $1,000.00
+- **Net severance received: ≈ $13,070.00**
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+## Lump Sum vs. Salary Continuation
 
-## Practical Steps
+Employers structure severance two common ways:
 
-To make the most of your situation regarding severance:
-
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
-
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Structure | Tax Treatment |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Lump sum | Taxed as supplemental wages in the year paid, often at the flat 22% rate |
+| Salary continuation | Taxed like regular ongoing paychecks, following standard W-4 withholding over several pay periods |
 
-## Using Our Paycheck Calculator
+Salary continuation can sometimes result in *lower* total withholding than a lump sum, since it avoids the high effective withholding that can come from annualizing a big one-time check — though your actual year-end tax liability is the same either way.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Does Severance Affect Unemployment Benefits?
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+In many states, receiving severance pay can delay or reduce your eligibility for unemployment benefits during the period the severance is meant to cover — rules vary significantly by state, so check with your state's unemployment agency before assuming you can collect both simultaneously.
 
----
+## Negotiating Severance: A Tax-Smart Move
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+If you have negotiating leverage, consider asking that part of a severance package be directed to a 401(k) (if your plan allows contributions from severance) or structured as COBRA premium coverage paid directly by the employer — both can reduce the taxable cash amount you'd otherwise receive outright.
+
+## Is Any Portion Tax-Free?
+
+Generally, no — unlike certain legal settlements for physical injury, standard job-loss severance is fully taxable. A separate payment specifically for unused accrued vacation or PTO is also fully taxable wage income, not severance, but follows the same withholding treatment.
+
+## Use Our Calculator
+
+Estimate your net severance payment using our free [US Paycheck Calculator](/).
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a tax professional.*

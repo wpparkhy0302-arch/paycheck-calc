@@ -5,55 +5,48 @@ pubDate: 2026-07-05
 tags: ["foreign income","credits"]
 ---
 
-## Overview
+## Avoiding Being Taxed Twice on the Same Income
 
-Understanding foreign tax credit: avoiding double taxation is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how foreign income affects your paycheck can help you make better financial decisions.
+If you're a US citizen or resident with income from a foreign source — a job abroad, foreign investments, or a foreign pension — you may owe tax to both that country and the US on the same dollars. The **Foreign Tax Credit (FTC)** exists to prevent that double taxation by letting you credit foreign income taxes paid against your US tax bill.
 
-## Key Concepts
+## Credit vs. Deduction: Which Is Better?
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to foreign income, the most important factors are:
+You generally have a choice: claim the **Foreign Tax Credit** or **deduct** foreign taxes as an itemized deduction. The credit is almost always better because it reduces your tax **dollar-for-dollar**, while a deduction only reduces taxable income (worth just your marginal rate). A taxpayer in the 24% bracket who deducts $5,000 in foreign tax saves $1,200; claiming the credit instead saves the full $5,000, assuming the limitation (below) doesn't cap it.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## The Limitation Formula
 
-## How It Affects Your Paycheck
+You can't claim more FTC than the US tax attributable to your foreign income. The limit is:
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding foreign income helps you:
+**FTC Limit = US tax liability × (Foreign source taxable income ÷ Total taxable income)**
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+## Worked Example
 
-## Practical Steps
+A taxpayer has $100,000 in total taxable income, of which $20,000 is foreign-source, and paid $4,500 in foreign income tax on that foreign income. Their total US tax before credits is $16,000.
 
-To make the most of your situation regarding foreign income:
+FTC limit = $16,000 × ($20,000 ÷ $100,000) = $16,000 × 20% = **$3,200**
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+Even though they paid $4,500 in foreign tax, they can only claim $3,200 as a credit this year. The excess $1,300 isn't lost — it can be **carried back 1 year or forward up to 10 years**.
 
-## 2025 Numbers to Know
+## The Simplified Option: No Form 1116 Needed
 
-The following 2025 figures are relevant to most workers:
+If your total foreign taxes paid are **$300 or less ($600 if married filing jointly)** and all your foreign income is "passive" (like dividends reported on a 1099), you can claim the credit directly on Schedule 3 without filing Form 1116 at all — a significant paperwork shortcut for investors with modest foreign fund holdings.
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+## Common Source: Foreign Stock Fund Dividends
 
-## Using Our Paycheck Calculator
+Many investors encounter the FTC without realizing it — international index funds and ETFs often pay foreign withholding tax on dividends (commonly reported in Box 7 of your 1099-DIV), which flows automatically into your FTC calculation.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Expats: FTC vs. Foreign Earned Income Exclusion
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+US citizens living and working abroad often choose between the FTC and the **Foreign Earned Income Exclusion (FEIE)**, which excludes up to $130,000 (2025) of foreign wages from US tax entirely. High earners in high-tax countries (like most of Western Europe) often do better with the FTC since it isn't capped the way the FEIE is; those in low-tax countries often prefer the FEIE.
+
+## How to Claim It
+
+File **Form 1116** (unless you qualify for the simplified exception above) with your Form 1040, converting foreign tax payments to US dollars using the applicable exchange rate.
+
+## Use Our Calculator
+
+Working out your overall US tax picture alongside foreign income? Use our free [US Paycheck Calculator](/) to check your domestic withholding baseline.
 
 ---
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

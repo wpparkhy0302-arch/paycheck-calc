@@ -5,55 +5,39 @@ pubDate: 2026-06-18
 tags: ["commission","withholding"]
 ---
 
-## Overview
+## Commission Is "Supplemental Wages" — Just Like a Bonus
 
-Understanding commission pay and tax withholding is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how commission affects your paycheck can help you make better financial decisions.
+Sales commissions are taxed under the same IRS **supplemental wage** rules as bonuses, which surprises many commission-based employees the first time a big commission check arrives with a much larger-than-expected withholding bite.
 
-## Key Concepts
+## How Withholding Is Calculated
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to commission, the most important factors are:
+**If paid separately from regular wages**, employers can withhold a flat **22%** federal rate on the commission amount (37% above $1 million in the year).
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+**If paid together with regular wages** (common when commission is included in a regular paycheck), the entire combined amount is run through standard W-4 withholding tables as if it were a single, larger regular paycheck — which pushes a bigger share into higher apparent withholding brackets for that pay period only.
 
-## How It Affects Your Paycheck
+## Worked Example
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding commission helps you:
+A salesperson with a $3,500 base semi-monthly paycheck who earns an additional $6,000 commission, paid together in one check:
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+- Combined gross pay: $9,500.00
+- The payroll system withholds federal tax as if this $9,500 recurred every pay period (annualized to ~$228,000/year), resulting in a much higher withholding rate on this check than your actual annual tax rate
+- Social Security (6.2%) and Medicare (1.45%) apply normally to the full $9,500, no special treatment
+- Any over-withholding evens out at tax filing time through your refund
 
-## Practical Steps
+## 100% Commission Employees
 
-To make the most of your situation regarding commission:
+If you're paid entirely on commission with no base salary, your employer still must withhold federal income tax, FICA, and applicable state tax exactly as with any W-2 wage — commission-only status doesn't change your employee tax classification (you're not automatically self-employed just because you're not on a salary).
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## Draws Against Commission
 
-## 2025 Numbers to Know
+Some employers pay a **draw** — an advance against future commissions. The draw is taxed as ordinary wages when paid; when the actual commission is later earned and reconciled against the draw, only the net new amount (if any) is additionally taxed.
 
-The following 2025 figures are relevant to most workers:
+## 1099 Commission vs. W-2 Commission
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+If you're an **independent contractor** (common for real estate agents and some insurance agents) rather than a W-2 employee, commission income is reported on **Form 1099-NEC**, no taxes are withheld at all, and you're responsible for self-employment tax (15.3%) plus quarterly estimated payments — a fundamentally different obligation than W-2 commission withholding.
 
-## Using Our Paycheck Calculator
+## Use Our Calculator
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+Estimate your take-home pay from a commission check using our free [US Paycheck Calculator](/).
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
-
----
-
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a tax professional.*

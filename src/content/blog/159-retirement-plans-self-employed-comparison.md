@@ -5,55 +5,55 @@ pubDate: 2026-07-02
 tags: ["Solo 401k","SEP IRA"]
 ---
 
-## Overview
+## Why Self-Employed Retirement Plans Can Beat a 401(k)
 
-Understanding retirement plans for self-employed: solo 401k vs sep ira is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how Solo 401k affects your paycheck can help you make better financial decisions.
+A W-2 employee is capped at $23,500 in 401(k) contributions for 2025. A self-employed person, because they're both "employee" and "employer" of their own business, can often contribute far more — up to **$70,000** total in 2025 — through the right plan.
 
-## Key Concepts
+## Solo 401(k)
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to Solo 401k, the most important factors are:
+A Solo 401(k) is available to self-employed individuals with no full-time employees (other than a spouse). It allows **two layers** of contribution:
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+- **Employee contribution**: up to $23,500 (2025), or $31,000 if 50+ (catch-up)
+- **Employer contribution**: up to 25% of net self-employment income (after the SE tax adjustment)
+- **Combined limit**: $70,000 (or $77,500 with catch-up)
 
-## How It Affects Your Paycheck
+## SEP IRA
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding Solo 401k helps you:
+A SEP IRA is simpler to set up and administer but only allows the **employer contribution** layer — there's no separate employee deferral.
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+- **Contribution limit**: lesser of 25% of net SE income or $70,000 (2025)
+- No catch-up contribution for those 50+
+- Must contribute the same percentage for any eligible employees, not just yourself
 
-## Practical Steps
+## Worked Comparison
 
-To make the most of your situation regarding Solo 401k:
+A freelancer with $100,000 net self-employment income (after the SE tax adjustment, roughly $92,350 in relevant compensation):
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+| Plan | Employee Contribution | Employer Contribution (≈20% of net SE earnings) | Total |
+|---|---|---|---|
+| SEP IRA | $0 (not allowed) | ~$18,587 | **~$18,587** |
+| Solo 401(k) | $23,500 | ~$18,587 | **~$42,087** |
 
-## 2025 Numbers to Know
+At this income level, the Solo 401(k) allows roughly **$23,500 more** in tax-deferred contributions than a SEP IRA — purely because of the employee-deferral layer.
 
-The following 2025 figures are relevant to most workers:
+## When a SEP IRA Still Makes Sense
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+- You want the absolute simplest setup with no annual filing requirements (Solo 401(k)s with over $250,000 in assets require filing Form 5500-EZ)
+- Your income is modest enough that the employer-only contribution limit isn't the binding constraint
+- You might hire employees soon and want a plan that transitions cleanly to covering them
 
-## Using Our Paycheck Calculator
+## Roth Options
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+Many Solo 401(k) providers now offer a **Roth Solo 401(k)** option for the employee-deferral portion, letting you pay tax now in exchange for tax-free withdrawals in retirement — useful if you expect to be in a higher bracket later.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## Deadlines Matter
+
+A Solo 401(k) must generally be **opened by December 31** of the tax year (even if you fund it later, up to your filing deadline), while a SEP IRA can be opened and funded as late as your **tax filing deadline, including extensions** — giving SEP IRAs more year-end flexibility.
+
+## Use Our Calculator
+
+See how a large retirement contribution reduces your taxable income with our free [US Paycheck Calculator](/).
 
 ---
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

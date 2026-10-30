@@ -5,55 +5,50 @@ pubDate: 2026-07-05
 tags: ["WOTC","employer"]
 ---
 
-## Overview
+## A Credit for Employers Who Hire From Target Groups
 
-Understanding work opportunity tax credit (wotc) guide is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how WOTC affects your paycheck can help you make better financial decisions.
+The **Work Opportunity Tax Credit (WOTC)** isn't claimed by workers — it's an incentive for **employers** to hire individuals from groups who've historically faced barriers to employment. If you're an employer (or run payroll for one), understanding WOTC can mean real savings on your business's tax bill.
 
-## Key Concepts
+## Who Counts as a "Targeted Group" Hire
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to WOTC, the most important factors are:
+- Veterans (including disabled veterans and those unemployed for extended periods)
+- Recipients of Temporary Assistance for Needy Families (TANF)
+- SNAP (food stamp) recipients
+- Ex-felons hired within one year of conviction or release
+- Residents of designated Empowerment Zones
+- Vocational rehabilitation referrals
+- Supplemental Security Income (SSI) recipients
+- Long-term unemployment recipients (unemployed 27+ consecutive weeks)
+- Summer youth employees aged 16-17 living in Empowerment Zones
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## How Much the Credit Is Worth
 
-## How It Affects Your Paycheck
+The credit is calculated as a percentage of the employee's **first-year wages**, up to a wage cap that varies by target group:
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding WOTC helps you:
+| Target Group | Wage Cap | Credit Rate (if employed 400+ hrs) |
+|---|---|---|
+| Most groups | $6,000 | 40% → up to $2,400 |
+| Qualified veterans (disabled, service-connected) | up to $24,000 | 40% → up to $9,600 |
+| Long-term TANF recipients (2nd year) | $10,000 | 50% → up to $5,000 |
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+If the employee works **between 120 and 400 hours**, the rate drops to **25%** instead of 40%; under 120 hours, no credit applies at all.
 
-## Practical Steps
+## Worked Example
 
-To make the most of your situation regarding WOTC:
+A small business hires a veteran who was unemployed for 7 months, paying them $15,000 in their first year and keeping them on for 1,000+ hours. Since they fall under the disabled/long-term-unemployed veteran category with a $14,000 wage cap at 40%, the credit is 40% × $14,000 = **$5,600** — a direct reduction in the employer's tax bill.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## The Certification Deadline Is Strict
 
-## 2025 Numbers to Know
+Employers must submit **IRS Form 8850** (Pre-Screening Notice) to their state workforce agency within **28 days of the employee's start date**. Missing this window means permanently losing eligibility for that hire — there's no retroactive fix.
 
-The following 2025 figures are relevant to most workers:
+## How to Claim It
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+Employers claim WOTC on **Form 5884**, which flows into the general business credit on Form 3800. Most businesses coordinate this through their payroll provider or a WOTC screening service, since the paperwork volume can be significant for larger hiring operations.
 
-## Using Our Paycheck Calculator
+## Use Our Calculator
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
-
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+Whether you're an employer estimating payroll costs or a new hire checking your own take-home pay, our free [US Paycheck Calculator](/) gives an instant breakdown.
 
 ---
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

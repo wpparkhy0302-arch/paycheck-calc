@@ -5,55 +5,49 @@ pubDate: 2026-06-17
 tags: ["commuter benefits","deductions"]
 ---
 
-## Overview
+## A Tax Break for Getting to Work
 
-Understanding commuter benefits: transit and parking tax savings is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how commuter benefits affects your paycheck can help you make better financial decisions.
+Commuter benefits let you pay for transit passes, vanpooling, and workplace parking with **pre-tax dollars**, under IRC Section 132(f) — one of the few fringe benefits still available with no income cap or phase-out.
 
-## Key Concepts
+## 2025 Monthly Limits
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to commuter benefits, the most important factors are:
-
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
-
-## How It Affects Your Paycheck
-
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding commuter benefits helps you:
-
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
-
-## Practical Steps
-
-To make the most of your situation regarding commuter benefits:
-
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
-
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Benefit Category | 2025 Monthly Limit |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Transit (bus, train, subway, ferry, vanpool) | $325 |
+| Qualified parking (at or near work) | $325 |
 
-## Using Our Paycheck Calculator
+These are two **separate** limits — you can use up to $325/month for transit *and* up to $325/month for parking at the same time if your commute involves both (e.g., drive to a park-and-ride, then take the train).
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## How the Tax Savings Work
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+Like a 401(k) or HSA deduction, commuter benefit deductions reduce wages subject to federal income tax, most state income tax, and FICA.
 
----
+## Worked Example
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+A worker spending $280/month on a transit pass, in the 22% federal bracket, with a combined ~30% effective rate (federal + FICA + state):
+
+- Pre-tax transit deduction: $280.00/month
+- Approximate monthly tax savings: ≈ $84.00
+- **Annual tax savings: ≈ $1,008.00**
+
+That's over $1,000/year in tax savings just for routing an existing commuting expense through payroll instead of paying out of pocket.
+
+## Employer-Paid vs. Employee-Funded
+
+Some employers *provide* a commuter benefit as a free perk (up to the IRS limit, tax-free to the employee); others simply offer a pre-tax payroll deduction so you fund your own account with your own pre-tax salary. Both are tax-advantaged, but only the employer-paid version is a true added benefit on top of your salary.
+
+## What Doesn't Qualify
+
+- Rideshare services like Uber or Lyft for a solo commute (not "vanpooling" under IRS rules)
+- Mileage or gas for driving your personal car to work (that's a personal commuting cost, never deductible)
+- Parking at a location unrelated to your job
+
+## Amounts Over the Limit
+
+If your transit or parking costs exceed $325/month, the excess is simply paid with after-tax dollars — there's no penalty, it just loses the tax advantage.
+
+## Use Our Calculator
+
+See how a pre-tax commuter benefit deduction changes your paycheck using our free [US Paycheck Calculator](/).
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a tax professional.*

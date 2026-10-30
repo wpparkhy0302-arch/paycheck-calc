@@ -5,55 +5,44 @@ pubDate: 2026-06-24
 tags: ["mortgage","homeowner"]
 ---
 
-## Overview
+## The Deduction That Only Matters If You Itemize
 
-Understanding mortgage interest deduction: what homeowners can claim is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how mortgage affects your paycheck can help you make better financial decisions.
+The mortgage interest deduction gets a lot of attention, but for a growing share of homeowners it doesn't actually change their tax bill — because it only has value if your total itemized deductions exceed the standard deduction ($15,000 single / $30,000 married filing jointly in 2025).
 
-## Key Concepts
+## How Much Mortgage Debt Qualifies
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to mortgage, the most important factors are:
+You can deduct interest on up to **$750,000** of acquisition debt ($375,000 if married filing separately) for mortgages taken out after December 15, 2017. Mortgages originated before that date are generally grandfathered under the older $1,000,000 cap. "Acquisition debt" means the loan was used to buy, build, or substantially improve the home securing it.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## A Worked Example
 
-## How It Affects Your Paycheck
+A married couple with a $500,000 mortgage at 6.5% pays roughly $32,000 in interest in year one. Combined with $8,000 in state and local taxes (capped at $10,000 under SALT rules) and $3,000 in charitable giving, their itemized total is about $43,000 — clearing the $30,000 standard deduction and saving them tax on the $13,000 difference, worth roughly $2,860 at a 22% marginal rate.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding mortgage helps you:
+Compare that to a couple with a $150,000 mortgage paying $9,500 in interest: combined with $10,000 SALT and $2,000 charity, their itemized total is $21,500 — still below the $30,000 standard deduction, meaning the mortgage interest deduction provides **zero** additional benefit for them. They're better off taking the standard deduction.
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+## The SALT Cap Interacts With This Deduction
 
-## Practical Steps
+State and local tax (property tax + either income or sales tax) is capped at $10,000 for deduction purposes regardless of filing status. In high-property-tax states, this cap is often maxed out on its own, meaning mortgage interest is the main lever left to push total itemized deductions above the standard deduction threshold.
 
-To make the most of your situation regarding mortgage:
+## Home Equity Loan Interest: More Limited Than It Used To Be
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+Interest on a home equity loan or HELOC is only deductible if the funds were used to buy, build, or substantially improve the home securing the loan — not for debt consolidation, tuition, or general spending, even though the loan is secured by your house.
 
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Loan type | Interest deductible if... |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Primary mortgage (≤$750k) | Used to buy/build/improve home |
+| Home equity loan/HELOC | Used to buy/build/improve home (same home) |
+| Cash-out refinance for other purposes | Only the portion used for home improvement |
 
-## Using Our Paycheck Calculator
+## Points Paid at Closing
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+Discount points paid to lower your mortgage rate are generally deductible in the year paid for a primary residence purchase, subject to specific IRS tests — otherwise they're deducted over the life of the loan.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## Check the Math Before Assuming You Should Itemize
 
----
+Many homeowners assume mortgage interest automatically means itemizing wins — but with a doubled standard deduction since 2018, that's no longer guaranteed. Add up your actual mortgage interest, SALT (capped at $10,000), and charitable giving before deciding.
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+## Use Our Calculator
+
+See your full take-home pay picture, independent of itemizing decisions, with our free [US Paycheck Calculator](/).
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

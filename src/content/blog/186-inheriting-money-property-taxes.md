@@ -5,55 +5,42 @@ pubDate: 2026-07-08
 tags: ["inheritance","estate"]
 ---
 
-## Overview
+## The Good News: Inheritances Aren't Income
 
-Understanding inheriting money or property: tax implications is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how inheritance affects your paycheck can help you make better financial decisions.
+Here's the most important fact to know: money or property you inherit is generally **not taxable income** to you at the federal level. There's no "inheritance tax" at the federal level in the U.S. — only an **estate tax** paid by the deceased's estate before assets are distributed, and that only applies to very large estates (see below).
 
-## Key Concepts
+## State Inheritance Taxes Are Different
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to inheritance, the most important factors are:
+A handful of states — including Pennsylvania, Nebraska, Kentucky, Maryland, New Jersey, and Iowa (Iowa's is being phased out) — do levy a **state inheritance tax**, paid by the beneficiary rather than the estate. Rates and exemptions vary significantly by state and by your relationship to the deceased; spouses are typically fully exempt, while distant relatives or unrelated beneficiaries often pay the highest rates.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## The "Stepped-Up Basis" Rule
 
-## How It Affects Your Paycheck
+This is the most financially significant rule for inherited property. When you inherit an asset (stocks, real estate, etc.), your cost basis is "stepped up" to the asset's **fair market value on the date of death** — not what the original owner paid for it.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding inheritance helps you:
+## Example: Inherited Stock
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+Your parent bought stock for $20,000 decades ago. At their death, it's worth $150,000. You inherit it with a stepped-up basis of **$150,000**. If you sell it immediately for $150,000, you owe **$0** in capital gains tax — even though your parent's original $130,000 gain would have been fully taxable if they'd sold it themselves while alive.
 
-## Practical Steps
+## Inherited Retirement Accounts Work Differently
 
-To make the most of your situation regarding inheritance:
+Unlike stepped-up basis assets, inherited **traditional IRAs and 401(k)s** are not stepped up — withdrawals are taxed as ordinary income to the beneficiary, just as they would have been to the original owner. Most non-spouse beneficiaries must empty an inherited IRA within **10 years** under the SECURE Act's "10-year rule," though annual distributions may also be required depending on whether the original owner had started RMDs.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## Federal Estate Tax: Who Actually Pays It
 
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Item | 2025 Figure |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Federal estate tax exemption (per person) | $13.99 million |
+| Combined exemption for married couples (portable) | $27.98 million |
+| Tax rate above exemption | Up to 40% |
 
-## Using Our Paycheck Calculator
+Fewer than 0.2% of estates owe any federal estate tax — it's paid by the estate itself before distribution, so beneficiaries rarely interact with it directly unless the estate is unusually large.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Selling Inherited Property Later
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+If you hold inherited property and it appreciates further before you sell, you owe capital gains tax only on the appreciation **after** the date of death — using the stepped-up basis as your starting point, and the sale is automatically treated as long-term regardless of how long you personally held it.
 
----
+## Use Our Calculator
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+An inheritance itself doesn't change your paycheck withholding, but if inherited income (like rental property or dividends) adds to your taxable income going forward, model it with our free [US Paycheck Calculator](/).
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

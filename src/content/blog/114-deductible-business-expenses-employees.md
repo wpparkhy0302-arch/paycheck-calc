@@ -5,55 +5,46 @@ pubDate: 2026-06-23
 tags: ["deductions","employees"]
 ---
 
-## Overview
+## The Rule Most People Don't Know Changed
 
-Understanding deductible business expenses for employees is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how deductions affects your paycheck can help you make better financial decisions.
+Before 2018, W-2 employees could deduct unreimbursed job expenses — uniforms, tools, home office costs — as a miscellaneous itemized deduction. The Tax Cuts and Jobs Act suspended that deduction for ordinary employees through 2025. If you're a regular W-2 worker, most job-related costs you pay out of pocket are **no longer federally deductible**, even if they're required for your job.
 
-## Key Concepts
+## Who Is Exempt From This Suspension
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to deductions, the most important factors are:
+A few specific categories of employees can still deduct unreimbursed expenses on Form 2106:
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+- **Armed Forces reservists** traveling more than 100 miles for duty
+- **Qualified performing artists** meeting income thresholds
+- **Fee-basis state or local government officials**
+- **Employees with impairment-related work expenses**
 
-## How It Affects Your Paycheck
+If you don't fall into one of these categories, Form 2106 generally won't help you at the federal level.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding deductions helps you:
+## What Still Works: Employer Reimbursement Plans
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+The better path for most employees is an **accountable reimbursement plan** through your employer. If your employer reimburses you for business expenses under IRS accountable-plan rules (you substantiate the expense and return any excess), the reimbursement is **tax-free** to you and deductible to the employer — a better outcome than a lost itemized deduction ever was.
 
-## Practical Steps
+## State-Level Differences
 
-To make the most of your situation regarding deductions:
+Some states didn't adopt the federal suspension and still allow a state-level deduction for unreimbursed employee expenses. California, for instance, allows this deduction on the state return even though it's unavailable federally — check your specific state's conformity rules.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## What You Can Still Do Instead
 
-## 2025 Numbers to Know
+- **Negotiate reimbursement upfront** for recurring costs (phone, home internet, mileage) rather than absorbing them
+- **Use a Dependent Care FSA or HSA** for costs that qualify under those specific pre-tax programs, which are unaffected by the 2106 suspension
+- **Track expenses anyway** — if you later become self-employed or the law changes again, documented records are valuable
+- **Ask about a company car or tool allowance** structured as a working condition fringe benefit, which can be tax-free
 
-The following 2025 figures are relevant to most workers:
+## A Concrete Example
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+A field technician spends $1,800/year on specialized tools required for the job, with no reimbursement. Before 2018, a portion of that might have reduced taxable income. Under current law, that technician gets no federal deduction — the strongest move is pushing the employer to adopt an accountable reimbursement plan or a tool allowance instead of absorbing the cost personally.
 
-## Using Our Paycheck Calculator
+## This Suspension Is Scheduled to Change
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+The unreimbursed employee expense deduction is scheduled to return after 2025 unless Congress acts again — a reason to revisit this topic each filing season rather than assuming the current rule is permanent.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## Use Our Calculator
 
----
+See how your current withholding compares to your actual tax liability with our free [US Paycheck Calculator](/).
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

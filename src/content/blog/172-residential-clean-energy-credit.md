@@ -5,55 +5,53 @@ pubDate: 2026-07-05
 tags: ["solar","energy credits"]
 ---
 
-## Overview
+## A Credit for Homeowners Who Go Solar
 
-Understanding residential clean energy credit: solar and battery storage is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how solar affects your paycheck can help you make better financial decisions.
+The **Residential Clean Energy Credit** lets homeowners recover **30% of the cost** of qualifying renewable energy equipment installed at their home — with no dollar cap for most categories, and no income phaseout.
 
-## Key Concepts
+## What Equipment Qualifies
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to solar, the most important factors are:
+- Solar electric (photovoltaic) panels
+- Solar water heaters
+- Geothermal heat pumps
+- Small wind turbines
+- Fuel cell property (capped at $500 per half-kilowatt of capacity)
+- Battery storage technology with at least 3 kWh of capacity
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+Both labor and equipment costs count toward the 30% — this includes installation, wiring, and mounting hardware, not just the panels themselves.
 
-## How It Affects Your Paycheck
+## Worked Example
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding solar helps you:
+A homeowner installs a $24,000 solar panel system with a $6,000 battery backup, for a total of $30,000. The credit is 30% × $30,000 = **$9,000**. If their federal tax liability for the year is only $5,000, they use $5,000 this year and **carry forward the remaining $4,000** to future tax years — this credit has no refundability, but unused amounts roll forward indefinitely until used.
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+## It's for Homeowners, Not Renters (Mostly)
 
-## Practical Steps
+You must own the home where the equipment is installed, with one key exception: if you're a tenant-stockholder in a cooperative housing corporation, you can still claim a proportional credit. Landlords generally cannot claim this credit for a rental property where they don't live — it applies to your residence.
 
-To make the most of your situation regarding solar:
+## Second Homes Count (Mostly)
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+Solar, geothermal, and wind equipment installed at a second home you use part of the year also qualifies — but fuel cell property only qualifies at your **primary** residence.
 
-## 2025 Numbers to Know
+## New Construction vs. Existing Homes
 
-The following 2025 figures are relevant to most workers:
+The credit applies to both. If you build a new home and the builder includes qualifying solar equipment in the purchase price, you can still claim the credit based on the reasonable allocable cost of that equipment.
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+## Battery Storage Timing Rule
 
-## Using Our Paycheck Calculator
+Standalone battery storage (not paired with solar) only became eligible starting with installations in 2023 and later — older standalone battery installations don't qualify retroactively.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Stacking With State and Utility Incentives
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+Many states and utilities offer their own rebates on top of this federal credit. Generally, a **utility rebate reduces your qualifying cost basis** before you calculate the 30% federal credit, while most **state tax credits do not** reduce your federal basis — check your specific state and utility program rules, since this varies.
+
+## How to Claim It
+
+File **Form 5695** (Residential Energy Credits) with your Form 1040, keeping all receipts and the manufacturer's certification statement for your equipment.
+
+## Use Our Calculator
+
+A big home improvement year changes your tax planning. Model your take-home pay and withholding with our free [US Paycheck Calculator](/).
 
 ---
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

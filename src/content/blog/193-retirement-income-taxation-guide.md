@@ -5,55 +5,46 @@ pubDate: 2026-07-09
 tags: ["retirement income","taxes"]
 ---
 
-## Overview
+## Retirement Income Isn't Taxed Like a Paycheck
 
-Understanding retirement income taxation: pension, 401k, and more is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how retirement income affects your paycheck can help you make better financial decisions.
+Once you stop working, your income often comes from several sources at once — each taxed under completely different rules. Understanding the mix matters for planning how much to withdraw and when.
 
-## Key Concepts
+## Pensions
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to retirement income, the most important factors are:
+Traditional defined-benefit pensions are generally **fully taxable as ordinary income** when received, since contributions were typically made pre-tax (either by your employer or by you before tax). Pension payers withhold federal tax similar to how an employer withholds from wages, using **Form W-4P** to set your preference.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## Traditional 401(k) and IRA Withdrawals
 
-## How It Affects Your Paycheck
+Withdrawals from traditional retirement accounts are taxed as **ordinary income** in the year withdrawn — not as capital gains, even if the growth came from stock investments. There's no special lower rate; it's taxed exactly like wage income would be at your marginal bracket.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding retirement income helps you:
+## Roth 401(k) and Roth IRA Withdrawals
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+Qualified withdrawals from Roth accounts (generally, the account has been open 5+ years and you're 59½ or older) are **completely tax-free** — both the contributions and all the growth. This is the tradeoff for paying tax on the money before it went in.
 
-## Practical Steps
+## Social Security Benefits
 
-To make the most of your situation regarding retirement income:
+As covered in detail elsewhere, up to **85%** of Social Security benefits can be taxable depending on your "combined income," but at least 15% is always tax-free regardless of your income level.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## Required Minimum Distributions (RMDs)
 
-## 2025 Numbers to Know
+Once you reach **age 73** (for those born 1951–1959) or **75** (born 1960 or later), you must begin taking RMDs from traditional retirement accounts, taxed as ordinary income. Missing an RMD triggers a penalty of **25%** of the amount not withdrawn (reduced to 10% if corrected promptly) — Roth IRAs are exempt from RMDs during the original owner's lifetime.
 
-The following 2025 figures are relevant to most workers:
+## Putting It Together: A Withdrawal Order Strategy
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Account Type | Tax Treatment | Common Withdrawal Priority |
+|---|---|---|
+| Taxable brokerage | Capital gains rates | Often first (lower rates, flexible timing) |
+| Traditional 401(k)/IRA | Ordinary income | Middle, managed to avoid bracket spikes |
+| Roth IRA/401(k) | Tax-free | Often last, to preserve tax-free growth longest |
 
-## Using Our Paycheck Calculator
+Many retirees deliberately draw from traditional accounts up to the top of a lower tax bracket each year, then switch to Roth or taxable funds to avoid pushing into a higher bracket — a technique often called "bracket filling."
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Example
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+A retiree needs $60,000 for the year: $24,000 from Social Security (50% taxable per the combined income formula), $20,000 from a traditional IRA (fully taxable), and $16,000 from a Roth IRA (tax-free). Their actual taxable income from these sources is just $32,000 ($12,000 taxable SS + $20,000 IRA) — far less than the $60,000 they actually have to spend.
 
----
+## Use Our Calculator
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+Model different combinations of taxable, tax-deferred, and tax-free retirement income with our free [US Paycheck Calculator](/).
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

@@ -5,55 +5,43 @@ pubDate: 2026-06-29
 tags: ["early withdrawal","retirement"]
 ---
 
-## Overview
+## The Baseline Rule
 
-Understanding early retirement account withdrawal penalties (and exceptions) is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how early withdrawal affects your paycheck can help you make better financial decisions.
+Withdraw money from a Traditional 401(k) or IRA before age **59½**, and you'll generally owe both ordinary income tax **and** a **10% early withdrawal penalty** on the taxable portion — on top of whatever you'd already owe in income tax.
 
-## Key Concepts
+## Worked Example of the Double Hit
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to early withdrawal, the most important factors are:
+Withdraw $20,000 early from a Traditional IRA while in the 22% tax bracket: you owe $4,400 in ordinary income tax, **plus** a $2,000 penalty (10% of $20,000) — a combined $6,400, leaving you with only $13,600 of the original $20,000.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## Exceptions That Waive the 10% Penalty
 
-## How It Affects Your Paycheck
+The penalty — not the income tax, which is almost always still owed — can be waived in several specific situations:
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding early withdrawal helps you:
+- **First-time homebuyer**: up to $10,000 lifetime, from an IRA only (not 401(k)s)
+- **Qualified higher education expenses**: IRA withdrawals only
+- **Permanent disability**
+- **Unreimbursed medical expenses** exceeding 7.5% of AGI
+- **Health insurance premiums while unemployed** (IRA only, specific conditions)
+- **Birth or adoption of a child**: up to $5,000, within one year
+- **Substantially Equal Periodic Payments (SEPP)**, also called a 72(t) distribution: a structured series of withdrawals calculated to last your life expectancy
+- **Separation from service after age 55** (age 50 for certain public safety employees) — the "Rule of 55," applicable to 401(k)s from your *most recent* employer only
+- **IRS levy** on the account
+- **Qualified disaster distributions**, when Congress authorizes them for specific declared disasters
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+## The Rule of 55 in Detail
 
-## Practical Steps
+If you leave your job (voluntarily or not) in the calendar year you turn 55 or later, you can withdraw from **that employer's** 401(k) penalty-free — but ordinary income tax still applies. This doesn't extend to IRAs or 401(k)s from previous employers unless you've rolled them into the current plan before separating.
 
-To make the most of your situation regarding early withdrawal:
+## SEPP (72(t)) Distributions
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+A 72(t) election lets you take penalty-free early withdrawals at any age, calculated under one of three IRS-approved methods (amortization, annuitization, or required minimum distribution method) — but you must continue the **exact** schedule for **5 years or until age 59½, whichever is longer**. Modifying the schedule early retroactively triggers the 10% penalty, with interest, on all prior withdrawals.
 
-## 2025 Numbers to Know
+## Roth Accounts Work Differently
 
-The following 2025 figures are relevant to most workers:
+You can always withdraw your **original Roth contributions** (not earnings) tax- and penalty-free at any time, since you already paid tax on that money. Withdrawing **earnings** early, however, triggers both tax and the 10% penalty unless an exception applies.
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+## Use Our Calculator
 
-## Using Our Paycheck Calculator
+See your baseline tax picture before adding an early withdrawal with our free [US Paycheck Calculator](/).
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
-
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
-
----
-
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Exceptions have specific documentation requirements — verify with the IRS or a tax professional.*

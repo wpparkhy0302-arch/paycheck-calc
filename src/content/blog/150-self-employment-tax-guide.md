@@ -5,55 +5,51 @@ pubDate: 2026-06-30
 tags: ["self-employed","FICA"]
 ---
 
-## Overview
+## What Self-Employment Tax Actually Pays For
 
-Understanding self-employment tax: rates, calculation, and deduction is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how self-employed affects your paycheck can help you make better financial decisions.
+When you work for an employer, your paycheck shows Social Security and Medicare taxes split between you and your employer — 7.65% each. When you're self-employed, there's no employer to split the bill with, so the IRS collects both halves from you directly through **self-employment tax (SE tax)**.
 
-## Key Concepts
+## The 2025 Rate Breakdown
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to self-employed, the most important factors are:
+SE tax is **15.3%** total, made up of two pieces:
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+| Component | Rate | Wage Base |
+|---|---|---|
+| Social Security | 12.4% | First $176,100 of net SE income (2025) |
+| Medicare | 2.9% | No cap — applies to all net SE income |
+| Additional Medicare Tax | 0.9% | Net SE income above $200,000 (single) / $250,000 (MFJ) |
 
-## How It Affects Your Paycheck
+Once your net self-employment income crosses $176,100, the Social Security portion stops, leaving just the 2.9% Medicare rate (plus the 0.9% surtax if you're above the higher thresholds).
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding self-employed helps you:
+## How It's Calculated
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+SE tax isn't applied to your full gross income — it applies to **net earnings from self-employment**, multiplied by 92.35% first (a built-in adjustment that mirrors how an employer's share isn't taxed to the employee).
 
-## Practical Steps
+**Example:** A freelance designer nets $80,000 in Schedule C profit for 2025.
 
-To make the most of your situation regarding self-employed:
+1. Taxable SE earnings: $80,000 × 0.9235 = $73,880
+2. Social Security (12.4%): $73,880 × 0.124 = $9,161
+3. Medicare (2.9%): $73,880 × 0.029 = $2,143
+4. **Total SE tax: $11,304**
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## The Deduction That Softens the Blow
 
-## 2025 Numbers to Know
+The IRS lets you deduct **half of your SE tax** as an above-the-line adjustment to income on Schedule 1 — you don't need to itemize to claim it. In the example above, that's a $5,652 deduction, which lowers your income tax (though not your SE tax itself).
 
-The following 2025 figures are relevant to most workers:
+## SE Tax vs. Income Tax — Two Separate Bills
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+Self-employed workers often underestimate their total tax burden because SE tax is calculated and owed **in addition to** federal and state income tax. A $80,000 net profit doesn't just face income tax brackets — it faces the 15.3%/2.9% SE tax on top of whatever federal and state income tax applies to that same income.
 
-## Using Our Paycheck Calculator
+## Ways to Reduce Your SE Tax Exposure
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+- **Electing S-Corp status** (if eligible) lets you pay yourself a reasonable salary subject to payroll tax while taking additional profit as distributions not subject to SE tax
+- **Maximizing a SEP IRA or Solo 401(k)** doesn't reduce SE tax directly, but it reduces the income tax layered on top
+- **Tracking every deductible business expense** lowers net earnings, which lowers both income tax and SE tax simultaneously
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## Use Our Calculator
+
+See exactly how SE tax, federal tax, and your state's tax stack up on your actual freelance or contractor income with our free [US Paycheck Calculator](/).
 
 ---
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

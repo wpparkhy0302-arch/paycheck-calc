@@ -1,6 +1,6 @@
 ---
 title: "Nevada State Income Tax: Complete 2025 Guide"
-description: "Complete guide to Nevada (NV) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
+description: "Complete guide to Nevada (NV) income tax rates, brackets, deductions, and how it affects your paycheck in 2025."
 pubDate: 2026-06-06
 tags: ["state tax","nevada"]
 ---

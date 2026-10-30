@@ -5,55 +5,56 @@ pubDate: 2026-07-07
 tags: ["home sale","capital gains"]
 ---
 
-## Overview
+## Most Home Sellers Pay Zero Capital Gains Tax
 
-Understanding selling a home: capital gains exclusion rules is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how home sale affects your paycheck can help you make better financial decisions.
+Thanks to **Section 121** of the tax code, selling your primary residence is one of the most tax-advantaged transactions available to ordinary households — but the exclusion has specific requirements that trip people up.
 
-## Key Concepts
+## The $250,000 / $500,000 Exclusion
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to home sale, the most important factors are:
+You can exclude up to:
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+- **$250,000** of capital gain if you file Single
+- **$500,000** of capital gain if you file Married Filing Jointly
 
-## How It Affects Your Paycheck
+This applies to the **gain** (sale price minus your adjusted cost basis), not the sale price itself. A home that sold for $600,000 isn't automatically taxable — what matters is how much more than your basis you received.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding home sale helps you:
+## The 2-of-5-Year Test
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+To qualify, you must pass both of these tests during the 5 years ending on the sale date:
 
-## Practical Steps
-
-To make the most of your situation regarding home sale:
-
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
-
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Test | Requirement |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| **Ownership test** | You owned the home for at least 2 years |
+| **Use test** | You lived in it as your primary residence for at least 2 years |
 
-## Using Our Paycheck Calculator
+The two years don't need to be continuous, and you can generally only use this exclusion **once every 2 years**.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Calculating Your Gain
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+Your gain is: **Sale price − selling costs − adjusted cost basis**. Your adjusted basis is your original purchase price **plus** the cost of major capital improvements (a new roof, an addition, a kitchen remodel) — but not routine repairs or maintenance.
 
----
+## Example
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+A married couple bought a home for $300,000 and spent $50,000 on a verified capital improvement (a home addition), giving them an adjusted basis of $350,000. They sell the home for $780,000 and pay $40,000 in selling costs (agent commissions, closing costs). Their gain is:
+
+$780,000 − $40,000 − $350,000 = **$390,000 gain**
+
+Since they're married filing jointly and pass the 2-of-5-year test, their full $390,000 gain is **below** the $500,000 exclusion — they owe **zero** federal capital gains tax on the sale.
+
+## What If You Don't Pass the Test?
+
+If you sell sooner — say, due to a job relocation, health issue, or other unforeseen circumstance — you may qualify for a **partial exclusion**, prorated based on how much of the 2-year period you actually met. Consult a tax professional; the IRS has specific safe-harbor categories for this.
+
+## Gains Above the Exclusion
+
+Any gain **above** your exclusion amount is taxed as a long-term capital gain (assuming you owned it over a year), at federal rates of 0%, 15%, or 20% depending on your taxable income — generally far lower than ordinary income tax rates.
+
+## Investment and Rental Properties
+
+Section 121 only applies to your **primary residence**. Investment properties and second homes don't qualify for this exclusion, though a **1031 exchange** can defer capital gains tax on investment real estate by rolling proceeds into a new property.
+
+## Use Our Calculator
+
+A home sale doesn't change your regular paycheck withholding, but if you'll owe tax on a gain above the exclusion, use our free [US Paycheck Calculator](/) to estimate your overall tax picture for the year.
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

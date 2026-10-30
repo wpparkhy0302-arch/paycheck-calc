@@ -5,55 +5,49 @@ pubDate: 2026-06-17
 tags: ["child support","garnishment"]
 ---
 
-## Overview
+## Why Child Support Garnishments Hit Harder Than Other Debts
 
-Understanding child support wage garnishment: a complete guide is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how child support affects your paycheck can help you make better financial decisions.
+Most wage garnishments are capped at 25% of disposable earnings under federal law — but child support is the exception. Congress intentionally allows child support orders to take a much larger share of a paycheck than any other type of debt.
 
-## Key Concepts
+## The Higher Federal Limits for Child Support
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to child support, the most important factors are:
+Under the Consumer Credit Protection Act, child support garnishments can reach:
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
-
-## How It Affects Your Paycheck
-
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding child support helps you:
-
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
-
-## Practical Steps
-
-To make the most of your situation regarding child support:
-
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
-
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Situation | Maximum % of Disposable Earnings |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Supporting a current spouse or child (not the one owed support) | 50% |
+| Not supporting another spouse/child | 60% |
+| Either case, if payments are more than 12 weeks in arrears | +5 percentage points (55% or 65%) |
 
-## Using Our Paycheck Calculator
+"Disposable earnings" means pay after legally required deductions (taxes, FICA) — not after voluntary deductions like 401(k) or health insurance.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Worked Example
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+A noncustodial parent with no other dependents and $1,000/week in disposable earnings, more than 12 weeks behind on payments:
 
----
+- Maximum garnishment: 65% × $1,000 = **$650.00/week**
+- Remaining take-home pay: **$350.00/week**
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+Compare that to a standard creditor garnishment on the same income, capped at 25% ($250.00/week) — child support can take more than twice as much.
+
+## How It's Processed
+
+Employers receive an **Income Withholding Order (IWO)**, a standardized federal form, from a state child support agency or court. Employers are legally required to comply and typically must begin withholding within the next pay cycle, remitting payments to a state disbursement unit, not directly to the other parent.
+
+## Priority Over Other Garnishments
+
+If an employee has multiple garnishments, child support orders generally take priority over tax levies, student loan garnishments, and ordinary creditor garnishments — the IWO gets paid first, up to its allowed cap, before any other order is satisfied from what remains.
+
+## Multiple Children, Multiple Orders
+
+If garnishments exist for children from different relationships, state law typically requires the employer to prorate the available garnishable amount proportionally among the orders rather than paying one in full and ignoring the rest.
+
+## Tax Treatment
+
+Child support garnishments are deducted **post-tax** — they don't reduce the paying parent's taxable income, and the receiving parent doesn't report the payments as taxable income either.
+
+## Use Our Calculator
+
+Our free [US Paycheck Calculator](/) shows your disposable earnings so you can estimate how a child support order interacts with your other deductions.
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a tax professional.*

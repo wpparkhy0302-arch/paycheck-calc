@@ -5,55 +5,44 @@ pubDate: 2026-06-27
 tags: ["401k","employer match"]
 ---
 
-## Overview
+## What "Matching" Actually Means
 
-Understanding how employer 401(k) matching works is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how 401k affects your paycheck can help you make better financial decisions.
+Employer matching is a contribution your company makes to your 401(k), tied to how much you personally contribute. If you don't contribute, in most plans you don't get the match either — it's not a flat bonus, it's an incentive to save.
 
-## Key Concepts
+## The Most Common Formula
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to 401k, the most important factors are:
+A frequent structure is **50% match up to 6% of salary** — meaning your employer contributes 50 cents for every dollar you put in, up to 6% of your pay. On a $60,000 salary, contributing 6% ($3,600) gets you a $1,800 employer match, for $5,400 total going into your account that year.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+Another common formula is a **dollar-for-dollar match up to 3-4%**, sometimes followed by a 50% match on the next 1-2%.
 
-## How It Affects Your Paycheck
+## Why "Get the Full Match" Is Repeated So Often
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding 401k helps you:
+If your employer offers any match and you contribute less than the threshold required to capture it fully, you're leaving free money on the table — money that would otherwise be yours with zero additional cost. It's effectively an instant, guaranteed return on your contribution before any investment growth even happens.
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+## Vesting: The Catch With Employer Money
 
-## Practical Steps
+Your own contributions are always 100% yours immediately. Employer match dollars, however, are often subject to a **vesting schedule** — you must stay employed for a period (commonly 3 years with "cliff" vesting, or gradually over 2-5 years with "graded" vesting) before the match fully belongs to you. Leave before vesting, and you forfeit the unvested portion.
 
-To make the most of your situation regarding 401k:
+## Match Counts Toward the Combined Limit, Not Your Personal Limit
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+Employer contributions don't count against your personal $23,500 (2025) elective deferral limit — but they do count toward the higher combined employee + employer limit of $70,000 for 2025.
 
-## 2025 Numbers to Know
+## Example
 
-The following 2025 figures are relevant to most workers:
+| Your contribution | Employer match (50% up to 6%) | Total into account |
+|---|---|---|
+| 3% ($1,800 on $60k) | 1.5% ($900) | $2,700 |
+| 6% ($3,600 on $60k) | 3% ($1,800) | $5,400 |
+| 10% ($6,000 on $60k) | 3% ($1,800) — capped at 6% | $7,800 |
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+Notice that contributing beyond 6% in this example still grows your own savings, but the employer match stops increasing — it's capped.
 
-## Using Our Paycheck Calculator
+## True-Up Contributions
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+Some employers "true up" matches at year-end if you front-loaded contributions early in the year and hit your personal limit before December — without a true-up, you could miss out on match dollars simply from contributing too fast.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## Use Our Calculator
 
----
+Not sure what percentage to contribute to capture your full match? Use our free [US Paycheck Calculator](/) to model different contribution rates against your real salary.
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Match formulas vary by employer — check your plan's summary plan description.*

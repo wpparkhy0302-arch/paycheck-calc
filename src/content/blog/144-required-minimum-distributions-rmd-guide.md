@@ -5,55 +5,40 @@ pubDate: 2026-06-29
 tags: ["RMDs","retirement"]
 ---
 
-## Overview
+## Why RMDs Exist
 
-Understanding required minimum distributions (rmds): when and how much is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how RMDs affects your paycheck can help you make better financial decisions.
+Traditional retirement accounts let your money grow tax-deferred for decades — but the IRS eventually wants its tax revenue. **Required Minimum Distributions (RMDs)** force you to start withdrawing (and paying ordinary income tax on) a minimum amount each year once you reach a certain age.
 
-## Key Concepts
+## The Current RMD Age
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to RMDs, the most important factors are:
+Under SECURE 2.0, the RMD starting age is **73** for anyone who turns 72 after 2022. This age is scheduled to rise again to **75** starting in 2033. Your first RMD can technically be delayed until April 1 of the year *after* you turn 73, but doing so means taking two RMDs in that second year — which can push you into a higher tax bracket.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## Which Accounts Require RMDs?
 
-## How It Affects Your Paycheck
+Traditional IRAs, SEP IRAs, SIMPLE IRAs, and Traditional 401(k)/403(b) plans all require RMDs. **Roth IRAs do not** require RMDs during the original owner's lifetime. As of 2024, **Roth 401(k)s also no longer require RMDs**, aligning them with Roth IRA treatment.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding RMDs helps you:
+## How the Amount Is Calculated
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+Your RMD is calculated by dividing your account balance (as of December 31 of the prior year) by a life-expectancy factor from the IRS Uniform Lifetime Table, based on your age.
 
-## Practical Steps
+## Worked Example
 
-To make the most of your situation regarding RMDs:
+A 73-year-old with a $500,000 Traditional IRA balance uses a life expectancy factor of approximately **26.5** (per the IRS table). Their RMD for the year: $500,000 ÷ 26.5 = **$18,868**, taxed as ordinary income regardless of whether they actually need the cash.
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+## The Penalty for Missing an RMD
 
-## 2025 Numbers to Know
+Failing to take your full RMD by the deadline triggers an excise tax — reduced under SECURE 2.0 to **25%** of the shortfall (down from the historical 50%), or **10%** if corrected promptly within a two-year correction window.
 
-The following 2025 figures are relevant to most workers:
+## Qualified Charitable Distributions (QCDs)
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+If you're 70½ or older, you can direct up to **$105,000** (2025, indexed annually) of your RMD directly to a qualified charity. The donated amount counts toward satisfying your RMD but is **excluded from your taxable income** — a valuable strategy for charitably-inclined retirees who don't need the full RMD for living expenses.
 
-## Using Our Paycheck Calculator
+## Multiple Accounts, One Combined RMD (For IRAs)
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+If you have several Traditional IRAs, you can calculate the RMD for each separately but withdraw the total from just one (or any combination) of them. 401(k) RMDs, by contrast, must generally be calculated and withdrawn separately from each individual 401(k) plan.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## Use Our Calculator
 
----
+RMDs are calculated outside of payroll, but you can check your overall tax picture including other income with our free [US Paycheck Calculator](/).
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules under SECURE 2.0. Verify your specific RMD amount with your account custodian or a tax professional.*

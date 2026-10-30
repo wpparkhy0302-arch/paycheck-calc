@@ -1,6 +1,6 @@
 ---
 title: "Florida State Income Tax: Complete 2025 Guide"
-description: "Complete guide to Florida (FL) income tax rates, brackets, deductions, and how it affects your paycheck in 2024."
+description: "Complete guide to Florida (FL) income tax rates, brackets, deductions, and how it affects your paycheck in 2025."
 pubDate: 2026-06-02
 tags: ["state tax","florida"]
 ---

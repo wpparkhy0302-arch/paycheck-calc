@@ -5,55 +5,52 @@ pubDate: 2026-07-01
 tags: ["freelance","deductions"]
 ---
 
-## Overview
+## Every Deduction Lowers Two Taxes at Once
 
-Understanding top deductible expenses for freelancers and consultants is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how freelance affects your paycheck can help you make better financial decisions.
+For a freelancer, a deductible expense doesn't just reduce income tax — it reduces the income subject to the 15.3% self-employment tax too. A $1,000 deduction for someone in the 22% federal bracket saves roughly $373 total ($220 income tax + $153 SE tax), not just $220.
 
-## Key Concepts
+## The Core Test: "Ordinary and Necessary"
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to freelance, the most important factors are:
+The IRS standard for a deductible business expense is that it must be **ordinary** (common in your line of work) and **necessary** (helpful and appropriate for your business) — it does not need to be required.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## Common Deductible Categories
 
-## How It Affects Your Paycheck
-
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding freelance helps you:
-
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
-
-## Practical Steps
-
-To make the most of your situation regarding freelance:
-
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
-
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Category | Examples |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Software & subscriptions | Adobe Creative Cloud, project management tools, cloud storage |
+| Equipment | Laptop, camera, monitor, ergonomic chair |
+| Professional services | Accountant fees, legal fees, bookkeeping software |
+| Marketing | Website hosting, business cards, paid ads, portfolio site |
+| Education | Courses and certifications directly related to your work |
+| Office supplies | Paper, printer ink, pens, notebooks |
+| Phone & internet | Business-use percentage of your cell phone and internet bill |
+| Banking fees | Business bank account fees, payment processor fees (PayPal, Stripe) |
+| Insurance | Professional liability / errors & omissions insurance |
 
-## Using Our Paycheck Calculator
+## The Business-Use Percentage Rule
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+Many freelancer expenses are **mixed-use** — a cell phone used for both client calls and personal texting, for example. You can only deduct the business-use percentage. If you use your phone 60% for work, you deduct 60% of the bill.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+**Example:** $100/month phone bill × 60% business use × 12 months = **$720 deductible** for the year.
+
+## Equipment: Deduct Now or Depreciate?
+
+Under **Section 179**, freelancers can often deduct the full cost of qualifying equipment (laptops, cameras, furniture) in the year purchased, up to $1,250,000 (2025 limit), rather than depreciating it over several years. For most freelancers buying a $1,500 laptop, this means a full immediate deduction.
+
+## What's NOT Deductible
+
+- Regular commuting between home and a client's office (though *driving between client sites* during the day usually is)
+- Personal clothing, even if worn "for work," unless it's a uniform or branded apparel unsuitable for everyday wear
+- The first phone line into your home if you don't maintain a dedicated business line
+
+## Keeping Records That Survive an Audit
+
+Track every expense with a receipt, a separate business bank account or card, and a simple spreadsheet or app (QuickBooks Self-Employed, Wave) logging the business purpose of each purchase. The IRS can disallow a deduction with no supporting documentation even if the expense was legitimate.
+
+## Use Our Calculator
+
+Once you've tallied your deductible expenses, see how they affect your net tax bill with our free [US Paycheck Calculator](/).
 
 ---
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

@@ -1,59 +1,58 @@
 ---
 title: "Tax Records: What to Keep and For How Long"
-description: "Tax Records: What to Keep and For How Long — a practical guide for US taxpayers in 2024."
+description: "Tax Records: What to Keep and For How Long — a practical guide for US taxpayers in 2025."
 pubDate: 2026-06-21
 tags: ["records","filing"]
 ---
 
-## Overview
+## The Rule of Thumb Doesn't Fit Every Document
 
-Understanding tax records: what to keep and for how long is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how records affects your paycheck can help you make better financial decisions.
+"Keep tax records for 3 years" is the answer most people repeat, but it's only correct for the simplest situations. The real retention period depends on the statute of limitations that applies to your specific circumstances — and a few categories of records should be kept far longer, sometimes indefinitely.
 
-## Key Concepts
+## The Standard Rule: 3 Years
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to records, the most important factors are:
+The IRS generally has **3 years from the date you filed** to audit a return. For most filers with straightforward W-2 income and no major omissions, keeping that year's return and supporting documents for 3 years covers the overwhelming majority of risk.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## When You Need 6 Years
 
-## How It Affects Your Paycheck
+If you **omitted more than 25% of your gross income** on a return, the IRS's lookback window extends to **6 years**. This commonly applies to self-employed taxpayers or anyone with significant unreported side income, since a single missed 1099 can represent a large share of total income for someone with modest wages.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding records helps you:
+## When There's No Time Limit at All
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+- You **never filed a return** for that year — the statute of limitations never starts running
+- You filed a **fraudulent return** with intent to evade tax
 
-## Practical Steps
+## Records to Keep Indefinitely (or Nearly So)
 
-To make the most of your situation regarding records:
-
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
-
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Record | Why |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Home purchase and improvement records | Needed to calculate capital gain/loss basis when you eventually sell, potentially decades later |
+| Records of nondeductible IRA contributions (Form 8606) | Needed to avoid double-taxing those contributions upon eventual withdrawal |
+| Records supporting carryforward losses (capital losses, NOLs) | Needed until the loss is fully used up, which may take several years |
+| Confirmation that a past return was actually filed | Proves the statute of limitations clock started, if ever questioned |
 
-## Using Our Paycheck Calculator
+## Records for 7 Years
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+If you claim a deduction for a **bad debt or worthless security**, keep related records for 7 years — a specific, longer statute applies to those claims.
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+## Employment Tax Records
 
----
+If you're self-employed or run a small business, keep employment tax records for **at least 4 years** after the tax becomes due or is paid, whichever is later.
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+## What to Actually Keep Per Return
+
+- The filed return itself and all schedules
+- W-2s, 1099s, and other income statements
+- Receipts and documentation for any itemized deductions or credits claimed
+- Records of estimated tax payments made
+- Basis records for any investments sold, bought, or received as gifts/inheritance
+
+## Digital vs. Paper
+
+The IRS accepts scanned or digital copies as valid records as long as they're a complete and accurate reproduction — there's no requirement to retain physical originals once scanned, though many filers keep both for critical documents like home purchase closing statements.
+
+## Use Our Calculator
+
+Good records start with knowing your numbers — check your estimated tax with our free [US Paycheck Calculator](/) before filing.
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS or a tax professional.*

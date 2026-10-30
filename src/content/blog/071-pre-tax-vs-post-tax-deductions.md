@@ -5,55 +5,52 @@ pubDate: 2026-06-15
 tags: ["deductions","payroll"]
 ---
 
-## Overview
+## The Difference in One Sentence
 
-Understanding pre-tax vs post-tax deductions: what's the difference is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how deductions affects your paycheck can help you make better financial decisions.
+A **pre-tax deduction** reduces the income your taxes are calculated on; a **post-tax deduction** comes out of money that has already been taxed. The order matters enormously for how much you actually take home.
 
-## Key Concepts
+## How Pre-Tax Deductions Work
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to deductions, the most important factors are:
+When your employer processes payroll, pre-tax deductions are subtracted from gross pay *before* federal income tax (and usually state income tax) is calculated. Common pre-tax deductions include:
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+- Traditional 401(k) or 403(b) contributions
+- Health, dental, and vision insurance premiums (under a Section 125 cafeteria plan)
+- HSA contributions (up to $4,300 self-only / $8,550 family in 2025)
+- FSA contributions (up to $3,300 in 2025)
+- Commuter transit and parking benefits
 
-## How It Affects Your Paycheck
+**Important exception:** pre-tax retirement contributions reduce *income tax* wages but not Social Security or Medicare wages — FICA is still calculated on the full gross amount.
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding deductions helps you:
+## How Post-Tax Deductions Work
 
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
+Post-tax deductions are subtracted *after* all taxes are withheld:
 
-## Practical Steps
+- Roth 401(k) and Roth IRA contributions
+- Wage garnishments (child support, tax levies, creditor judgments)
+- Union dues (in most states)
+- Disability or life insurance premiums not offered under a cafeteria plan
+- Charitable payroll deductions
 
-To make the most of your situation regarding deductions:
+## Side-by-Side Example
 
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
+A single filer earning $4,000/month who contributes $400 to a plan:
 
-## 2025 Numbers to Know
+| | Pre-Tax (Traditional 401k) | Post-Tax (Roth 401k) |
+|---|---|---|
+| Gross pay | $4,000 | $4,000 |
+| 401(k) contribution | $400 | $400 |
+| Taxable wages for income tax | $3,600 | $4,000 |
+| Approx. federal tax saved this period | ~$44–88 (12–22% bracket) | $0 now |
+| Tax treatment at withdrawal (retirement) | Taxed as ordinary income | Tax-free (if qualified) |
 
-The following 2025 figures are relevant to most workers:
+Neither choice is universally "better" — pre-tax saves you money today, while Roth (post-tax) locks in today's tax rate and grows tax-free, which can be advantageous if you expect to be in a higher bracket in retirement.
 
-| Item | Amount |
-|---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+## Why This Matters for Your Paycheck
 
-## Using Our Paycheck Calculator
+If you're trying to reconcile your pay stub or estimate your take-home pay, you need to know which deductions apply *before* the tax lines and which apply *after*. Mixing this up is one of the most common reasons people miscalculate their expected net pay.
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Use Our Calculator
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+Our free [US Paycheck Calculator](/) models pre-tax and post-tax deductions correctly so you can see exactly how a 401(k) or HSA contribution changes your take-home pay.
 
----
-
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a tax professional.*

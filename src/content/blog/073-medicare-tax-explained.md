@@ -5,55 +5,48 @@ pubDate: 2026-06-15
 tags: ["medicare","FICA"]
 ---
 
-## Overview
+## Medicare Tax Has No Cap — That's the Key Difference
 
-Understanding medicare tax explained: rates, limits, and surtax is an important part of managing your personal finances in the United States. Whether you're a first-time worker or a seasoned professional, knowing how medicare affects your paycheck can help you make better financial decisions.
+Unlike Social Security tax, which stops once you hit the annual wage base, **Medicare tax applies to every dollar you earn, with no upper limit**. This is what funds Medicare Part A (hospital insurance) for roughly 67 million beneficiaries.
 
-## Key Concepts
+## The Standard Rate
 
-The US tax system involves multiple layers of taxation that work together to fund federal, state, and local government programs. When it comes to medicare, the most important factors are:
+Employees pay **1.45%** of all wages, matched by the employer for a combined 2.9%. Self-employed workers pay the full 2.9% themselves as part of self-employment tax, with half deductible on their federal return.
 
-- **Your gross income**: Total earnings before any deductions or taxes
-- **Your filing status**: Single, married filing jointly, married filing separately, or head of household
-- **Applicable deductions**: Both standard and itemized options that reduce taxable income
-- **Tax credits**: Direct reductions to your tax liability
+## The Additional Medicare Tax (0.9% Surtax)
 
-## How It Affects Your Paycheck
+Since 2013, an **Additional Medicare Tax of 0.9%** applies to wages above:
 
-Every pay period, your employer withholds the estimated amount of tax based on your W-4 form and your wages. Understanding medicare helps you:
-
-1. Verify your withholding is correct
-2. Plan for any balance due at tax time
-3. Make strategic decisions about pre-tax benefits
-4. Optimize your financial position throughout the year
-
-## Practical Steps
-
-To make the most of your situation regarding medicare:
-
-- **Review your W-4** at least annually, or after any major life change
-- **Maximize pre-tax contributions** to 401(k), HSA, and FSA accounts
-- **Keep records** of relevant receipts and documentation
-- **Consult a professional** for complex situations involving significant amounts
-
-## 2025 Numbers to Know
-
-The following 2025 figures are relevant to most workers:
-
-| Item | Amount |
+| Filing Status | Threshold |
 |---|---|
-| Standard deduction (single) | $15,000 |
-| Standard deduction (married) | $30,000 |
-| 401(k) contribution limit | $23,500 |
-| HSA limit (single) | $4,300 |
-| Social Security wage base | $176,100 |
+| Single | $200,000 |
+| Married Filing Jointly | $250,000 |
+| Married Filing Separately | $125,000 |
 
-## Using Our Paycheck Calculator
+This brings the total Medicare rate to **2.35%** on wages above the threshold. Critically, your employer must withhold this extra 0.9% once your wages from *that employer* cross $200,000 — regardless of your filing status or what a spouse earns — which can cause under- or over-withholding that gets reconciled on your tax return (Form 8959).
 
-Want to see exactly how your taxes break down? Use our free [US Paycheck Calculator](/) to get a detailed breakdown of your federal tax, state tax, Social Security, and Medicare — all calculated from your actual salary and state.
+## Worked Example
 
-Simply enter your income, select your state, choose your filing status, and click **Calculate** for an instant, accurate estimate.
+A single filer earning $220,000/year from one employer:
 
----
+- Standard Medicare (1.45%) on full $220,000: $3,190.00
+- Additional Medicare Tax (0.9%) on the $20,000 over $200,000: $180.00
+- **Total Medicare tax withheld: $3,370.00**
 
-*All figures based on 2025 tax year data. Tax laws change annually — verify current figures with the IRS or a qualified tax professional.*
+Compare this to someone earning $80,000:
+
+- Medicare (1.45%) on $80,000: **$1,160.00** — no surtax applies.
+
+## Medicare Tax vs. Medicare Premiums
+
+Don't confuse the payroll tax with your Medicare premiums if you're already enrolled (typically age 65+). The 1.45%/2.9% tax funds the trust fund for *future* beneficiaries — it's not a prepayment toward your own premiums, and you keep paying it as long as you earn wages, even while collecting Medicare benefits.
+
+## Net Investment Income Tax — A Related but Separate Tax
+
+High earners with investment income may also owe a separate **3.8% Net Investment Income Tax (NIIT)** on dividends, interest, and capital gains above the same $200,000/$250,000 thresholds. This is calculated on your tax return, not withheld from paychecks.
+
+## Use Our Calculator
+
+See exactly how much Medicare tax — including the Additional Medicare Tax if it applies — comes out of your paycheck using our free [US Paycheck Calculator](/).
+
+*Figures reflect 2025 tax year rules. Tax laws change — verify with the IRS, your plan administrator, or a tax professional.*
